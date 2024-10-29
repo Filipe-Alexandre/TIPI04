@@ -81,7 +81,6 @@ produz e vende roupas sustentáveis para pessoas que praticam esportes ao ar liv
 
 ## Orçamento e prazo
 - 2 meses (24/12/24)
-- 
 
 ## Contato
 -Responsável pela ECOFIT/ quem toma decisão:
