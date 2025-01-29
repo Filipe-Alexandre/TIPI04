@@ -101,6 +101,8 @@ function updateClock() {
  hoursElement.textContent = hours;
  minutesElement.textContent = minutes;
  secondsElement.textContent = seconds;
+
+ console.log("teste");
 }
 
 setInterval(updateClock, 1000)

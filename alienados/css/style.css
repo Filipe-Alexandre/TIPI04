@@ -1,10 +1,13 @@
- O volume na unidade C n∆o tem nome.
- O N£mero de SÇrie do Volume Ç B430-6A9D
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../font/MontserratAlternates-Light.otf);
+}
 
- Pasta de C:\Users\filipe.asilva7\Desktop\TIPI04\alienados\css
+html {
+    scroll-behavior: smooth;
+}
 
-29/01/2025  20:00    <DIR>          .
-29/01/2025  20:00    <DIR>          ..
-29/01/2025  20:00                 0 style.css
-               1 arquivo(s)              0 bytes
-               2 pasta(s)   827.765.010.432 bytes dispon°veis
+/* 
+:root {
+    
+} */
