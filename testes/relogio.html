@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Open Sans", sans-serif;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --azul-1: linear-gradient(to bottom right, #00fffff2, #0000fff2);
+            --azul-2: linear-gradient(to bottom right, #91CCD9f2, #081A40f2);
+            --laranja: linear-gradient(to bottom right, #ffce2df2, #ff4343f2);
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* background-image: var(--azul-1); */
+            background-image: var(--azul-2);
+            /* background-image: var(--laranja); */
+        }
+
+        .relogio {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 200px;
+            width: 550px;
+            background-color: transparent;
+            border-radius: 8px;
+            box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .relogio div {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 170px;
+            width: 150px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.85);
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+            border-radius: 5px;
+            letter-spacing: 5px;
+        }
+
+        .relogio span {
+            font-weight: bolder;
+            font-size: 60px;
+        }
+
+        .relogio .tempo {
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="relogio">
+        <div>
+            <span id="horas">00</span>
+            <span class="tempo">Horas</span>
+        </div>
+        <div>
+            <span id="minutos">00</span>
+            <span class="tempo">Minutos</span>
+        </div>
+        <div>
+            <span id="segundos">00</span>
+            <span class="tempo">Segundos</span>
+        </div>
+    </div>
+
+    <script>
+        let horas = document.querySelector('#horas')
+        let minutos = document.querySelector('#minutos')
+        let segundos = document.querySelector('#segundos')
+
+        let relogio = setInterval(function time() {
+            let datas = new Date();
+            let hr = datas.getHours();
+            let min = datas.getMinutes();
+            let sec = datas.getSeconds();
+
+            if (hr < 10) hr = "0" + hr
+            if (min < 10) min = "0" + min
+            if (sec < 10) sec = "0" + sec
+
+            horas.textContent = hr;
+            minutos.textContent = min;
+            segundos.textContent = sec;
+        })
+    </script>
+</body>
+</html>

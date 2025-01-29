@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        body {
+            height: 6000px;
+            background-image: linear-gradient(to bottom, #0d0d0d, #152039, #1b50d8);
+        }
+
+        div.banner {
+            height: 700px;
+            background: url(banner__gif-estrelas.gif);
+            background-size: contain;
+            opacity: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        span {
+            font-size: 5em;
+            font-weight: bolder;
+            letter-spacing: 3px;
+        }
+        .cl {
+            color: white;
+        }
+        .wi {
+            color: orange;
+            text-indent: -1em;
+        }
+        div p {
+            color: white;
+            text-indent: -5em;
+            font-size: 1.5em;
+        }
+        i {
+            text-indent: .1em;
+        }
+        section {
+            background-color: rgb(255, 255, 255);
+            box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+            height: 200px;
+            padding: 10px;
+            color: black;
+            display: flex;
+            gap: 10px;
+            justify-content: space-around;
+
+        
+        }
+        section img {
+            filter: grayscale(100);
+            transition: ease .5s;
+        }
+        section img:hover {
+            filter: grayscale(0);
+        }
+
+        .line {
+            height: 500px;
+            color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            position: relative;
+            cursor: url(rkt.cur), default;
+        }
+
+        h1::before {
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 3px;
+            bottom: 0;
+            left: 0;
+            background-color: currentColor;
+            visibility: hidden;
+            transform: scaleX(0);
+            transition: transform 500ms cubic-bezier(.57,-0.02,.31,.71);
+
+        }
+
+        h1:hover:before {
+            visibility: visible;
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <span class="cl"> <i class="fa-solid fa-cloud"></i>Cloud</span>
+        <span class="wi">Wise<i class="fa-solid fa-code"></i> </span>
+        <p>sua presença online voa mais alto</p>
+    </div>
+    <section>
+        <img src="rick.gif" alt="">
+        <img src="rick.gif" alt="">
+        <img src="rick.gif" alt="">
+        <img src="rick.gif" alt="">
+        <img src="rick.gif" alt="">
+    </section>
+    <div class="line">
+        <h1>Teste</h1>
+    </div>
+</body>
+</html

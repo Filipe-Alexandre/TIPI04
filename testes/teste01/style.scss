@@ -1,0 +1,11 @@
+:root {
+  --fonte: 1em
+}
+
+.dark:root {
+  --fonte: 2em
+}
+
+body {
+  font-size: calc(var(--fonte) * 2)
+}
