@@ -40,7 +40,6 @@ h1>span {
 
 a {
     text-decoration: none;
-    transition: .5s ease;
 }
 
 /* #endregion Global */
@@ -68,7 +67,7 @@ a {
         &:hover {
             filter: brightness(1);
             filter: drop-shadow(0 0 5px var(--accent));
-            transform: scale(1.1) rotate(360deg);
+            transform: scale(1.1) rotate(720deg);
             cursor: pointer;
             transition: 60s;
         }
@@ -83,7 +82,7 @@ a {
         width: 300px;
         text-align: center;
         padding: 20px 20px;
-        border-radius: 5px;
+        border-radius: 10px;
 
         &:hover {
             border: 2px solid var(--accent);
@@ -102,8 +101,12 @@ a {
     & .imgLateral {
         height: 700px;
         filter: saturate(0);
+        z-index: 1;
 
         &:hover {
+
+            /* transition: 720s;
+            transform: scale(10); */
             filter: saturate(1) drop-shadow(0 0 50px var(--branco));
 
         }
@@ -127,6 +130,98 @@ a {
 /* #endregion Topo */
 
 /* #region Servicos */
+
+.servicos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 500px;
+    width: 100%;
+
+    & .card {
+        background-color: var(--branco);
+
+        flex-basis: 250px;
+        height: 350px;
+        border-radius: 10px;
+
+        &:hover {
+            border-bottom: 3px solid var(--accent);
+            background-color: var(--preto);
+            transform: scale(1.2);
+
+            & li {
+                &:first-child {
+                    background-color: var(--branco);
+
+                    & h2 {
+                        color: var(--preto);
+                    }
+                }
+
+                & p {
+                    color: var(--branco);
+                }
+
+            }
+
+
+
+        }
+
+        & li {
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+
+            &:first-child {
+                background-color: var(--preto);
+                padding: 30px;
+            }
+
+            & p {
+                color: var(--preto);
+                padding: 30px;
+                line-height: 30px;
+            }
+
+        }
+
+
+    }
+
+    .accent {
+        background: var(--gradient-1);
+
+        &:hover {
+            background: var(--gradient-2);
+
+            & li {
+
+                &:first-child {
+                    background-color: var(--transparent);
+
+                    & h2 {
+                        color: var(--branco);
+                    }
+                }
+            }
+        }
+
+        & li {
+            &:first-child {
+                background: var(--transparent);
+            }
+
+            & p {
+                color: var(--branco);
+            }
+        }
+    }
+
+}
+
+
 
 /* #endregion Servicos */
 
