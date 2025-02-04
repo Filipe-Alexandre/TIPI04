@@ -1,3 +1,21 @@
+/* #region Scrollbar */
+
+/*webkit serve para compatibilidade do navegador */
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: var(--preto);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--accent);
+    border-radius: 10px;
+}
+/* #endregion Scrollbar */
+
 /* #region Global */
 @font-face {
     font-family: 'Montserrat';
@@ -28,6 +46,7 @@
 
 html {
     scroll-behavior: smooth;
+
 }
 
 body {
@@ -108,6 +127,7 @@ a {
             /* transition: 720s;
             transform: scale(10); */
             filter: saturate(1) drop-shadow(0 0 50px var(--branco));
+            cursor: pointer;
 
         }
     }
@@ -121,6 +141,7 @@ a {
         &:hover {
             opacity: 1;
             scale: 1.1;
+            cursor: pointer;
         }
     }
 
@@ -150,6 +171,7 @@ a {
             border-bottom: 3px solid var(--accent);
             background-color: var(--preto);
             transform: scale(1.2);
+            cursor: default;
 
             & li {
                 &:first-child {
@@ -195,6 +217,7 @@ a {
 
         &:hover {
             background: var(--gradient-2);
+            border-top: 3px solid var(--accent);
 
             & li {
 
@@ -221,14 +244,94 @@ a {
 
 }
 
-
-
 /* #endregion Servicos */
 
 /* #region Contato */
 
+.contato {
+    background: url(../img/bgcontato.png) fixed;
+    background-size: cover;
+
+    width: 100%;
+    height: 700px;
+    margin: auto;
+
+    text-align: center;
+    padding: 40px;
+
+    & .contatoContainer {
+
+        width: 20%;
+        margin: 40px auto;
+
+        & li {
+            padding: 8px 0;
+
+            & input[type="text"],
+            [type="email"] {
+                color: var(--preto);
+                opacity: .6;
+                width: 100%;
+                padding: 8px;
+                border-radius: 10px;
+                border: 1px solid var(--transparent);
+                outline: none;
+
+                &:focus {
+                    border: 1px solid var(--preto);
+                    opacity: 1;
+                }
+            }
+
+            & input[type="button"],
+            [type="reset"] {
+                background-color: var(--branco);
+                color: var(--preto);
+                border: 1px solid var(--transparent);
+                border-radius: 10px;
+
+                width: 160px;
+                height: 80px;
+                cursor: pointer;
+                opacity: .6;
+                font-weight: 900;
+                outline: none;
+
+                &:hover {
+                    opacity: 1;
+                    border: 1px solid var(--preto);
+                    font-weight: bolder;
+                }
+
+                &:active {
+                    box-shadow: inset -3px -3px 0px rgba(0, 0, 0, 0.5);
+                    opacity: .6;
+                    font-size: 12px;
+                }
+            }
+   
+
+            & p {
+                & a {
+                    color: var(--accent);
+                    text-decoration: underline;
+                    font-weight: 600;
+                }
+            }
+
+        }
+
+        & .btnDefault {
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+}
+
 /* #endregion Contato */
 
 /* #region Footer */
-
+.footer {
+}
 /* #endregion Footer */
