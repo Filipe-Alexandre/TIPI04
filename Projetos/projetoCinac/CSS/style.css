@@ -1,3 +1,5 @@
+/* #region Global */
+
 :root {
     --preto: #141414;
     --branco: #fefefe;
@@ -29,6 +31,10 @@
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -42,6 +48,9 @@ body {
     background-color: var(--preto);
 }
 
+/* #endregion Global */
+
+/* #region Catalogo */
 li {
     list-style: none;
 }
@@ -50,6 +59,7 @@ li {
     & .catalogoContainer {
         width: 80%;
         margin: auto;
+        margin-bottom: 50px;
 
         /* #region Menu */
         & .catalogoMenu {
@@ -319,17 +329,200 @@ li {
     }
 }
 
-#modalMufasa{
+#modalMufasa {
     & .modalImg {
         background: url(../IMG/catalogo/catalogoFilmeMufasa.jpg) no-repeat center;
         background-size: cover;
     }
 }
 
-#modalAlto{
+#modalAlto {
     & .modalImg {
         background: url(../IMG/catalogo/catalogoFilmeOAltoDaCompadecida2.jpg) no-repeat center;
         background-size: cover;
     }
 }
+
 /* #endregion modal */
+
+/* #endregion Catalogo */
+
+
+/* #region Form */
+.containerForm {
+    background: var(--preto);
+    width: 700px;
+    height: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+#modalForm{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+
+}
+
+label {
+    margin-bottom: 0.3rem;
+    font-weight: bold;
+    color: var(--laranja-1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="telefone"],
+input[type="senha"],
+textarea {
+    padding: 10px;
+    border: 1px solid var(--laranja-1);
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.error-message {
+    color: var(--laranja-1);
+    margin-top: 5px;
+}
+
+button[type="submit"] {
+    background-color: var(--laranja-1);
+    padding: 0.7rem;
+    color: var(--branco);
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--azul-1);
+}
+
+.form-control.error input,
+.form-control.error textarea {
+    border-color: var(--laranja-1);
+}
+
+.modalForm {
+    background-color: var(--laranja-1);
+    height: 50px;
+    width: 175px;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+
+
+    &:hover {
+        font-weight: bold;
+        cursor: pointer;
+        box-shadow: 2px 2px 6px var(--preto);
+        transform: scale(1.01);
+
+        p {
+            color: var(--preto);
+        }
+    }
+
+    &:active {
+        transform: scale(1);
+        box-shadow: inset 2px 2px 6px var(--preto);
+
+        & p {
+            color: var(--branco);
+        }
+    }
+}
+
+/* #endregion Form */
+
+
+
+/* #region Footer */
+
+#footerContainer {
+    width: 100%;
+    height: 300px;
+    background: var(--azul-1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--branco);
+    text-align: center;
+    margin-bottom: 0;
+
+
+    & h1 {
+        font-size: medium;
+        font-weight: bolder;
+        margin: 15px;
+    }
+
+    & a {
+        text-align: center;
+        font-size: smaller;
+        color: var(--branco);
+        font-family: system-ui;
+        text-decoration: none;
+    }
+
+    & p {
+        margin: 3px;
+    }
+}
+
+.logoFooter {
+    width: 300px;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.redes {
+    width: 50px;
+    margin: 2px;
+    margin-bottom: 20px;
+
+
+    &:hover {
+        border-bottom: 3px solid var(--laranja-1);
+        transform: scale(1.2);
+
+    }
+}
+
+.rodape-direitos {
+    width: 100%;
+    background-color: var(--laranja-1);
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bolder;
+    color: var(--branco);
+    justify-content: center;
+}
+
+/* button {
+    text-align: center;
+    font-size: larger;
+    color: var(--branco);
+    background: var(--laranja-1);
+    font-family: system-ui;
+} */
+
+/* #endregion Footer */

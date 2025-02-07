@@ -1,20 +1,32 @@
+// -------------------------------MODAL-------------------------------
+
 // Seleciona todos os botões que abrem modais
-const openButtons = document.querySelectorAll(".openModal");
-const closeButtons = document.querySelectorAll(".closeModal");
+const openBtn = document.querySelectorAll(".openModal");
+const closeBtn = document.querySelectorAll(".closeModal");
 const modals = document.querySelectorAll(".modal");
 
-// Adiciona evento de clique para abrir cada modal correspondente
-openButtons.forEach(button => {
-    button.addEventListener("click", () => {
-        const modalId = button.getAttribute("data-modal");
-        document.getElementById(modalId).style.display = "flex";
+openBtn.forEach(div => {
+    div.addEventListener("click", () => {
+        const modalId = div.getAttribute("data-modal");
+        const modal = document.getElementById(modalId);
+
+        // Verifica se o modal existe antes de tentar abrir
+        if (modal) {
+            modal.style.display = "flex";
+        } else {
+            console.error(`Modal com ID '${modalId}' não encontrado!`);
+        }
     });
 });
 
 // Adiciona evento de clique para fechar os modais
-closeButtons.forEach(button => {
+closeBtn.forEach(button => {
     button.addEventListener("click", () => {
-        button.closest(".modal").style.display = "none";
+        const modal = button.closest(".modal");
+
+        if (modal) {
+            modal.style.display = "none";
+        }
     });
 });
 
@@ -27,25 +39,49 @@ window.addEventListener("click", (event) => {
     });
 });
 
+// -------------------------------FORMULÁRIO-------------------------------
 
+const form = document.querySelector("form");
+const nome = document.querySelector("nome");
+const telefone = document.querySelector("telefone");
+const email = document.querySelector("email");
+const errorMessages = document.querySelector(".error-message");
 
-// function abrirAindaEstouAqui() {
-//     window.open('https://www.imdb.com/pt/title/tt14961016/', '_blank'); 
-// }
+form.addEventListener("submit", function (event) {
+    event.preventDefault();
+    resetError();
+    validateInputs();
+});
 
-// function abrirChicoBento() {
-//     window.open('https://www.imdb.com/pt/title/tt30868610/', '_blank'); 
-// }
+function resetError() {
+    errorMessages.forEach((errorMessage) => {
+        errorMessage.innerText = "";
+    });
+    nome.parentElement.classList.remove("error");
+    telefone.parentElement.classList.remove("error");
+    email.parentElement.classList.remove("error");
+}
 
-// function abrirMoana() {
-//     window.open('https://www.imdb.com/pt/title/tt13622970/', '_blank');
-// }
+function validateInputs() {
+    const nomeValue = nome.value.trim();
+    const telefoneValue = telefone.value.trim();
+    const emailValue = email.value.trim();
 
-// function abrirMufasa() {
-//     window.open('https://www.imdb.com/pt/title/tt13186482/', '_blank');
-// }
+    if (nomeValue === "") {
+        setError(nome, "O campo nome não pode ficar em branco!");
+    }
 
-// function abrirAltoCompadecida() {
-//     window.open('https://www.imdb.com/pt/title/tt28696532/', '_blank');
+    if (telefoneValue === "") {
+        setError(telefone, "O campo telefone não pode ficar em branco!");
+    }
 
-// }
+    if (emailValue === "") {
+        setError(email, "O campo e-mail não pode ficar em branco!");
+    }
+
+    function setError(input, errorMessage) {
+        const errorMessageElement = input.nextElementSibling;
+        errorMessageElement.innerText = errorMessage;
+        input.parentElement.classList.add("error");
+    }
+}
