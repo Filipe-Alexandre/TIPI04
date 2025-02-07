@@ -1,86 +1,161 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/style.css">
     <title>CIMAC</title>
 </head>
+
 <body>
 
-<!-- #catalogo>.catalogoContainer>ul.catalogoMenu>li>h2{Em Cartaz}^li.catalogoArrows>input:b[value="&leftarrow;"]input:b[value="&rightarrow;"]^^ul.catalogoFilmes>li.catalogoCards*6>div.cardFilme>div.cardImg^div.cardInfo>h3{Filme}+h4{Genero}+h4{000m}+img.classificacao[alt="Classificação indicativa 00"]|c -->
-<div id="catalogo">
-    <div class="catalogoContainer">
-        <ul class="catalogoMenu">
-            <li>
-                <h2>Em Cartaz</h2>
-            </li>
-            <li class="catalogoArrows"><input type="button" value="&#60;"><input type="button" value="&#62;"></li>
-        </ul>
-        <ul class="catalogoFilmes">
-            <li class="catalogoCards">
-                <div class="cardFilme aindaEstouAqui">
-                    <p>Ainda Estou Aqui</p>
-                </div>
-                <div class="cardInfo">
-                    <h3>Ainda Estou Aqui</h3>
-                    <h4>Genero</h4>
-                    <h4>000m</h4>
-                    <img src="" alt="Classificação indicativa 00" class="classificacao">
-                </div>
-            </li>
-            <li class="catalogoCards">
-                <div class="cardFilme chicoBento">
-                    <p>Chico Bento</p>
-                    
-                </div>
-                <div class="cardInfo">
-                    <h3>Chico Bento e a Goiabeira Maraviosa</h3>
-                    <h4>Genero</h4>
-                    <h4>000m</h4>
-                    <img src="" alt="Classificação indicativa 00" class="classificacao">
-                </div>
-            </li>
-            <li class="catalogoCards">
-                <div class="cardFilme moana">
-                    <p>Moana 2</p>
-                    
-                </div>
-                <div class="cardInfo">
-                    <h3>Filme</h3>
-                    <h4>Genero</h4>
-                    <h4>000m</h4>
-                    <img src="" alt="Classificação indicativa 00" class="classificacao">
-                </div>
-            </li>
-            <li class="catalogoCards">
-                <div class="cardFilme mufasa">
-                    <p>Mufasa</p>
-                    
-                </div>
-                <div class="cardInfo">
-                    <h3>Filme</h3>
-                    <h4>Genero</h4>
-                    <h4>000m</h4>
-                    <img src="" alt="Classificação indicativa 00" class="classificacao">
-                </div>
-            </li>
-            <li class="catalogoCards">
-                <div class="cardFilme oAltoDaCompadecida">
-                    <p>O Alto da Compadecida 2</p>
-                    
-                </div>
-                <div class="cardInfo">
-                    <h3>O Alto da Compadecida 2</h3>
-                    <h4>Genero</h4>
-                    <h4>000m</h4>
-                    <img src="" alt="Classificação indicativa 00" class="classificacao">
-                </div>
-            </li>
+    <!-- #catalogo>.catalogoContainer>ul.catalogoMenu>li>h2{Em Cartaz}^li.catalogoArrows>input:b[value="&leftarrow;"]input:b[value="&rightarrow;"]^^ul.catalogoFilmes>li.catalogoCards*6>div.cardFilme>div.cardImg^div.cardInfo>h3{Filme}+h4{Genero}+h4{000m}+img.classificacao[alt="Classificação indicativa 00"]|c -->
+    <div id="catalogo">
+        <div class="catalogoContainer">
+            <ul class="catalogoMenu">
+                <li>
+                    <h2>Em Cartaz</h2>
+                </li>
+            </ul>
 
-        </ul>
+            <ul class="catalogoFilmes">
+
+                <li class="catalogoCards">
+                    <div class="cardFilme aindaEstouAqui openModal" data-modal="modalAinda">
+                        <p>Ainda Estou Aqui</p>
+                    </div>
+                    <div class="cardInfo">
+                        <h3>Ainda Estou Aqui</h3>
+                        <h4>Drama &bull; 135m</h4>
+                        <img src="IMG/classificacao/classificacao14.jpg" alt="Classificação indicativa 14"
+                            class="classificacao">
+                    </div>
+                </li>
+
+                <div id="modalAinda" class="modal">
+                    <div class="modalContent">
+                        <div class="modalImg">
+                            <p>Ainda Estou Aqui</p>
+                        </div>
+                        <div class="modalTxt">
+                            <h2>Ainda Estou Aqui</h2>
+                            <p>Uma mulher casada com um ex-político durante a ditadura militar no Brasil é obrigada a se reinventar e a traçar um novo destino para si e os filhos depois que a vida de sua família é impactada por um ato violento e arbitrário.</p>
+                        </div>
+                        <span class="closeModal">&times;</span>
+                    </div>
+                </div>
+
+
+                <li class="catalogoCards">
+                    <div class="cardFilme chicoBento openModal" data-modal="modalChico" >
+                        <p>Chico Bento</p>
+
+                    </div>
+                    <div class="cardInfo">
+                        <h3>Chico Bento e a Goiabeira Maraviosa</h3>
+                        <h4>Aventura &bull; 100m</h4>
+                        <img src="IMG/classificacao/classificacaoAl.jpg" alt="Classificação indicativa Livre"
+                            class="classificacao">
+                    </div>
+                </li>
+
+                <div id="modalChico" class="modal">
+                    <div class="modalContent">
+                        <div class="modalImg">
+                            <p>Chico Bento e a Goiabeira Maraviosa</p>
+                        </div>
+                        <div class="modalTxt">
+                            <h2>Chico Bento e a Goiabeira Maraviosa</h2>
+                            <p>Chico Bento e sua turma precisam se unir para salvar a goiabeira de Nhô Lau quando ela é colocada em risco pelo arrogante coronel Dotô Agripino</p>
+                        </div>
+                        <span class="closeModal">&times;</span>
+                    </div>
+                </div>
+
+                <li class="catalogoCards">
+                    <div class="cardFilme moana openModal" data-modal="modaMoana">
+                        <p>Moana 2</p>
+
+                    </div>
+                    <div class="cardInfo">
+                        <h3>Moana 2</h3>
+                        <h4>Animação &bull; 100m</h4>
+                        <img src="IMG/classificacao/classificacaoAl.jpg" alt="Classificação indicativa Livre"
+                            class="classificacao">
+                    </div>
+                </li>
+
+                <div id="modalMoana" class="modal">
+                    <div class="modalContent">
+                        <div class="modalImg">
+                            <p>Moana 2</p>
+                        </div>
+                        <div class="modalTxt">
+                            <h2>Moana 2</h2>
+                            <p>Após receber um chamado de seus ancestrais, Moana parte em uma jornada nos mares distantes da Oceania, desbravando águas perigosas, rumo a uma aventura diferente de todas as que já viveu.</p>
+                        </div>
+                        <span class="closeModal">&times;</span>
+                    </div>
+                </div>
+
+                <li class="catalogoCards">
+                    <div class="cardFilme mufasa openModal" data-modal="modalMufasa">
+                        <p>Mufasa</p>
+
+                    </div>
+
+                    <div class="cardInfo">
+                        <h3>Mufasa</h3>
+                        <h4>Aventura &bull; 120m</h4>
+                        <img src="IMG/classificacao/classificacao10.jpg" alt="Classificação indicativa 10"
+                            class="classificacao">
+                    </div>
+                </li>
+
+                <div id="modalMufasa" class="modal">
+                    <div class="modalContent">
+                        <div class="modalImg">
+                            <p>Mufasa</p>
+                        </div>
+                        <div class="modalTxt">
+                            <h2>Mufasa</h2>
+                            <p>Mufasa, um filhote perdido e sozinho, conhece um simpático leãozinho chamado Taka, o herdeiro de uma linhagem real. O encontro casual dá início a uma jornada transformadora de um grupo de desajustados em busca de seus destinos.</p>
+                        </div>
+                        <span class="closeModal">&times;</span>
+                    </div>
+                </div>
+
+                <li class="catalogoCards">
+                    <div class="cardFilme oAltoDaCompadecida openModal" data-modal="modaAlto">
+                        <p>O Alto da Compadecida 2</p>
+
+                    </div>
+                    <div class="cardInfo">
+                        <h3>O Alto da Compadecida 2</h3>
+                        <h4>Comédia &bull; 115m</h4>
+                        <img src="IMG/classificacao/classificacao12.jpg" alt="Classificação indicativa 12"
+                            class="classificacao">
+                    </div>
+                </li>
+
+                <div id="modalAlto" class="modal">
+                    <div class="modalContent">
+                        <div class="modalImg">
+                            <p>O Auto da Compadecida 2</p>
+                        </div>
+                        <div class="modalTxt">
+                            <h2>O Auto da Compadecida 2</h2>
+                            <p>Depois de 20 anos desaparecido, João Grilo retorna à Taperoá para se juntar ao velho companheiro Chicó e, após sua história de ressurreição ter se espalhado, é disputado como cabo eleitoral pelos dois políticos mais poderosos da cidade.</p>
+                        </div>
+                        <span class="closeModal">&times;</span>
+                    </div>
+                </div>
+
+            </ul>
+        </div>
     </div>
-</div>
-
+    <script src="JS/script.js"></script>
 </body>
+
 </html>
