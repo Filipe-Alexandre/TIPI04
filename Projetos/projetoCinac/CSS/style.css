@@ -6,7 +6,8 @@
     --azul-1: #004c94;
     --laranja-1: #F7941D;
     --laranja-2: #FDC180;
-    --cinza: #3d3d3d80;
+    --cinza: #36363680;
+    --fundo: #00000080;
     --transparente: transparent;
 
     --fonte: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -63,7 +64,6 @@ li {
 
         /* #region Menu */
         & .catalogoMenu {
-            background-color: var(--cinza);
 
             padding: 5px;
             margin-bottom: 5px;
@@ -76,6 +76,8 @@ li {
             /* Título */
             & h2 {
                 cursor: default;
+                color: var(--branco);
+                letter-spacing: 2px;
 
                 &:hover {
                     animation: blink 2s infinite;
@@ -242,7 +244,7 @@ li {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #00000050;
+    background: var(--fundo);
     justify-content: center;
     align-items: center;
     z-index: 1;
@@ -347,110 +349,256 @@ li {
 
 /* #endregion Catalogo */
 
-
-/* #region Form */
-.containerForm {
-    background: var(--preto);
-    width: 700px;
-    height: 800px;
-    text-align: center;
+/* #region Bomboniere */
+#containerBBs {
+    width: 80%;
     margin: auto;
-    padding: 1rem;
+    text-align: left;
+    position: relative;
+    margin-bottom: 50px;
 }
 
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--laranja-1);
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    cursor: default;
+    letter-spacing: 2px;
 
-#modalForm{
-    display: none;
+    & span:hover {
+        animation: blink 2s infinite;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid var(--laranja-1);
+    border-radius: 5px;
+    width: 500px;
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco);
+    box-shadow: 0 0 10px var(--laranja-1);
+
+    margin-bottom: 20px;
+
+}
+
+.box img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* #endregion Bomboniere */
+
+
+/* #region emBreve */
+
+#EmBreve {
+    width: 80%;
+    margin: auto;
+    display: flex;
     flex-direction: column;
-    position: absolute;
-    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--laranja-1);
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    cursor: default;
+    letter-spacing: 2px;
+
+    & span:hover {
+        animation: blink 2s infinite;
+    }
+}
+
+.filmes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.filme {
+
+    flex: 0 0 auto;
+    /* text-align: center; */
+}
+
+.filme img {
+    width: 300px;
+    height: 450px;
+    /* width: 100%; */
+    border-radius: 5px;
+
+}
+
+.info {
+    background: var(--cinza);
+    color: var(--branco);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    width: 300px;
+    height: 175px;
+
+    & h2 {
+        color: var(--branco);
+    }
+}
+
+.genero {
+    font-size: 15px;
+
+}
+
+#modalPreguica {
+    & .modalImg {
+        background: url(../IMG/breve/breveDeuPreguica.webp) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalBrutal {
+    & .modalImg {
+        background: url(../IMG/breve/breveOBrutalista.webp) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalMacaco {
+    & .modalImg {
+        background: url(../IMG/breve/breveOMacaco.webp) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalSing {
+    & .modalImg {
+        background: url(../IMG/breve/breveSingSing.webp) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalMoon {
+    & .modalImg {
+        background: url(../IMG/breve/breveTheMoon.webp) no-repeat center;
+        background-size: cover;
+    }
+}
+
+/* #endregion emBreve */
+
+/* #region Form */
+
+.containerForm {
+    background: var(--preto);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--laranja-1);
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-.form-control {
+h2 {
+    color: var(--laranja-1);
+}
+
+form {
     display: flex;
     flex-direction: column;
-    margin-bottom: 1.5rem;
-
 }
 
 label {
-    margin-bottom: 0.3rem;
-    font-weight: bold;
-    color: var(--laranja-1);
+    margin: 10px 0 5px;
+    text-align: left;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="telefone"],
-input[type="senha"],
-textarea {
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: var(--preto);
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
     padding: 10px;
-    border: 1px solid var(--laranja-1);
-    border-radius: 8px;
-    font-size: 16px;
-}
-
-.error-message {
-    color: var(--laranja-1);
-    margin-top: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 button[type="submit"] {
     background-color: var(--laranja-1);
-    padding: 0.7rem;
-    color: var(--branco);
-    border: none;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    cursor: pointer;
-    transition: 0.7s;
+    color: white;
 }
 
-button[type="submit"]:hover {
+button[type="button"] {
     background-color: var(--azul-1);
+    color: white;
 }
 
-.form-control.error input,
-.form-control.error textarea {
-    border-color: var(--laranja-1);
+button[type="reset"] {
+    background-color: var(--laranja-2);
+    color: black;
 }
 
-.modalForm {
-    background-color: var(--laranja-1);
-    height: 50px;
-    width: 175px;
-    border-radius: 10px;
-    display: grid;
-    place-items: center;
+button:hover {
+    opacity: 0.8;
+}
 
-
-    &:hover {
-        font-weight: bold;
-        cursor: pointer;
-        box-shadow: 2px 2px 6px var(--preto);
-        transform: scale(1.01);
-
-        p {
-            color: var(--preto);
-        }
-    }
-
-    &:active {
-        transform: scale(1);
-        box-shadow: inset 2px 2px 6px var(--preto);
-
-        & p {
-            color: var(--branco);
-        }
-    }
+.mensagem {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #28a745;
+    display: none;
 }
 
 /* #endregion Form */
-
-
 
 /* #region Footer */
 
@@ -470,18 +618,22 @@ button[type="submit"]:hover {
         font-size: medium;
         font-weight: bolder;
         margin: 15px;
+        font-size: 1.5em;
+
     }
 
     & a {
         text-align: center;
         font-size: smaller;
         color: var(--branco);
-        font-family: system-ui;
         text-decoration: none;
+        font-size: 1em;
     }
 
     & p {
         margin: 3px;
+        font-size: 1em;
+
     }
 }
 
@@ -506,6 +658,31 @@ button[type="submit"]:hover {
     }
 }
 
+.redesFooter,
+.mailFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+
+    & .listaRedesFooter {
+        display: flex;
+        justify-content: space-between;
+
+
+    }
+}
+
+& i {
+    font-size: 3em;
+
+    &:hover {
+        color: var(--laranja-1);
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
 .rodape-direitos {
     width: 100%;
     background-color: var(--laranja-1);
@@ -517,12 +694,28 @@ button[type="submit"]:hover {
     justify-content: center;
 }
 
-/* button {
-    text-align: center;
-    font-size: larger;
-    color: var(--branco);
-    background: var(--laranja-1);
-    font-family: system-ui;
-} */
+.cadastroBtn {
+    height: 50px;
+    width: 170px;
+    background-color: var(--laranja-1);
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s;
+
+    &:hover {
+        font-weight: bold;
+        transform: scale(1.01);
+        box-shadow: 2px 2px 4px var(--cinza);
+        color: var(--preto);
+    }
+
+    &:active {
+        box-shadow: inset 2px 2px 4px var(--cinza);
+        transform: scale(1);
+
+    }
+}
 
 /* #endregion Footer */

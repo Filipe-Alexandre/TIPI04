@@ -41,47 +41,24 @@ window.addEventListener("click", (event) => {
 
 // -------------------------------FORMULÁRIO-------------------------------
 
-const form = document.querySelector("form");
-const nome = document.querySelector("nome");
-const telefone = document.querySelector("telefone");
-const email = document.querySelector("email");
-const errorMessages = document.querySelector(".error-message");
+document.getElementById("cadastroForm").addEventListener("submit", function (event) {
+    event.preventDefault(); // Impede o envio padrão do formulário
 
-form.addEventListener("submit", function (event) {
-    event.preventDefault();
-    resetError();
-    validateInputs();
+    document.getElementById("mensagem").textContent = "Cadastro efetuado com sucesso!";
+    document.getElementById("mensagem").style.display = "block";
+
+    setTimeout(() => {
+        document.getElementById("mensagem").style.display = "none";
+        document.getElementById("cadastroForm").reset();
+    }, 3000);
 });
 
-function resetError() {
-    errorMessages.forEach((errorMessage) => {
-        errorMessage.innerText = "";
-    });
-    nome.parentElement.classList.remove("error");
-    telefone.parentElement.classList.remove("error");
-    email.parentElement.classList.remove("error");
-}
+document.getElementById("cancelar").addEventListener("click", function () {
+    document.getElementById("modalForm").style.display = "none";
 
-function validateInputs() {
-    const nomeValue = nome.value.trim();
-    const telefoneValue = telefone.value.trim();
-    const emailValue = email.value.trim();
+    // document.getElementById("cadastroForm").reset();
+});
 
-    if (nomeValue === "") {
-        setError(nome, "O campo nome não pode ficar em branco!");
-    }
-
-    if (telefoneValue === "") {
-        setError(telefone, "O campo telefone não pode ficar em branco!");
-    }
-
-    if (emailValue === "") {
-        setError(email, "O campo e-mail não pode ficar em branco!");
-    }
-
-    function setError(input, errorMessage) {
-        const errorMessageElement = input.nextElementSibling;
-        errorMessageElement.innerText = errorMessage;
-        input.parentElement.classList.add("error");
-    }
+function formBg() {
+    document.getElementById("overlay").style.display = "flex";
 }
