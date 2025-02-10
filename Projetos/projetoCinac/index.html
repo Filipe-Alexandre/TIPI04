@@ -14,6 +14,59 @@
 
 <body>
 
+    <header>
+        <a href="./index.html"><img src="./IMG/logoCinac.png" alt="Cinac"></a>
+    </header>
+
+    <div id="banner">
+        <div class="bannerFilmes">
+            <p>Filmes em Cartaz</p>
+        </div>
+        <div class="bannerInfo">
+            <h3 class="bannerTitle"></h3>
+            <p class="bannerTxt"></p>
+            <div class="bannerCLass"></div>
+        </div>
+        <div class="bannerCards">
+            <ul>
+                <li class="unidade">
+                    <a href="https://www.sp.senac.br/centro-universitario-senac-santo-amaro" target="_blank">
+                        <h3>Centro Universitário Senac Santo Amaro</h3>
+                        <p>Av. Engenheiro Eusébio Stevaux, 823 Santo Amaro, São Paulo - SP, 12475-020</p>
+                    </a>
+                </li>
+
+                <li class="unidade">
+                    <a href="https://www.sp.senac.br/senac-jabaquara" target="_blank">
+                        <h3>Senac Jabaquara</h3>
+                        <p>Av. do Café, 298 Jabaquara, São Paulo - SP, 04311-000</p>
+                    </a>
+                </li>
+
+                <li class="unidade">
+                    <a href="https://www.sp.senac.br/senac-aclimacao" target="_blank">
+                        <h3>Senac Aclimação</h3>
+                        <p>Rua Pires da Mota, 838 Aclimação, São Paulo - SP, 01529-000 </p>
+                    </a>
+                </li>
+
+                <li class="unidade">
+                    <a href="https://www.sp.senac.br/senac-sao-miguel-paulista" target="_blank">
+                        <h3>Senac São Miguel Paulista</h3>
+                        <p>Av. Marechal Tito, 1500 São Miguel Paulista, São Paulo - SP, 08010-090</p>
+                    </a>
+                </li>
+
+                <li class="unidade">
+                    <a href="https://www.sp.senac.br/senac-largo-treze" target="_blank">
+                        <h3>Senac Largo Treze</h3>
+                        <p>Rua Dr. Antônio Bento, 393 Santo Amaro, São Paulo - SP, 04750-000</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <!-- #catalogo>.catalogoContainer>ul.catalogoMenu>li>h2{Em Cartaz}^li.catalogoArrows>input:b[value="&leftarrow;"]input:b[value="&rightarrow;"]^^ul.catalogoFilmes>li.catalogoCards*6>div.cardFilme>div.cardImg^div.cardInfo>h3{Filme}+h4{Genero}+h4{000m}+img.classificacao[alt="Classificação indicativa 00"]|c -->
     <div id="catalogo">
         <div class="catalogoContainer">
@@ -193,6 +246,7 @@
                 <div class="info">
                     <h2>Deu Preguiça</h2>
                     <p class="genero">Animação &bull; 126m</p>
+                    <img src="IMG/classificacao/classificacaoAl.jpg" alt="Livre para todos os públicos">
                 </div>
             </div>
 
@@ -221,6 +275,7 @@
                 <div class="info">
                     <h2>O Brutalista</h2>
                     <p class="genero">Drama &bull; 215m</p>
+                    <img src="IMG/classificacao/classificacao18.jpg" alt="Para maiores de 18 anos">
                 </div>
             </div>
 
@@ -245,6 +300,7 @@
                 <div class="info">
                     <h2>O Macaco</h2>
                     <p class="genero">Terror &bull; 171m</p>
+                    <img src="IMG/classificacao/classificacao18.jpg" alt="Para maiores de 18 anos">
                 </div>
             </div>
 
@@ -269,6 +325,8 @@
                 <div class="info">
                     <h2>Sing Sing</h2>
                     <p class="genero">Drama &bull; 228m</p>
+                    <img src="IMG/classificacao/classificacao14.jpg" alt="Para maiores de 14 anos">
+
                 </div>
             </div>
             <div id="modalSing" class="modal">
@@ -292,6 +350,8 @@
                 <div class="info">
                     <h2>The Moon</h2>
                     <p class="genero">Ficcção &bull; 130m</p>
+                    <img src="IMG/classificacao/classificacao14.jpg" alt="Para maiores de 14 anos">
+
                 </div>
             </div>
             <div id="modalMoon" class="modal">
@@ -323,12 +383,11 @@
     <footer>
         <div id="footer">
             <ul id="footerContainer">
-
                 <li>
                     <a href="index.html"> <img class="logoFooter" src="./IMG/logoCinac.png" alt="logo"></a>
                 </li>
                 <li>
-                    <h1><span>TOP FILMES DA SEMANA</span></h1>
+                    <h3><span>TOP FILMES DA SEMANA</span></h3>
                     <p><a href="#catalogo">Ainda Estou Aqui</a></p>
                     <p><a href="#catalogo">Chico Bento e a Goiabeira Maraviosa</a></p>
                     <p><a href="#catalogo">Moana 2</a></p>
@@ -336,7 +395,7 @@
                     <p><a href="#catalogo">O Alto da Compadecida 2</a></p>
                 </li>
                 <li>
-                    <h1><span>PROGRAMAÇÃO</span></h1>
+                    <h3><span>PROGRAMAÇÃO</span></h3>
                     <p><a href="#EmBreve">Deu Preguiça - Em Breve</a></p>
                     <p><a href="#EmBreve">O Brutalista - Em Breve</a></p>
                     <p><a href="#EmBreve">O Macaco - Em Breve</a></p>
@@ -344,7 +403,7 @@
                     <p><a href="#EmBreve">The Moon - Em Breve</a></p>
                 </li>
                 <li>
-                    <h1><span>SNACK BAR</span></h1>
+                    <h3><span>SNACK BAR</span></h3>
                     <p><a href="#containerBBs">Conheça nossos combos</a></p>
                 </li>
                 <li class="mailFooter">

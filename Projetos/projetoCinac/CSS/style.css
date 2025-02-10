@@ -32,6 +32,137 @@
     }
 }
 
+@keyframes bannerSliderFilme {
+
+    0% {
+        background: url(../IMG/banner/bannerPromo.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    20% {
+        background: url(../IMG/banner/bannerAinda.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    40% {
+        background: url(../IMG/banner/bannerChico.jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    60% {
+        background: url(../IMG/banner/bannerMoana.jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    80% {
+        background: url(../IMG/banner/bannerMufasa.jpeg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    100% {
+        background: url(../IMG/banner/bannerAlto.jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+}
+
+@keyframes bannerSliderTitle {
+    
+
+    0% {
+        content: "Aproveite a semana do cinema";
+    }
+
+    20% {
+        content: "Ainda Estou Aqui";
+    }
+
+    40% {
+        content: "Chico Bento e a Goiabeira Maraviosa";
+
+    }
+
+    60% {
+        content: "Moana 2";
+    }
+
+    80% {
+        content: "Mufasa: O Rei Leão";
+    }
+
+    100% {
+        content: "O Alto da Compadecida 2";
+    }
+}
+
+@keyframes bannerSliderSinopse {
+    0% {
+        content: "Semana do Cinema 2025! De 6 a 12 de fevereiro, ingressos por apenas R$ 10. Grandes estreias e filmes do Oscar. Aproveite!";
+    }
+
+    20% {
+        content: "Ainda Estou Aqui retrata a luta de uma mãe pela verdade após o desaparecimento do marido durante a ditadura militar.";
+    }
+
+    40% {
+        content: "Chico Bento e seus amigos enfrentam desafios para proteger a goiabeira e preservar a paz da comunidade rural.";
+
+    }
+
+    60% {
+        content: "Moana e Maui retornam para novas aventuras no oceano, enfrentando desafios e aprofundando temas de identidade e herança cultural.";
+    }
+
+    80% {
+        content: "Mufasa: O Rei Leão revela a origem de Mufasa, mostrando sua infância e ascensão ao trono na Pedra do Rei.";
+    }
+
+    100% {
+        content: "João Grilo e Chicó retornam a Taperoá após 20 anos, enfrentando novas aventuras com humor e críticas sociais.";
+    }
+}
+
+@keyframes bannerSliderClass {
+    0% {
+        background-color: var(--transparente);
+    }
+
+    20% {
+        background: url(../IMG/classificacao/classificacao14.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    40% {
+        background: url(../IMG/classificacao/classificacaoAl.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    60% {
+        background: url(../IMG/classificacao/classificacaoAl.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    80% {
+        background: url(../IMG/classificacao/classificacao10.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    100% {
+        background: url(../IMG/classificacao/classificacao12.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -50,6 +181,137 @@ body {
 }
 
 /* #endregion Global */
+
+/* #region Header */
+header {
+    width: 100%;
+    background-color: var(--fundo);
+    height: 100px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 50px;
+
+    & img {
+        height: 100px;
+        display: block;
+        margin: auto;
+
+        &:hover {
+            filter: drop-shadow(0px 0px 8px var(--azul-1));
+        }
+    }
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+
+    width: 80%;
+    height: 900px;
+
+    & .bannerFilmes {
+        width: 100%;
+        height: 600px;
+        border-radius: 10px;
+        animation: bannerSliderFilme 60s infinite;
+
+        &:hover {
+            filter: drop-shadow(0px 0px 8px var(--branco));
+        }
+
+        & p {
+            color: var(--transparente);
+        }
+    }
+
+    & .bannerInfo {
+        background-color: var(--cinza);
+        display: grid;
+        grid-template-areas:
+            "a a a a a a a c"
+            "b b b b b b b c";
+
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        padding: 20px;
+
+        &:hover {
+            filter: brightness(1.5);
+        }
+
+        & .bannerTitle {
+            grid-area: a;
+            font-size: 2em;
+            font-weight: bolder;
+
+            &::before {
+                content: "Filme";
+                display: inline-block;
+                animation: bannerSliderTitle 60s infinite;
+            }
+        }
+
+        & .bannerTxt {
+            grid-area: b;
+            font-size: 1.5em;
+
+
+            &::before {
+                content: "Sinopse";
+                display: inline-block;
+                animation: bannerSliderSinopse 60s infinite;
+            }
+        }
+
+        & .bannerCLass {
+            grid-area: c;
+
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            align-self: center;
+            margin: auto;
+            right: 10px;
+            position: relative;
+
+            animation: bannerSliderClass 60s infinite;
+
+        }
+    }
+
+    & .bannerCards {
+
+        & ul {
+            display: flex;
+            justify-content: space-between;
+
+            & .unidade {
+                width: 300px;
+                background-color: var(--cinza);
+                border-radius: 10px;
+                padding: 10px;
+                height: 150px;
+
+                &:hover {
+                    filter: brightness(1.5);
+                }
+
+                & a {
+                    text-decoration: none;
+
+                    & h3 {
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* #endregion Header */
 
 /* #region Catalogo */
 li {
@@ -411,7 +673,6 @@ li {
 
 /* #endregion Bomboniere */
 
-
 /* #region emBreve */
 
 #EmBreve {
@@ -465,6 +726,9 @@ li {
 .info {
     background: var(--cinza);
     color: var(--branco);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
     padding: 10px;
     border-radius: 5px;
     margin-top: 5px;
@@ -474,6 +738,16 @@ li {
 
     & h2 {
         color: var(--branco);
+    }
+
+    & p {
+        opacity: .8;
+    }
+
+    & img {
+        height: 30px;
+        width: 30px;
+        border-radius: 10px;
     }
 }
 
@@ -608,18 +882,16 @@ button:hover {
     background: var(--azul-1);
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     color: var(--branco);
     text-align: center;
     margin-bottom: 0;
 
 
-    & h1 {
-        font-size: medium;
+    & h3 {
         font-weight: bolder;
         margin: 15px;
         font-size: 1.5em;
-
     }
 
     & a {
@@ -633,7 +905,10 @@ button:hover {
     & p {
         margin: 3px;
         font-size: 1em;
+    }
 
+    & li {
+        height: 200px;
     }
 }
 
@@ -662,12 +937,13 @@ button:hover {
 .mailFooter {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     height: 200px;
 
     & .listaRedesFooter {
         display: flex;
         justify-content: space-between;
+        height: 70px;
 
 
     }
