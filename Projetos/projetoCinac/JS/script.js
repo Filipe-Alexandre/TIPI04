@@ -62,3 +62,7 @@ document.getElementById("cancelar").addEventListener("click", function () {
 function formBg() {
     document.getElementById("overlay").style.display = "flex";
 }
+
+// -------------------------------COPY-------------------------------
+
+document.getElementById("ano").textContent = new Date().getFullYear();
