@@ -1,0 +1,19 @@
+/* #region  */
+
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: .5s ease;
+    font-family:'';
+}
+/*Rule for Title*/
+h1>span{
+    color:var(--clr-accent);
+
+}
+
+
+/* #endregion  */
