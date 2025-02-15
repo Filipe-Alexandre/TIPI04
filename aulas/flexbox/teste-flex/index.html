@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Treino de Flex</title>
+</head>
+
+<body>
+
+    <!-- .container>nav>a[href="#inicio"]{Inicio}+a[href="#servicos"]{Serviços}+a[href="#sobre"]{Sobre}+a[href="#contato"]{Contato}^(section#inicio>.inicioContainer>h1{TIPI - Técnico em informática para Internet}+p{lorem30})+(section#servicos>.servicosContainer>img[src="./img/img01.jpg" alt="imagem 01"]+img[src="./img/img02.png" alt="imagem 02"]+img[src="./img/img03.png" alt="imagem 03"]+img[src="./img/img04.jpg" alt="imagem 04"])+(section#sobre>.sobreContainer>h2{Sub Título}+p{lorem30})+(section#contato>.contatoContainer>h3{Contatos}+p{lorem30})|c -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+
+        <section id="inicio">
+            <div class="inicioContainer">
+                <h1>TIPI - Técnico em informática para Internet</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi architecto eius delectus maxime,
+                    aliquid assumenda quam eligendi debitis et, nobis omnis aperiam provident quis facere hic iste
+                    tempore sint dolor?</p>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="servicosContainer"><img src="./img/img01.jpg" alt="imagem 01"><img src="./img/img02.png"
+                    alt="imagem 02"><img src="./img/img03.png" alt="imagem 03"><img src="./img/img04.jpg"
+                    alt="imagem 04"></div>
+        </section>
+
+        <section id="sobre">
+            <div class="sobreContainer">
+                <h2>Sub Título</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae possimus dolore at aspernatur commodi
+                    deleniti earum. Iure, fugit! Quasi, quibusdam ratione esse ullam ut ipsum reprehenderit recusandae
+                    ab unde. Atque?</p>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="contatoContainer">
+                <h3>Contatos</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti quo quia quam obcaecati in
+                    voluptatum dicta. Delectus incidunt nostrum tempora voluptatum labore dolorum repudiandae numquam,
+                    fuga provident deserunt laudantium possimus.</p>
+            </div>
+        </section>
+
+    </div>
+
+</body>
+
+</html>

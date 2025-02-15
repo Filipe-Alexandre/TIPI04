@@ -1,0 +1,103 @@
+:root {
+    --clr-01: #193441;
+    --clr-02: #3E606F;
+    --clr-03: #91AA9D;
+    --clr-04: #D1DBBD;
+    --clr-05: #FCFFF5;
+}
+
+
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: .6s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--clr-04);
+}
+
+header {
+    & nav {
+        background-color: var(--clr-01);
+        display: flex;
+        justify-content: space-around;
+        height: 80px;
+        padding: 20px 0;
+        /* margin-bottom: 20px; */
+        border-radius: 0 0 20px 20px;
+        position: sticky;
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.5);
+
+        & ul {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+
+            & a {
+                text-decoration: none;
+                color: var(--clr-04);
+                font-size: 2rem;
+                width: 25%;
+
+                &:hover {
+                    color: var(--clr-05);
+                    font-size: 2.1rem;
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+
+.container {
+    background-color: var(--clr-05);
+    height: 100vh;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+
+    & #inicio,
+    #sobre,
+    #contato {
+        width: 90%;
+        margin: 0 auto 30px;
+
+        & .inicioContainer {
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    }
+
+    & #servicos {
+        width: 80%;
+        margin: 20px auto;
+
+        & .servicosContainer {
+            display: flex;
+            justify-content: space-evenly;
+
+            & img {
+                width: 20%;
+                flex-grow: 1;
+                border: 1px solid transparent;
+                border-radius: 40px;
+
+                &:hover {
+                    transform: scale(1.1);
+                    border: 1px solid var(--clr-01);
+                }
+            }
+        }
+    }
+}
