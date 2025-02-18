@@ -1,0 +1,35 @@
+:root {
+    --title: 2rem;
+    --tetx: 1.5rem;
+    --item: 1rem;
+}
+
+.lightMode {
+    --cor-01: #0f0f0f;
+    --cor-02: #594D3E;
+    --cor-03: #8C7E6C;
+    --cor-04: #BFBBB4;
+    --cor-05: #D9D7CC;
+    --cor-06: #F2EFE9;
+}
+
+.darkMode {
+    --cor-01: #f2f2f2;
+    --cor-02: #DCD2CC;
+    --cor-03: #AF9995;
+    --cor-04: #393F4A;
+    --cor-05: #181722;
+    --cor-06: #0f0f0f;
+    
+}
+
+/*Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    transition: .5s ease;
+    font-family:'';
+}
+
