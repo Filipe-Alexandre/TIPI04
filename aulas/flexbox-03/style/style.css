@@ -24,11 +24,11 @@
 } */
 
 .lightMode {
-    --preto-1: #644c3d;
-    --preto-2: #ac7e5c;
-    --cor-1: #a7cc40;
-    --cor-2: #b6c958;
-    --branco-1: #ebe4ca;
+    --preto: #141414;
+    --branco: #fefefe;
+    --azul-1: #004c94;
+    --laranja-1: #F7941D;
+    --laranja-2: #FDC180;
 }
 
 
@@ -42,7 +42,7 @@ body {
     min-height: 100vh;
 
     & header {
-        background-color: var(--preto-1);
+        background-color: var(--branco);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -59,13 +59,13 @@ body {
             gap: 2rem;
 
             & a {
-                color: var(--branco-1);
+                color: var(--azul-1);
                 font-size: 1.5rem;
                 font-weight: bold;
                 text-decoration: none;
 
                 &:hover {
-                    color: var(--cor-1);
+                    color: var(--laranja-1);
                     text-decoration: underline;
                 }
             }
@@ -88,8 +88,8 @@ body {
 
     & main {
         .banner {
-            color: var(--preto-2);
-            background-color: var(--cor-1);
+            color: var(--preto);
+            background: linear-gradient(to top, var(--laranja-1), var(--laranja-2));
             padding: 4rem 2rem;
             text-align: center;
 
@@ -116,7 +116,7 @@ body {
                 /* flex grow - flex shrink - flex basis */
                 max-width: 400px;
                 height: 250px;
-                background-color: var(--branco-1);
+                background-color: var(--);
                 border-radius: .5rem;
                 overflow: hidden;
 
