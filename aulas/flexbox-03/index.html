@@ -10,7 +10,7 @@
 
 <body class="lightMode">
 
-    <!-- header>.logo>img[src="./img/senac_logo_branco.png" alt="logo Senac"]^nav>a[href="#"]{Home}+a[href="#"]{Sobre}+a[href="#"]{Cursos}+a[href="#"]{Contato}^^main>.banner>h1{AprendendoFlexbox e Media Querie}+p{Domine o layout flexivel e responsivo com CSS}^.imageGalery>.imageItem>img*4[src="https://placehold.co/400x250" alt="Imagem"]^section.contentSection>(.textContent>h2{Seção de Conteúdo}+p{Esta seção demonstra o uso de flexbox para leyouts responsivos})+(.sidebar>h3{Sidebar}+p{Conteúdop adicional aqui})^^^footer>(.footerColumn>h3{Links Úteis}+ul>li>a[href="#"]{Política de privacidade}^li>a[href="#"]{Termos de uso})+(.footerColumn>h3{Contato}+ul>li>a[href="mailto:filipe.alexandre.360@gmail.com"]{Email: filipe.alexandre.360@gmail.com}^li>a[href="tel:5511977962348"]{Telefone: (11)97796-2348})+(.footerColumn>ul>li>a[href="#"]>img.logoFooter[src="./img/Senac_logo_branco.png" alt="logo Senac"])|c -->
+    <!-- header>.logo>img[src="./img/senac_logo_branco.png" alt="logo Senac"]^nav>a[href="#"]{Home}+a[href="#"]{Sobre}+a[href="#"]{Cursos}+a[href="#"]{Contato}^^main>.banner>h1{AprendendoFlexbox e Media Querie}+p{Domine o layout flexivel e responsivo com CSS}^.imageGalery>.imageItem*4>img[src="https://placehold.co/400x250" alt="Imagem"]^section.contentSection>(.textContent>h2{Seção de Conteúdo}+p{Esta seção demonstra o uso de flexbox para leyouts responsivos})+(.sidebar>h3{Sidebar}+p{Conteúdop adicional aqui})^^^footer>(.footerColumn>h3{Links Úteis}+ul>li>a[href="#"]{Política de privacidade}^li>a[href="#"]{Termos de uso})+(.footerColumn>h3{Contato}+ul>li>a[href="mailto:filipe.alexandre.360@gmail.com"]{Email: filipe.alexandre.360@gmail.com}^li>a[href="tel:5511977962348"]{Telefone: (11)97796-2348})+(.footerColumn>ul>li>a[href="#"]>img.logoFooter[src="./img/Senac_logo_branco.png" alt="logo Senac"])|c -->
 
     <header>
         <div class="logo">
@@ -23,6 +23,11 @@
             <a href="#">Cursos</a>
             <a href="#">Contato</a>
         </nav>
+
+        <div class="menu" style="display: none;">
+            <img src="" alt="">
+            <a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+        </div>
     </header>
 
     <main>
@@ -31,11 +36,17 @@
             <p>Domine o layout flexivel e responsivo com CSS</p>
         </div>
         <!-- /.banner -->
-        <div class="imageGalery">
-            <div class="imageItem" >
+        <div class="imageGallery">
+            <div class="imageItem">
                 <img src="https://placehold.co/400x250" alt="Imagem">
+            </div>
+            <div class="imageItem">
                 <img src="https://placehold.co/400x250" alt="Imagem">
+            </div>
+            <div class="imageItem">
                 <img src="https://placehold.co/400x250" alt="Imagem">
+            </div>
+            <div class="imageItem">
                 <img src="https://placehold.co/400x250" alt="Imagem">
             </div>
             <!-- /.imageItem -->
