@@ -26,7 +26,7 @@
     <title>Sanctuary</title>
 </head>
 
-<body class="darkMode">
+<body>
     <!-- nav>.navBar>(ul.logo#logo>li>a>img)+(ul.navLink>li*4>a>i+span)+(ul.underSide>li>a>img+span)|c -->
 
     <nav>
@@ -85,7 +85,29 @@
 
             <section id="home">
                 <div class="homeContainer">
-
+                    <!-- .changeMode>button#*2>i|c -->
+                    <div class="changeMode">
+                        <button id="lightMode">
+                            <i class="fa-solid fa-sun"></i>
+                        </button>
+                        <button id="darkMode">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                    </div>
+                    <!-- /.changeMode -->
+                    <!-- #+. cria um id e uma classe junto // container é o primeiro nivel e inner o segundo-->
+                    <!-- video#+.homeInner>(h1>span^h2>span^p+a.btnDefault)|c -->
+                    <video src="video/candy.mp4" id="video" muted></video>
+                    <!-- / -->
+                    <div class="homeInner">
+                        <h1>Strange <span>Sanctuary</span> Candies</h1>
+                        <h2>come and <span>fill yourself</span> with strange candies</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quod at aspernatur est minus
+                            eligendi velit iure perspiciatis perferendis odit.</p>
+                        <a href="#contact" class="btnDefault">Contact Us</a>
+                        <!-- /.btnDefault -->
+                    </div>
+                    <!-- /.homeInner -->
                 </div>
                 <!-- /.homeContainer -->
             </section>
@@ -93,7 +115,64 @@
 
             <section id="team">
                 <div class="teamContainer">
+                    <!-- ul.teamCard*4>li>img^li>p{nome}^li>i*5|c -->
+                    <ul class="teamCard">
+                        <li>
+                            <img src="img/card1.webp" alt="team">
+                        </li>
+                        <li>
+                            <p>Johnny</p>
+                        </li>
+                        <li>
 
+                            <!-- [.bx.bxl]=[class = "bx bxl"] . e . vai criar duas classes para um elemento -->
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-instagram"></i>
+                            <i class="bx bxl-tiktok"></i>
+                            <i class="bx bxl-linkedin-square"></i>
+                        </li>
+                    </ul>
+                    <ul class="teamCard">
+                        <li>
+                            <img src="img/card2.webp" alt="team">
+                        </li>
+                        <li>
+                            <p>Susan</p>
+                        </li>
+                        <li>
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-instagram"></i>
+                            <i class="bx bxl-tiktok"></i>
+                            <i class="bx bxl-linkedin-square"></i>
+                        </li>
+                    </ul>
+                    <ul class="teamCard">
+                        <li>
+                            <img src="img/card3.webp" alt="team">
+                        <li>
+                            <p>Dukey</p>
+                        </li>
+                        <li>
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-instagram"></i>
+                            <i class="bx bxl-tiktok"></i>
+                            <i class="bx bxl-linkedin-square"></i>
+                        </li>
+                    </ul>
+                    <ul class="teamCard">
+                        <li>
+                            <img src="img/card4.webp" alt="team">
+
+                        <li>
+                            <p>Mary</p>
+                        </li>
+                        <li>
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-instagram"></i>
+                            <i class="bx bxl-tiktok"></i>
+                            <i class="bx bxl-linkedin-square"></i>
+                        </li>
+                    </ul>
                 </div>
                 <!-- /.teamContainer -->
             </section>
