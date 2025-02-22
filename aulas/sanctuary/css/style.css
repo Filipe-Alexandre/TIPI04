@@ -244,8 +244,7 @@ nav {
 
                 & a {
                     display: flex;
-                    justify-content: space-between;
-                    align-items: center;
+                    gap: 1.5rem align-items: center;
                     padding: .5em;
 
                     & i {
@@ -389,20 +388,152 @@ nav {
         align-items: center;
 
         & .teamCard {
+            background-color: var(--clr-default);
+
+            /* aplica a propriedade em todos os elementos que contém imagem, se por acaso houvesse um teamCard sem uma imagem dentro, o bloco não ficaria com blur */
+            /* :not(:hover) -> se por acaso tiver um hgover e ele desabilita as propriedades do has */
+
+            /* toda ul que conter uma imagem tem um blur, porém você cria uma negativa em todas uls assim que tyiver um hover */
+            /* basicamente ou em outras palavras: aplicamos um blur na ul, porem o not desativa esse blur no estado de hover, em quais? em tds teamCards que tem uma imagem (pois tudo isso esta dentro do .teamCard) */
+            &:has(img) {
+                &:not(:hover) {
+                    filter: blur(2px);
+                }
+            }
+
+            &:hover {
+                /* filter: blur(0); */
+                transform: scale(1.1);
+
+                & img {
+                    filter: saturate(1);
+
+                }
+            }
+
 
             & li {
+                padding: .5em 0;
+
+                &:not(:nth-child(2)) {
+                    text-align: center;
+                    /* vai negar o tac para o 2° li */
+                }
+
+                &:nth-child(2) {
+                    width: fit-content;
+                    margin: auto;
+                }
 
                 & img {
                     width: 20rem;
                     height: 20rem;
+                    filter: saturate(0);
+
                 }
 
-                & i {}
+                & i {
+                    font-size: var(--txt-title);
+                    cursor: pointer;
 
-                & p {}
+                    &:hover {
+                        transform: scale(1.5);
+                        color: var(--clr-accent);
+                        text-shadow: 1px 1px 1px var(--clr-shadow);
+                    }
+                }
+
+
             }
         }
     }
 }
 
 /* #endregion team */
+
+/* #region profile */
+
+#profile {
+    .profileContainer {
+        cursor: default;
+        display: flex;
+        align-items: center;
+        width: 50vw;
+        height: 100vh;
+        margin: auto;
+        gap: 2em;
+
+        .sobre {
+            padding: .5em;
+            border-right: 2px solid var(--clr-base);
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 80vh;
+
+            img {
+                border-radius: 50%;
+                width: 80%;
+                filter: grayscale(1);
+                border: 5px solid var(--clr-no-color);
+                align-self: center;
+
+                &:hover {
+                    filter: grayscale(0);
+                    border: 5px solid var(--clr-accent);
+                }
+            }
+
+            p {}
+
+            h2 {
+                color: var(--clr-accent);
+
+                &:hover {
+                    text-shadow: 0 0 10px var(--clr-accent);
+                }
+            }
+
+            ul {
+                height: var(--txt-title);
+                li {}
+
+                i {
+                    font-size: var(--txt-title);
+                    cursor: pointer;
+
+
+                    &:hover {
+                        color: var(--clr-accent);
+                        font-size: 1.9rem;
+                    }
+                }
+            }
+        }
+
+        .exp {
+            padding: .5em;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            height: 80vh;
+
+            h1 {}
+
+            h2 {}
+
+            .cargos {
+                h3 {}
+
+                h4 {}
+
+                h5 {}
+
+                p {}
+            }
+        }
+    }
+}
+
+/* #endregion profile */
