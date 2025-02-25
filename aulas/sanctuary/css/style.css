@@ -308,42 +308,43 @@ nav {
 /* #endregion nav  */
 
 /* #region home  */
+& .changeMode {
+    background-color: var(--clr-accent);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 2rem;
+    height: 2rem;
+    position: fixed;
+    top: 2em;
+    right: 2em;
+    z-index: 1;
+    border-radius: 10px;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+
+    & button {
+        background: var(--clr-no-color);
+        border: none;
+        cursor: pointer;
+
+        &#lightMode {
+            display: none;
+        }
+
+        & i {
+            font-size: var(--txt-paragraph);
+        }
+    }
+
+
+}
 
 #home {
     & .homeContainer {
 
-        & .changeMode {
-            background-color: var(--clr-accent);
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-            width: 2rem;
-            height: 2rem;
-            position: fixed;
-            top: 2em;
-            right: 2em;
-            z-index: 1;
-            border-radius: 10px;
-            cursor: pointer;
-            display: grid;
-            place-items: center;
 
-            & button {
-                background: var(--clr-no-color);
-                border: none;
-                cursor: pointer;
-
-                &#lightMode {
-                    display: none;
-                }
-
-                & i {
-                    font-size: var(--txt-paragraph);
-                }
-            }
-
-
-        }
 
         & video {
             width: 100%;
@@ -375,8 +376,6 @@ nav {
                 width: 30%;
                 margin-bottom: 2em;
             }
-
-            & a {}
         }
     }
 }
@@ -477,11 +476,37 @@ nav {
         .exp {
             padding: 1.5em;
             border-right: 2px solid var(--clr-base);
-            width: 25%;
+            width: 30%;
             display: flex;
             flex-direction: column;
             gap: 1rem;
             height: 80vh;
+
+            h2 {
+
+                cursor: pointer;
+
+                &::before {
+                    display: inline-block;
+                    background-color: var(--clr-accent);
+                    position: absolute;
+                    content: "";
+                    width: 10rem;
+                    height: 4px;
+                    visibility: hidden;
+                    transform: translateY(1.8rem) scaleX(0);
+                    transition: transform 300ms cubic-bezier(0.57, -0.02, 0.31, 0.71);
+
+
+                }
+
+                &:hover:before {
+                    visibility: visible;
+                    transform: translateY(1.8rem) scaleX(1);
+                    transform-origin: left;
+                    color: currentColor;
+                }
+            }
         }
 
         .sobre {
@@ -501,14 +526,6 @@ nav {
 
             p {
                 text-align: justify;
-            }
-
-            h2 {
-                color: var(--clr-accent);
-
-                &:hover {
-                    text-shadow: 0 0 10px var(--clr-accent);
-                }
             }
 
             ul {
@@ -537,22 +554,89 @@ nav {
         .exp {
             position: relative;
             border: none;
-            width: 75%;
+            width: 70%;
 
             h1 {
-                animation: blink 2s infinite;
+                /* background-color: white; */
+                width: 10em;
+
+                span {
+                    background-color: var(--clr-accent);
+                    position: absolute;
+                    transform: scaleX(0);
+
+
+                    transition: .5s;
+                    animation: normal;
+                }
+
+                &:hover {
+                    animation: blink 5s ease infinite;
+
+                    span {
+                        visibility: visible;
+                        transform: scaleX(1);
+                    }
+                }
             }
 
-            h2 {}
+
+
+            .top {
+                height: 4px;
+                width: 10em;
+                left: 0;
+                transform-origin: left;
+                animation-delay: 0s;
+            }
+
+            .rig {
+                height: 100%;
+                width: 4px;
+                right: 0;
+                animation-delay: .5s;
+
+            }
+
+            .bot {
+                height: 4px;
+                width: 10em;
+                left: 0;
+                bottom: 0;
+                transform-origin: right;
+                animation-delay: 1.5s;
+
+            }
+
+            .lef {
+                height: 100%;
+                width: 4px;
+                left: 0;
+                animation-delay: 2s;
+
+            }
+
+
+
+
 
             .cargos {
-                h3 {}
 
-                h4 {}
+                h3 {
+                    &::after {
+                        content: "empresa 01";
+                        visibility: hidden;
+                        background-color: var(--clr-accent-bg);
+                        padding: .5rem;
+                        border-radius: 5px;
+                        font-size: var(--txt-anchor);
+                    }
 
-                h5 {}
+                    &:hover:after {
+                        visibility: visible;
+                    }
+                }
 
-                p {}
             }
 
             a {

@@ -1,0 +1,37 @@
+/*Reset*/
+@media print {
+
+    * {
+        margin: 0 !important;
+        padding: 0 !important;
+        color: #000 !important;
+        background-color: #fff !important;
+        filter: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        font-family: 'santello' !important;
+    }
+
+    #profile {
+        .profileContainer {
+            .sobre {
+                width: 40%!important;
+                img {
+                    filter: grayscale(1)!important;
+                    border: none;
+                }
+            }
+
+            .exp {}
+        }
+    }
+
+    @page {
+        margin: 1em !important;
+    }
+
+    /* Forçar quebra de página após cada seção */
+    section {
+        page-break-after: always !important;
+    }
+}

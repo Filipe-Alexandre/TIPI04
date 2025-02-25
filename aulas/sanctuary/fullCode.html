@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- myCss -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+      rel="stylesheet"
+    />
+    <!-- aOS  -->
+
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon" />
+    <!-- favIcon -->
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+    <!-- boxIcon -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <!-- fontAwesone -->
+
+    <link rel="stylesheet" href="./css/mediaPrint.css" />
+    <!-- myCss -->
+    <title>Profile Full Code</title>
+    <style>
+      /*#region  global*/
+      @font-face {
+        font-family: "santello";
+        src: url("../font/SANTELLO.ttf");
+      }
+
+      /*basic reset*/
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        font-family: "santello";
+        text-decoration: none;
+        color: var(--clr-text);
+      }
+
+      /*font sizes*/
+      /*REM*/
+      html {
+        font-size: 20px;
+        scroll-behavior: smooth;
+      }
+      /*EM*/
+      body {
+        font-size: 15px;
+        background: var(--clr-default);
+        /* overflow: hidden; */
+      }
+
+      /*sizes*/
+      :root {
+        --txt-super-hero: 5rem;
+        --txt-logo: 3rem;
+        --txt-icon: 2.5rem;
+        --txt-title: 1.8rem;
+        --txt-subtitle: 1.6rem;
+        --txt-paragraph: 0.9rem;
+        --txt-anchor: 0.8rem;
+      }
+
+      /*rules*/
+      h1 {
+        font-size: var(--txt-title);
+      }
+      h2 {
+        font-size: var(--txt-subtitle);
+      }
+      p {
+        font-size: var(--txt-paragraph);
+      }
+      a {
+        font-size: var(--txt-anchor);
+      }
+
+      /*rule for title*/
+      h1 > span {
+        color: var(--clr-accent);
+      }
+
+      section {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        padding: 0 5em;
+      }
+
+      .btnDefault {
+        padding: 2em 4em;
+        background: var(--clr-text);
+        border: 1px solid var(--clr-text);
+        border-radius: 1em;
+        font-size: var(--txt-anchor);
+        color: var(--clr-base);
+        transition: all 0.3s;
+        &:hover {
+          background: var(--clr-no-color);
+          color: var(--clr-text);
+        }
+      }
+
+      /*colors*/
+      .darkMode {
+        --clr-default: #333333;
+        --clr-base: #151515;
+        --clr-text: #f5f5f5;
+        --clr-accent: #e80032;
+        --clr-accent-bg: #e8003260;
+        --clr-fake-bg-menu: #00000090;
+        --clr-no-color: transparent;
+        --clr-shadow: #3d3d3d;
+        --clr-black: #000000;
+        & #logo {
+          filter: invert(0);
+        }
+        & #mapa {
+          filter: invert(1);
+        }
+      }
+
+      .lightMode {
+        --clr-default: #cbcbcb;
+        --clr-base: #e0e0e0;
+        --clr-text: #181818;
+        --clr-accent: #fabcc9;
+        --clr-accent-bg: #fabcc960;
+        --clr-fake-bg-menu: #ffffff90;
+        --clr-no-color: transparent;
+        --clr-shadow: #a0a0a0;
+        --clr-black: #000000;
+        & #logo {
+          filter: invert(1);
+        }
+        & #mapa {
+          filter: invert(0);
+        }
+      }
+
+      /*#endregion*/
+
+      /*#region profile*/
+      #profile {
+        & .profileContainer {
+          & .changeMode {
+            position: fixed;
+            top: 2em;
+            z-index: 100;
+            right: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background: var(--clr-accent);
+            width: 2rem;
+            height: 2rem;
+            border-radius: 10px;
+            cursor: pointer;
+
+            & button {
+              cursor: pointer;
+              background: var(--clr-no-color);
+              border: none;
+
+              &#darkMode {
+                display: none;
+              }
+
+              & i {
+                font-size: var(--txt-paragraph);
+              }
+            }
+          }
+
+          width: 50%;
+          height: 100vh;
+          /* background: pink; */
+          margin: 0 auto;
+          padding: 1em;
+          display: flex;
+          justify-content: space-between;
+
+          & .leftSide {
+            /* background: rgb(239, 89, 114); */
+            width: 40%;
+
+            & li {
+              &:has(h3) {
+                margin: 2em 0 0.8em;
+                text-transform: uppercase;
+              }
+
+              :is(img, p) {
+                /* color: red; */
+                margin-bottom: 1em;
+              }
+
+              & img {
+                width: 100%;
+                border-radius: 50%;
+                filter: blur(5px) saturate(0);
+                transition: all 0.3s;
+                cursor: pointer;
+                /* padding: 1em 0; */
+                padding: 0.5em;
+                border: 1px solid var(--clr-no-color);
+
+                &:hover {
+                  filter: blur(0) saturate(1);
+                  border: 1px solid var(--clr-accent);
+                  box-shadow: 1px 1px 1px var(--clr-text);
+                }
+              }
+
+              & h3 {
+              }
+
+              & h4 {
+              }
+
+              & p {
+              }
+
+              & i {
+                margin-top: 0.8em;
+                font-size: var(--txt-subtitle);
+                transition: all 0.3s;
+
+                &:hover {
+                  transform: scale(1.2);
+                  color: var(--clr-accent);
+                }
+              }
+            }
+          }
+
+          & .rightSide {
+            width: 60%;
+            padding: 1em 1em 0;
+            margin-left: 1em;
+            border-left: 1px solid var(--clr-accent);
+
+            & li {
+              &:has(h3) {
+                margin: 2em 0 0.8em;
+                text-transform: uppercase;
+              }
+
+              & h1 {
+                text-transform: capitalize;
+                font-size: var(--txt-super-hero);
+                color: var(--clr-accent);
+                text-shadow: 1px 1px 1px var(--clr-text);
+              }
+
+              & h3 {
+              }
+
+              & h4 {
+              }
+
+              & p {
+              }
+            }
+          }
+        }
+      }
+
+      /*#endregion*/
+
+      /*#region mediaPrint */
+      /* Media query para impressão */
+      @media print {
+        * {
+          margin: 0 !important;
+          padding: 0 !important;
+          color: #000000 !important;
+          background: #ffffff !important;
+          filter: none !important;
+          box-shadow: none !important;
+          text-shadow: none !important;
+          font-family: "santello" !important;
+        }
+
+        #profile {
+          & .profileContainer {
+            & .changeMode {
+              /* position: fixed;
+            top: 2em;
+            z-index: 100;
+            right: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background: var(--clr-accent);
+            width: 2rem;
+            height: 2rem;
+            border-radius: 10px;
+            cursor: pointer; */
+              display: none;
+
+              & button {
+                /* cursor: pointer;
+              background: var(--clr-no-color);
+              border: none; */
+
+                &#darkMode {
+                  /* display: none; */
+                }
+
+                & i {
+                  /* font-size: var(--txt-paragraph); */
+                }
+              }
+            }
+
+            width: 100% !important;
+            /* height: 100vh; */
+            /* background: pink; */
+            /* margin: 0 auto; */
+            /* padding: 1em; */
+            /* display: flex; */
+            /* justify-content: space-between; */
+
+            & .leftSide {
+              /* background: rgb(239, 89, 114); */
+              width: 40% !important;
+              padding: 1em !important;
+
+              & li {
+                &:has(h3) {
+                  margin: 0.8em 0 !important;
+                  text-transform: uppercase !important;
+                }
+
+                :is(img, p) {
+                  /* color: red; */
+                  margin-bottom: 0.5em !important;
+                }
+
+                & img {
+                  width: 100%;
+                  border-radius: 50%;
+                  filter: saturate(0) !important;
+                  /* transition: all 0.3s;
+                cursor: pointer; */
+                  /* padding: 1em 0; */
+                  padding: 0.5em !important;
+                  /* border: 1px solid var(--clr-no-color); */
+
+                  &:hover {
+                    /* filter: blur(0) saturate(1);
+                  border: 1px solid var(--clr-accent);
+                  box-shadow: 1px 1px 1px var(--clr-text); */
+                  }
+                }
+
+                & h3 {
+                }
+
+                & h4 {
+                }
+
+                & p {
+                }
+
+                & i {
+                  line-height: 0.5em !important;
+
+                  &::before {
+                    content: attr(data-url) !important;
+                    /* Substituindo o ícone pela URL */
+                    font-size: var(--txt-anchor) !important;
+                    font-family: "santello" !important;
+                  }
+
+                  /* margin-top: 0.8em;
+                font-size: var(--txt-subtitle);
+                transition: all 0.3s; */
+                  /* display: none; */
+
+                  &:hover {
+                    /* transform: scale(1.2);
+                  color: var(--clr-accent); */
+                  }
+                }
+              }
+            }
+
+            & .rightSide {
+              width: 60% !important;
+              padding: 1em 1em 0 !important;
+              margin-left: 1em !important;
+              border-left: 1px solid black !important;
+
+              & li {
+                &:has(h3) {
+                  margin: 2em 0 0.8em !important;
+                  text-transform: uppercase !important;
+                }
+
+                & h1 {
+                  text-transform: capitalize;
+                  font-size: var(--txt-title);
+                  /* color: var(--clr-accent); */
+                  /* text-shadow: 1px 1px 1px var(--clr-text); */
+                }
+
+                & h3 {
+                }
+
+                & h4 {
+                }
+
+                & p {
+                }
+              }
+            }
+          }
+        }
+
+        /* Ajustar margens e espaçamentos para a impressão */
+        @page {
+          margin: 3em !important;
+        }
+
+        /* Forçar quebra de página após cada seção */
+        section {
+          page-break-after: always !important;
+        }
+      }
+
+      /*#endregion*/
+    </style>
+  </head>
+  <body>
+    <!-- main>section#>.profileContainer>(ul.leftSide>li*12)+(ul.rightSide>li*12)|c -->
+    <main>
+      <section id="profile">
+        <div class="profileContainer">
+          <!-- .changeMode>button#*2>i|c -->
+          <div class="changeMode">
+            <button id="lightMode">
+              <i class="fa-solid fa-sun"></i>
+            </button>
+            <!-- / -->
+            <button id="darkMode">
+              <i class="fa-solid fa-moon"></i>
+            </button>
+            <!-- / -->
+          </div>
+          <!-- /.changeMode -->
+
+          <ul
+            class="leftSide"
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
+            <li>
+              <img src="./img/profile.PNG" alt="profile" />
+            </li>
+            <li>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus harum placeat enim nam blanditiis quidem quae nulla
+                architecto laborum, odit eligendi beatae.
+              </p>
+            </li>
+            <li>
+              <h4>(011)98765-4321</h4>
+            </li>
+            <li>
+              <h4>@myprofile</h4>
+            </li>
+            <li>
+              <h4>myemailaccount@email.com</h4>
+            </li>
+            <li>
+              <h3>habilidades</h3>
+            </li>
+            <li>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Excepturi voluptatum mollitia reiciendis pariatur ipsum deserunt
+                molestias distinctio eum repudiandae molestiae. Iure, quis?
+              </p>
+            </li>
+            <li>
+              <h3>formação</h3>
+            </li>
+            <li><h4>Vancouver Groelândia</h4></li>
+            <li><h4>Desenhero</h4></li>
+            <li><h4>Bacharelado</h4></li>
+            <li>
+              <i
+                class="bx bxl-facebook-circle"
+                data-url="https://www.facebook.com/user"
+              ></i>
+              <i
+                class="bx bxl-instagram"
+                data-url="https://www.instagran.com/user"
+              ></i>
+              <i
+                class="bx bxl-tiktok"
+                data-url="https://www.tiktok.com/user"
+              ></i>
+              <i
+                class="bx bxl-linkedin-square"
+                data-url="https://www.linkedin.com/user"
+              ></i>
+            </li>
+          </ul>
+          <!-- /.leftSide -->
+          <ul
+            class="rightSide"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="2000"
+          >
+            <li><h1>saphira terror</h1></li>
+            <li><h3>experiencia</h3></li>
+            <li><h3>albuquerque e cia</h3></li>
+            <li><h4>Lorem.</h4></li>
+            <li><h4>Lorem, ipsum.</h4></li>
+            <li>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi mollitia sapiente aspernatur a velit maxime, illo modi
+                iure autem ipsam!
+              </p>
+            </li>
+            <li><h3>albuquerque e cia</h3></li>
+            <li><h4>Lorem.</h4></li>
+            <li><h4>Lorem, ipsum.</h4></li>
+            <li>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi mollitia sapiente aspernatur a velit maxime, illo modi
+                iure autem ipsam!
+              </p>
+            </li>
+            <li><h3>albuquerque e cia</h3></li>
+            <li><h4>Lorem.</h4></li>
+            <li><h4>Lorem, ipsum.</h4></li>
+            <li>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi mollitia sapiente aspernatur a velit maxime, illo modi
+                iure autem ipsam!
+              </p>
+            </li>
+            <li><h4>idiomas</h4></li>
+            <li><h4>inglês</h4></li>
+            <li><h4>espanhol</h4></li>
+          </ul>
+          <!-- /.rightSide -->
+        </div>
+        <!-- /.profileContainer -->
+      </section>
+      <!-- / -->
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- aOS -->
+    <script>
+    
+      //themas
+      const btnClaro = document.getElementById("lightMode");
+      const btnEscuro = document.getElementById("darkMode");
+      const body = document.body;
+
+      body.classList.add("lightMode");
+      btnClaro.style.display = "inline";
+      btnEscuro.style.display = "none";
+
+      btnClaro.addEventListener("click", () => {
+        body.classList.remove("lightMode");
+        body.classList.add("darkMode");
+        btnClaro.style.display = "none";
+        btnEscuro.style.display = "inline";
+      });
+
+      btnEscuro.addEventListener("click", () => {
+        body.classList.remove("darkMode");
+        body.classList.add("lightMode");
+        btnEscuro.style.display = "none";
+        btnClaro.style.display = "inline";
+      });
+
+      //inicializacao AOS fades
+      AOS.init({
+        duration: 2000,
+      });
+    </script>
+    <!-- myScript -->
+  </body>
+</html>
