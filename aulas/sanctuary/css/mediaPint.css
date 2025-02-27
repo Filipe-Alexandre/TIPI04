@@ -14,20 +14,56 @@
 
     #profile {
         .profileContainer {
+            width: 100%;
+            padding: 1em !important;
+
+            .changeMode {
+                display: none;
+            }
+
             .sobre {
-                width: 40%!important;
+                width: 40% !important;
+                padding: 1em !important;
+
                 img {
-                    filter: grayscale(1)!important;
+                    filter: grayscale(1) !important;
                     border: none;
+                }
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    line-height: .5em !important;
+
+                    i {
+                        &::before {
+                            content: attr(data-url) !important;
+                            font-size: var(--txt-anchor) !important;
+                            font-family: "santello";
+                        }
+                    }
                 }
             }
 
-            .exp {}
+            .exp {
+                padding: 1em !important;
+
+
+                h1 {
+                    span {
+                        display: none;
+                    }
+                }
+
+                a {
+                    display: none;
+                }
+            }
         }
     }
 
     @page {
-        margin: 1em !important;
+        margin: .1em !important;
     }
 
     /* Forçar quebra de página após cada seção */
