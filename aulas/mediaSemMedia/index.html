@@ -9,20 +9,21 @@
 </head>
 
 <body>
-
-
     <header>
         <div class="logo">
             <!-- 'and' = E | ',' = ou  -->
             <picture>
-                <source srcset="./img/senacLogoBranco.png" media="(max-width: 767px)">
-                <source srcset="./img/senacLogo.png" media="(min-width: 768px)">
-                <img src="./img/senacLogoBranco.png" alt="">
+                <source srcset="./img/senacLogoPreto.png" media="(max-width: 768px)">
+                <source srcset="./img/senacLogo.png" media="(min-width: 769px) and (max-width: 1024px)">
+                <img src="./img/senacLogoBranco.png" alt="Logo Senac"
+                    srcset="./img/senacLogoBranco.png 1920w,
+                    ./img/senacLogo.png 1024w,
+                    ./img/senacLogoPreto.png 640w">
 
 
             </picture>
 
-            Página Responsiva sem Media Queries &#X1F4F1; <!-- unicode do celular -->
+            Página Responsiva sem Media Queries &#X1F4BB; &#X1F4F1; <!-- unicode do celular -->
         </div>
     </header>
 
@@ -30,7 +31,7 @@
 
         <section class="contaent">
             <h2>Bem vindo a Minha Página</h2>
-            <p>Essapágina demonstra como criar um layout sem depender de media queries</p>
+            <p>Essa página demonstra como criar um layout sem depender de media queries</p>
         </section>
 
 
