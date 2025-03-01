@@ -2,7 +2,7 @@
 window.addEventListener("load", () => {
     let video = window.document.querySelector("#video");
 
-    // video.play();
+    video.play();
     video.loop = true;
     video.muted = true;
 
@@ -36,8 +36,6 @@ btnDark.addEventListener("click", () => {
 });
 
 //#region temas
-
-
 
 //#region AOS
 

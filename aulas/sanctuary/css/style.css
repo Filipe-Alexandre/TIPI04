@@ -662,3 +662,158 @@ nav {
 }
 
 /* #endregion profile */
+
+
+/* #region  */
+
+#thanks {
+    & .thanksContainer {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+
+
+        & ul.thanksInner {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            height: 100vh;
+
+            * {
+
+                line-height: var(--txt-super);
+            }
+
+            h1 {
+                font-size: var(--txt-super);
+
+                & span {
+                    font-size: calc(var(--txt-super) * 1.5);
+                }
+            }
+        }
+
+    }
+}
+
+/* #endregion  */
+
+
+/* #region Contact */
+
+#contact {
+    background-color: var(--clr-base);
+
+    & .contactContainer {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        & .localization {
+            width: 60%;
+            height: auto;
+            padding: 6em 8em 5em;
+            position: relative;
+
+            & h1 {
+                position: absolute;
+                top: .5em;
+            }
+
+            & iframe {
+                width: 100%;
+                height: 70vh;
+                border-radius: 1em;
+            }
+        }
+
+        & form {
+            width: 40%;
+            height: auto;
+            padding: 0 6em;
+
+
+            & ul.contactForm {
+                background-color: var(--clr-default);
+                padding: 1em 2em;
+                border-radius: 1em;
+
+                & li {
+                    width: 100%;
+                    padding: .5em;
+
+                    & i {
+                        background-color: var(--clr-accent);
+                        color: var(--clr-black);
+                        font-size: var(--txt-title);
+                        position: absolute;
+                        z-index: 5;
+                        padding: .1em;
+                        border-radius: 10px 0 0 10px;
+                    }
+
+                    & input[type="text"],
+                    [type="email"],
+                    [type="tel"],
+                    textarea {
+                        color: var(--clr-black);
+                        position: relative;
+                        padding: 1em 4em;
+                        width: 100%;
+                        outline: none;
+                        border: none;
+                        border-radius: .8em;
+                    }
+
+                    & textarea {
+                        resize: none;
+                        height: 13rem;
+                    }
+
+                    & p {}
+
+                }
+
+                & .btnFit {
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+
+    }
+    & footer {
+        & .footerContainer {
+            color: var(--clr-text);
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            & li {
+                padding: 2em;
+                margin: 0 2em;
+
+                & i {
+                    font-size: var(--txt-subtitle);
+
+                    &:hover {
+                        transform: scale(1.5);
+                        cursor: pointer;
+                        color: var(--clr-accent);
+                        text-shadow: 1px 1px 1px var(--clr-shadow);
+                    }
+                }
+
+                & p {}
+            }
+        }
+    }
+}
+
+/* #endregion Contact */
