@@ -97,8 +97,8 @@ section {
     --clr-default: #cbcbcb;
     --clr-base: #e0e0e0;
     --clr-text: #181818;
-    --clr-accent: #fabcc9;
-    --clr-accent-bg: #fabcc960;
+    --clr-accent: #2296e4;
+    --clr-accent-bg: #2296e460;
     --clr-fake-bg-menu: #ffffff90;
     --clr-shadow: #a0a0a0;
     --clr-black: #000;
@@ -391,6 +391,7 @@ nav {
         width: 100%;
         height: 100vh;
         display: flex;
+        flex-flow: row wrap;
         justify-content: space-around;
         align-items: center;
 
@@ -402,6 +403,7 @@ nav {
 
             /* toda ul que conter uma imagem tem um blur, porém você cria uma negativa em todas uls assim que tyiver um hover */
             /* basicamente ou em outras palavras: aplicamos um blur na ul, porem o not desativa esse blur no estado de hover, em quais? em tds teamCards que tem uma imagem (pois tudo isso esta dentro do .teamCard) */
+
             &:has(img) {
                 &:not(:hover) {
                     filter: blur(2px);
@@ -411,6 +413,7 @@ nav {
             &:hover {
                 /* filter: blur(0); */
                 transform: scale(1.1);
+                z-index: 1;
 
                 & img {
                     filter: saturate(1);
@@ -421,20 +424,20 @@ nav {
 
             & li {
                 padding: .5em 0;
-
+                
                 &:not(:nth-child(2)) {
                     text-align: center;
                     /* vai negar o tac para o 2° li */
                 }
-
+                
                 &:nth-child(2) {
                     width: fit-content;
                     margin: auto;
                 }
-
+                
                 & img {
-                    width: 20rem;
-                    height: 20rem;
+                    width: 18rem;
+                    height: 18rem;
                     filter: saturate(0);
 
                 }
@@ -774,9 +777,6 @@ nav {
                         resize: none;
                         height: 13rem;
                     }
-
-                    & p {}
-
                 }
 
                 & .btnFit {
@@ -809,8 +809,6 @@ nav {
                         text-shadow: 1px 1px 1px var(--clr-shadow);
                     }
                 }
-
-                & p {}
             }
         }
     }
