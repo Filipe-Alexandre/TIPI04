@@ -406,7 +406,7 @@ nav {
 
             &:has(img) {
                 &:not(:hover) {
-                    filter: blur(2px); 
+                    filter: blur(2px);
                 }
             }
 
