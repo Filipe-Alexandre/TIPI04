@@ -37,11 +37,29 @@ btnDark.addEventListener("click", () => {
 
 //#region temas
 
+//#region isotopo JQuery
+
+$(document).ready(
+    function () {
+        $(".grid").isotope({
+            itemSelector: ".item",
+        })
+    }
+);
+
+$(".filterGroup").on("click", "li", function() {
+    var filterValue = $(this).attr("data-filter");
+    $(".grid").isotope({filter: filterValue});
+    $(".filterGroup li").removeClass("active");
+    $(this).addClass("active");
+});
+
+//#endregion isotopo JQuery
+
 //#region AOS
 
 AOS.init({
     duration: 2000,
-  });
+});
 
 //#endregion AOS
-

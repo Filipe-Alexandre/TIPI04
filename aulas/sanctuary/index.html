@@ -179,10 +179,106 @@
             <!-- /#team -->
 
             <section id="products">
-                <div class="productsContainer">
+                <div class="productsContainer grid">
+                    <!-- .productsInner.item.cake>a[href="#" data-lightbox="" data-title=""]>img -->
+
+                    <div class="productsInner item cake">
+                        <a href="./img/cake1.jpg" data-lightbox="cake" data-title="cake">
+                            <img src="img/cake1Thumb.png" alt="cake">
+                        </a>
+                    </div>
+                    <!-- cake 01 -->
+                    <div class="productsInner item cake">
+                        <a href="./img/cake2.jpg" data-lightbox="cake" data-title="cake">
+                            <img src="img/cake2Thumb.png" alt="cake">
+                        </a>
+                    </div>
+                    <!-- cake 02 -->
+                    <div class="productsInner item cake">
+                        <a href="./img/cake3.jpg" data-lightbox="cake" data-title="cake">
+                            <img src="img/cake3Thumb.png" alt="cake">
+                        </a>
+                    </div>
+                    <!-- cake 03 -->
+                    <div class="productsInner item cake">
+                        <a href="./img/cake4.jpg" data-lightbox="cake" data-title="cake">
+                            <img src="img/cake4Thumb.png" alt="cake">
+                        </a>
+                    </div>
+                    <!-- cake 04 -->
+                    <!------------------------- cake ------------------------->
+                    <div class="productsInner item cupcake">
+                        <a href="./img/cupcake1.jpg" data-lightbox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake1Thumb.png" alt="cupcake">
+                        </a>
+                    </div>
+                    <!-- cupcake 01 -->
+                    <div class="productsInner item cupcake">
+                        <a href="./img/cupcake2.jpg" data-lightbox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake2Thumb.png" alt="cupcake">
+                        </a>
+                    </div>
+                    <!-- cupcake 02 -->
+                    <div class="productsInner item cupcake">
+                        <a href="./img/cupcake3.jpg" data-lightbox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake3Thumb.png" alt="cupcake">
+                        </a>
+                    </div>
+                    <!-- cupcake 03 -->
+                    <div class="productsInner item cupcake">
+                        <a href="./img/cupcake4.jpg" data-lightbox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake4Thumb.png" alt="cupcake">
+                        </a>
+                    </div>
+                    <!-- cupcake 04 -->
+                    <!------------------------- cupcake ------------------------->
+                    <div class="productsInner item candy">
+                        <a href="./img/candy1.jpg" data-lightbox="candy" data-title="candy">
+                            <img src="img/candy1Thumb.png" alt="candy">
+                        </a>
+                    </div>
+                    <!-- candy 01 -->
+                    <div class="productsInner item candy">
+                        <a href="./img/candy2.jpg" data-lightbox="candy" data-title="candy">
+                            <img src="img/candy2Thumb.png" alt="candy">
+                        </a>
+                    </div>
+                    <!-- candy 02 -->
+                    <div class="productsInner item candy">
+                        <a href="./img/candy3.jpg" data-lightbox="candy" data-title="candy">
+                            <img src="img/candy3Thumb.png" alt="candy">
+                        </a>
+                    </div>
+                    <!-- candy 03 -->
+                    <div class="productsInner item candy">
+                        <a href="./img/candy4.jpg" data-lightbox="candy" data-title="candy">
+                            <img src="img/candy4Thumb.png" alt="candy">
+                        </a>
+                    </div>
+                    <!-- candy 04 -->
+                    <!------------------------- candy ------------------------->
 
                 </div>
                 <!-- /.productsContainer -->
+
+                <!-- ul.filter.filterGroup>li.active[data-filter=""]>h4{all}^li[data-filter=".cake"]>h4{cake}^li[data-filter=".cupcake"]>h4{cupcake}^li[data-filter=".candy"]>h4{candy}|c -->
+                 <!-- data-filter="*" não funciona no emmet pq o * faz com que pare de ler dali em diante -->
+                <ul class="filter filterGroup">
+                    <li class="active" data-filter="*">
+                        <h4>all</h4>
+                    </li>
+                    <!-- /.active -->
+                    <li data-filter=".cake">
+                        <h4>cake</h4>
+                    </li>
+                    <li data-filter=".cupcake">
+                        <h4>cupcake</h4>
+                    </li>
+                    <li data-filter=".candy">
+                        <h4>candy</h4>
+                    </li>
+                </ul>
+                <!-- /.filter filterGroup -->
             </section>
             <!-- /#products -->
 
@@ -230,8 +326,8 @@
                                 </p>
                             </li>
                         </ul>
-                        <input type="hidden" name="accessKey" value="ccab1c88-c94a-40e7-b8b8-d809a731b098"/>
-                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/thanks.html"/>
+                        <input type="hidden" name="accessKey" value="ccab1c88-c94a-40e7-b8b8-d809a731b098" />
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/thanks.html" />
                     </form>
 
                 </div>
