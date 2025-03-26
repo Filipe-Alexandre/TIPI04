@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: "Bebas";
+  src: url(../font/BebasNeue-Regular.ttf);
+}
+
+
+/* #region variaveis */
+:root {
+  --font-text: "Poppins";
+  --font-accent: "Aboreto";
+
+  --txt-logo: 3rem;
+  --txt-icon: 2.5rem;
+  --txt-title: 1.8rem;
+  --txt-paragraph: 1.6rem;
+
+  --transition: all .3s ease;
+}
+
+.darkMode {
+  --clr-base: #0F282F;
+  --clr-banner-bg: #0F282F85;
+  --clr-base-2: #2A879A;
+  --clr-text: #f2f2f2;
+  --clr-fake-bg-menu: #03030390;
+  --clr-black: #030303;
+  --transparent: transparent;
+  --clr-gradient: linear-gradient(to bottom, #0E2E34, #2A879A);
+  --clr-gradient-invert: linear-gradient(to top, #0E2E34, transparent);
+}
+
+/* #endregion variaveis */
+
+/* #region global */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-text);
+  cursor: default;
+  transition: var(--transition);
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  background: var(--clr-gradient);
+  color: var(--clr-text);
+  font-size: var(--txt-paragraph);
+
+  section {
+    margin: 50px auto;
+    height: 98vh;
+
+    h2 {
+      color: var(--clr-base-2);
+      font-family: var(--font-accent);
+      font-size: var(--txt-title);
+      text-align: center;
+      margin-bottom: 20px;
+      font-weight: bolder;
+      text-shadow: 2px 2px 2px var(--clr-fake-bg-menu);
+
+      &:hover {
+        filter: brightness(1.5);
+        cursor: pointer;
+        text-shadow: 0 0 10px var(--clr-base-2);
+      }
+    }
+
+    img {
+      border-radius: 50%;
+    }
+
+  }
+
+  .btn {
+    background: var(--clr-base-2);
+    border-radius: 50px;
+    border: 1px solid var(--transparent);
+
+    &:hover {
+      border: 1px solid var(--clr-text);
+      scale: 1.1;
+      background: var(--clr-gradient);
+
+    }
+
+    &:active {
+      box-shadow: inset 0 0 10px var(--clr-fake-bg-menu);
+    }
+  }
+}
+
+/* #region scroll  */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Fundo da área da barra */
+::-webkit-scrollbar-track {
+  background: var(--clr-black);
+}
+
+/* Estilo do "thumb" (a parte móvel da barra) */
+::-webkit-scrollbar-thumb {
+  background: var(--clr-base);
+  border-radius: 4px;
+}
+
+/* Quando o usuário passa o mouse sobre a barra */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--clr-gradient);
+}
+
+
+/* #endregion scroll  */
+
+/* #endregion global */
+
+
+/* #region header */
+
+.navbar {
+  background-color: var(--clr-fake-bg-menu) !important;
+  z-index: 1;
+  position: fixed;
+  width: 100vw;
+  display: block;
+  position: fixed;
+
+  .navbar-brand,
+  .nav-link {
+    color: var(--clr-text) !important;
+    font-family: var(--font-accent);
+    text-align: center;
+  }
+
+  .navbar-brand {
+    font-size: var(--txt-icon);
+  }
+
+  .nav-link {
+    font-size: calc(var(--txt-paragraph) * .8);
+    position: relative;
+    text-decoration: none;
+    padding-bottom: 3px;
+
+    &:hover {
+      cursor: pointer;
+      font-weight: bold;
+      transform: scale(1);
+      color: var(--clr-text);
+    }
+
+    &::after {
+      content: "";
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 3px;
+      background-color: var(--clr-text);
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: var(--transition);
+    }
+
+    &:hover::after {
+      transform: scaleX(1);
+    }
+  }
+
+  .fa-bars {
+    color: var(--clr-text);
+  }
+}
+
+/* #endregion header */
+
+
+/* #region banner */
+
+#banner {
+  height: calc(100vh - 100px);
+  background: url(../img/banner/banner.jpeg) center center no-repeat;
+  margin-top: 85px;
+
+
+  .bannerTxt {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  .desfoque {
+    display: grid;
+    place-items: center;
+    background: var(--clr-banner-bg);
+    /* Fundo semi-transparente */
+    backdrop-filter: blur(3px);
+    /* Efeito de desfoque */
+    border-radius: 15px;
+    color: var(--clr-text);
+    font-size: var(--txt-logo);
+    text-align: center;
+    width: 70%;
+    height: 50%;
+  }
+}
+
+/* #endregion banner */
+
+
+/* #region sobre */
+
+#sobre {
+
+  .sobreContainer {
+    flex-direction: column;
+
+    .sobreTxt {
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      margin: auto;
+      height: 80vh;
+      background-color: var(--clr-fake-bg-menu);
+      border-radius: 15px;
+      margin-bottom: 2vh;
+      font-size: calc(var(--txt-paragraph) * .8);
+      padding: 10px;
+
+      ul {
+        width: 100%;
+        padding: 0 !important;
+
+
+        li {
+          border-bottom: 1px solid var(--clr-text);
+          margin-bottom: 2vh;
+
+          span {
+            color: var(--clr-base-2);
+          }
+        }
+      }
+    }
+
+    .sobreImg {
+      height: 15vh;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      background-color: var(--clr-fake-bg-menu);
+      border-radius: 15px;
+
+      .sobreIcon {
+        height: 20vw;
+        width: 20vw;
+        background-color: var(--clr-base-2);
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+
+        i {
+          font-size: 10vw;
+          color: var(--clr-text);
+        }
+
+        &:Hover {
+          background: var(--clr-gradient);
+          cursor: pointer;
+
+          i {
+            color: var(--clr-base);
+          }
+        }
+      }
+    }
+  }
+
+  .missaoDiv,
+  .visaoDiv,
+  .valoresDiv {
+    display: none;
+  }
+}
+
+/* #endregion sobre */
+
+
+/* #region especialidades */
+
+#especialidades {
+  .especialidadesContainer {
+    flex-direction: column;
+
+    div {
+      margin: auto;
+      display: grid;
+      place-items: center;
+      width: 100%;
+    }
+
+    .especialidadesImg {
+      img {
+        width: 80%;
+      }
+    }
+
+    .especialidadesTxt {
+
+      text-align: center;
+    }
+  }
+
+}
+
+/* #endregion especialidades */
+
+
+/* #region servicos */
+
+#servicos {
+  height: fit-content;
+
+  .servicosContainer {
+    .carousel-item {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+      img {
+        width: 50%;
+        border-radius: 50%;
+      }
+
+      .carousel-caption {
+        position: relative;
+        display: block;
+        text-align: center;
+        bottom: 0;
+        left: 0;
+      }
+
+    }
+
+    .carousel-caption {
+      h3 {
+        font-family: var(--font-accent);
+        font-size: var(--txt-title);
+      }
+
+      h4 {
+        font-size: var(--txt-paragraph);
+      }
+    }
+
+    .carousel-indicators {
+
+      /* transform: translateY(20px); */
+      .active {
+        filter: drop-shadow(0 0 5px var(--clr-base-2));
+        background-color: var(--clr-base-2);
+
+      }
+    }
+
+    .carousel-control-prev {
+      left: 00%;
+      transform: translateY(-15%);
+    }
+
+    .carousel-control-next {
+      right: 0%;
+      transform: translateY(-15%);
+    }
+
+    .carousel-caption {
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+    }
+
+    .carousel-item.active .carousel-caption {
+      opacity: 1;
+    }
+  }
+}
+
+/* #endregion servicos */
+
+
+/* #region planos */
+
+#planos {
+  height: fit-content;
+
+  .planosContainer {
+    flex-direction: column;
+
+    .planosCards {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .cards {
+        background: var(--clr-gradient);
+        width: 80%;
+        padding: 20px;
+        border-radius: 15px;
+        margin: auto;
+
+        h3 {
+          text-align: center;
+          color: var(--clr-base-2);
+          font-weight: bold;
+          text-transform: uppercase;
+          font-size: var(--txt-title);
+          font-family: var(--font-accent);
+        }
+
+        ul {
+          padding: 0 !important;
+
+          li {
+            border-bottom: 1px solid var(--clr-text);
+            font-size: calc(var(--txt-paragraph) * .9);
+            margin-bottom: 10px;
+          }
+        }
+
+
+        .fa-check {
+          color: var(--clr-base-2);
+        }
+
+        .fa-xmark {
+          color: var(--clr-base);
+        }
+      }
+    }
+  }
+}
+
+/* #endregion planos */
+
+
+/* #region contato */
+
+#contato {
+  .contatoContainer {
+    flex-direction: column;
+    margin: auto;
+
+    .formImg {
+      display: none;
+    }
+
+    form {
+      margin: auto;
+      width: 100%;
+
+      ul {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80vh;
+        padding: 0;
+        margin: auto;
+
+        input,
+        textarea {
+          background-color: var(--clr-fake-bg-menu);
+          color: var(--clr-text);
+          border: 1px solid var(--transparent);
+          border-radius: 10px;
+          padding: 5px;
+          text-indent: 1em;
+          width: 100%;
+
+
+          &:active {
+            border: 1px solid var(--clr-text);
+
+          }
+
+          &::placeholder {
+            color: var(--clr-text);
+            padding: 5px;
+            text-indent: 1em;
+
+          }
+        }
+
+        textarea {
+          resize: none;
+          overflow: hidden;
+          height: 200px;
+        }
+
+        .btnFit{
+          input {
+            background: var(--clr-base-2);
+            border-radius: 50px;
+            border: 1px solid var(--transparent);
+        
+            &:hover {
+              border: 1px solid var(--clr-text);
+              scale: 1.1;
+              background: var(--clr-gradient);
+        
+            }
+        
+            &:active {
+              box-shadow: inset 0 0 10px var(--clr-fake-bg-menu);
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
+
+/* #endregion contato */
