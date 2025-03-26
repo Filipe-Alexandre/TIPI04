@@ -57,13 +57,13 @@ lightBtn.addEventListener("click", ()=> {
 
 
 
-// window.addEventListener("scroll", function () {
-//     var navbar = document.getElementById("navbar");
+window.addEventListener("scroll", function () {
+    var navbar = document.querySelector("nav");
     
-//     if (window.scrollY > 100) { // Altere '100' para o valor desejado
-//       navbar.classList.add("scrolled");
-//     } else {
-//       navbar.classList.remove("scrolled");
-//     }
-//   });
+    if (window.scrollY > 100) { // Altere '200' para o valor desejado
+      navbar.classList.add("scrolled");
+    } else {
+      navbar.classList.remove("scrolled");
+    }
+  });
   

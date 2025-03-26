@@ -19,15 +19,17 @@
 <body class="darkMode">
 
 
-    <nav class="navbar navbar-dark navbar-expand-lg bg-body-tertiary sticky-top">
-        <div class="container-fluid w-75">
-            <a class="navbar-brand" href="#">VITRIN.O</a>
+    <nav class="navbar navbar-dark navbar-expand-xl bg-body-tertiary sticky-top">
+        <div class=" container-fluid">
+            <a class=" navbar-brand" href="#">VITRIN.O</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse bg-dark bg-menu" id="navbarTogglerDemo02">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-topo">
+
                     <li class="nav-item active">
                         <a class="nav-link" href="#sobre">Sobre Nós</a>
                     </li>
@@ -48,6 +50,7 @@
         </div>
 
     </nav>
+
 
     <main>
         <section id="banner">
@@ -250,46 +253,39 @@
 
                 <h2 class="text-center my-5">entre em contato</h2>
 
-                <div class="form d-flex justify-content-center">
+
+                <div class="form d-flex justify-content-between">
+
                     <div class="formImg">
                         <h2>Fale com um especialista</h2>
-                        <img src="img/contato/imagemContato.webp" alt="">
+                        <img src="img/contato/contato2.jpeg" alt="">
                     </div>
                     <form action="https://api.staticforms.xyz/submit" method="post">
                         <ul class="contactForm">
-                            <li>
+
+                            <li class="contactLi">
                                 <i class="bx bxs-user-check"></i>
-                                <input required type="text" placeholder="Nome:" name="name">
+                                <input required type="text" placeholder=" Nome:" name="name">
+
+                                <i class="bx bxs-phone-call"></i>
+                                <input required type="tel" placeholder=" Telefone:" name="phone" onkeypress="$(this).mask('(00)00000-0000')">
+
                             </li>
+
                             <li>
                                 <i class="bx bxs-envelope"></i>
-                                <input type="email" placeholder="E-mail:" name="email">
+                                <input type="email" placeholder=" E-mail:" name="email">
                             </li>
                             <li>
-                                <i class="bx bxs-phone-call"></i>
-                                <input required type="tel" placeholder="Telefone:" name="phone"
-                                    onkeypress="$(this).mask('(00)00000-0000')">
-                            </li>
-                            <li>
-                                <i class="bx bxs-chat"></i>
-                                <input required type="text" placeholder="Assunto:" name="subject">
-                            </li>
-                            <li>
-                                <textarea name="" id="" placeholder=""></textarea>
+                                <textarea name="" id="" placeholder="  Conte-nos o que  precisa"></textarea>
                             </li>
                             <li class="btnFit">
                                 <input type="submit" value="Enviar" class="btnDefault">
-                                <input type="reset" value="Limpar" class="btnDefault">
-                            </li>
-                            <li>
-                                <p>
-                                    <input type="checkbox">
-                                    Eu declaro que os dados enviados são verdaeiros.
-                                </p>
                             </li>
                         </ul>
                         <input type="hidden" name="accessKey" value="ccab1c88-c94a-40e7-b8b8-d809a731b098" />
                         <input type="hidden" name="redirectTo" value="http://thanks.html" />
+
                     </form>
                 </div>
 
