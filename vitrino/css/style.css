@@ -148,7 +148,7 @@ body {
 
 .navbar {
   background-color: var(--clr-fake-bg-menu) !important;
-  z-index: 1;
+  z-index: 100;
   position: fixed;
   width: 100vw;
   display: block;
