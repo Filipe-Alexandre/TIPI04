@@ -6,7 +6,6 @@
   src: url(../font/BebasNeue-Regular.ttf);
 }
 
-
 /* #region variaveis */
 :root {
   --font-text: "Poppins";
@@ -33,6 +32,7 @@
 }
 
 /* #endregion variaveis */
+
 
 /* #region global */
 
@@ -127,6 +127,8 @@ body {
 
 /* #endregion global */
 
+
+/* #region Mobile */
 
 /* #region header */
 
@@ -537,4 +539,518 @@ body {
   }
 }
 
+<<<<<<< Updated upstream
 /* #endregion contato */
+=======
+/* #endregion contato */
+
+
+/* #region botões */
+
+.back {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: var(--clr-base-2);
+  display: grid;
+  place-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--clr-button);
+    scale: 1.1;
+    box-shadow: 4px 4px 8px var(--clr-fake-bg-menu);
+  }
+
+  &:active {
+    box-shadow: inset 4px 4px 8px var(--clr-fake-bg-menu);
+    scale: 1;
+  }
+
+  i {
+    font-size: var(--txt-title);
+    cursor: pointer;
+
+  }
+
+}
+
+
+.modes {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  .darkBtn,
+  .lightBtn {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    border: none;
+
+    &:hover {
+      scale: 1.1;
+      box-shadow: 4px 4px 8px var(--clr-fake-bg-menu);
+
+    }
+
+    &:active {
+      box-shadow: inset 4px 4px 8px var(--clr-fake-bg-menu);
+      scale: 1;
+    }
+
+    .fa-lightbulb {
+      color: var(--clr-text);
+      display: grid;
+      place-items: center;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      background: var(--clr-base-2);
+      cursor: pointer;
+      font-size: var(--txt-title);
+      cursor: pointer;
+
+      &:hover {
+        background: var(--clr-button);
+      }
+
+    }
+
+  }
+}
+
+/* #endregion botões */
+
+
+/* #region footer */
+
+footer {
+  background-color: var(--clr-black);
+  P {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3%;
+
+    span {
+      color: var(--clr-base-2);
+      font-weight: bold;
+    }
+  }
+
+  .footerContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    color: var(--clr-text);
+
+    a {
+      text-decoration: none;
+      color: var(--clr-base-2);
+    }
+
+    div:nth-child(1) {
+
+      h2 {
+        a {
+          font-family: var(--font-accent);
+          font-size: var(--txt-logo);
+          font-weight: bolder;
+        }
+      }
+
+      span {
+        font-family: var(--font-text);
+        font-weight: 600;
+
+        &:hover {
+          color: var(--clr-base-2);
+        }
+      }
+    }
+
+    div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      h2 {
+        font-family: var(--font-accent);
+        font-size: var(--txt-icon);
+      }
+    }
+  }
+}
+
+/* #endregion footer */
+
+/* #endregion Mobile */
+
+
+/* #region mediaTablet */
+
+@media (min-width: 768px) {
+
+  /* #region sobreTablet */
+
+  #sobre {
+
+    .sobreContainer {
+      flex-direction: column;
+
+      .sobreTxt {
+        height: 70vh;
+      }
+
+      .sobreImg {
+        height: 25vh;
+
+      }
+    }
+
+    .sobreDiv {
+      display: flex;
+    }
+
+    .missaoDiv,
+    .visaoDiv,
+    .valoresDiv {
+      display: none;
+    }
+  }
+
+  /* #endregion sobreTablet */
+
+
+  /* #region contatoTablet  */
+
+  #contato {
+    height: fit-content;
+
+
+    .contatoContainer {
+      flex-direction: column;
+      margin: auto;
+
+      h2 {
+        color: var(--clr-base) !important;
+      }
+
+      .formulario {
+        background-color: var(--clr-base-2);
+        border-radius: 15px;
+        padding: 3vw;
+        width: 80%;
+        margin: auto;
+      }
+
+      .formImg {
+        width: 100%;
+        display: block;
+        margin: auto;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: var(--clr-fake-bg-menu);
+
+
+        img {
+          width: 100%;
+          border-radius: 5px;
+        }
+      }
+
+      form {
+        width: 100%;
+        height: fit-content;
+
+        ul {
+          height: fit-content;
+          width: 100%;
+          padding: 3vw 0 0 0;
+          gap: 1vh;
+        }
+
+      }
+    }
+  }
+
+  /* #endregion contatoTablet  */
+
+}
+
+/* #endregion mediaTablet */
+
+
+/* #region mediaDesktop */
+
+@media (min-width: 1024px) {
+
+  /* #region sobreDesktop */
+  #sobre {
+
+    .sobreContainer {
+      flex-direction: row;
+      align-items: center;
+      height: 90vh;
+
+      .sobreTxt {
+        width: 49%;
+        text-align: left;
+        padding: 30px !important;
+        background-color: var(--transparent);
+        font-size: (var(--txt-title));
+
+        h2 {
+          text-align: left;
+          font-size: var(--txt-logo);
+        }
+
+        ul {
+          width: 100%;
+          padding: 0 !important;
+
+
+          li {
+            border-bottom: 1px solid var(--clr-text);
+            margin-bottom: 2vh;
+            font-size: 2vw;
+
+            span {
+              color: var(--clr-base-2);
+              font-weight: bold;
+              display: block;
+            }
+          }
+        }
+      }
+
+      .sobreImg {
+        height: 60vh;
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(2, 50%);
+        grid-template-areas:
+          "sobre missão"
+          "visão valores";
+        place-items: center;
+        background-color: var(--transparent);
+
+
+        .sobreIcon {
+          height: 16.5vw;
+          width: 16.5vw;
+          background-color: var(--clr-base-2);
+          display: grid;
+          place-items: center;
+          border-radius: 50%;
+
+          i {
+            font-size: 10vw;
+            color: var(--clr-text);
+          }
+
+          &:Hover {
+            background: var(--clr-gradient);
+            cursor: pointer;
+
+            i {
+              color: var(--clr-base);
+            }
+          }
+        }
+      }
+    }
+
+    .sobreDiv {
+      display: flex;
+    }
+
+    .missaoDiv,
+    .visaoDiv,
+    .valoresDiv {
+      display: none;
+    }
+  }
+
+  /* #endregion sobreDesktop */
+
+  /* #region especialidadesDesktop */
+
+
+  #especialidades {
+    height: fit-content;
+
+    .especialidadesContainer {
+      display: grid !important;
+      grid-template-columns: repeat(2, 50%);
+      grid-template-rows: 100px 1fr;
+      grid-template-areas:
+        "title title"
+        "espImg espTxt";
+      place-items: center;
+
+      h2 {
+        grid-area: title;
+        font-size: var(--txt-logo);
+      }
+
+      div {
+        margin: auto;
+        display: grid;
+        place-items: center;
+        width: 100%;
+      }
+
+      .especialidadesImg {
+        grid-area: espImg;
+        width: 100%;
+      }
+
+      .especialidadesTxt {
+        grid-area: espTxt;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: flex-end;
+        align-items: flex-start;
+      }
+    }
+
+  }
+
+  /* #endregion especialidadesDesktop */
+
+
+  /* #region planosDesktop */
+
+  #planos {
+    height: fit-content;
+
+    .planosContainer {
+      flex-direction: column;
+
+      .planosCards {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+
+  /* #endregion planosDesktop */
+
+
+  /* #region contatoDesktop */
+
+  #contato {
+    height: fit-content;
+
+    .contatoContainer {
+      flex-direction: column;
+      margin: auto;
+
+      h2 {
+        color: var(--clr-base) !important;
+      }
+
+      .formulario {
+        width: 100% !important;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5%;
+      }
+
+      .formImg {
+        width: 90%;
+      }
+
+      form {
+        width: 90%;
+      }
+    }
+  }
+
+  /* #endregion contatoDesktop */
+
+  /* #region footerDesktop */
+
+  footer {
+    margin: 0;
+
+    P {
+      width: fit-content;
+      margin: 0 auto;
+
+      span {
+        color: var(--clr-base-2);
+        font-weight: bold;
+      }
+    }
+
+    .footerContainer {
+      width: 100%;
+      flex-direction: row;
+      align-items: flex-start;
+
+      div:nth-child(1) {
+
+        h2 {
+
+          a {
+            font-family: var(--font-accent);
+            font-size: var(--txt-logo);
+            font-weight: bolder;
+
+            &:hover {
+              color: var(--clr-text);
+              scale: 1.1;
+            }
+          }
+        }
+
+        span {
+          font-family: var(--font-text);
+          font-weight: lighter;
+
+          &:hover {
+
+            color: var(--clr-base-2);
+          }
+        }
+      }
+
+      div {
+        width: 25%;
+
+        h2 {
+          font-size: calc(var(--txt-icon) * .8);
+          height: 75px;
+          display: flex;
+          align-items: center;
+        }
+      }
+
+
+    }
+  }
+
+  /* #endregion footerDesktop */
+}
+
+/* #endregion mediaDesktop */
+>>>>>>> Stashed changes
