@@ -30,6 +30,22 @@
   --transparent: transparent;
   --clr-gradient: linear-gradient(to bottom, #0E2E34, #2A879A);
   --clr-gradient-invert: linear-gradient(to top, #0E2E34, transparent);
+  --clr-background: linear-gradient(to bottom, #0E2E34, #2A879A);
+
+}
+
+.lightMode {
+  --clr-base: #eeeeee;
+  --clr-banner-bg: #FD7E1455;
+  --clr-base-2: #FD7E14;
+  --clr-text: #030303;
+  --clr-fake-bg-menu: #f2f2f290;
+  --clr-black: #f2f2f2;
+  --clr-transparent: transparent;
+  --clr-gradient: linear-gradient(to bottom, #FD7E14, #f3aa6e);
+
+  --clr-background: #eeeeee;
+
 }
 
 /* #endregion variaveis */
@@ -52,7 +68,7 @@ html {
 }
 
 body {
-  background: var(--clr-gradient);
+  background: var(--clr-background);
   color: var(--clr-text);
   font-size: var(--txt-paragraph);
 
@@ -178,6 +194,8 @@ body {
     &:hover::after {
       transform: scaleX(1);
     }
+
+
   }
 
   .fa-bars {
@@ -359,6 +377,7 @@ body {
         text-align: center;
         bottom: 0;
         left: 0;
+        color: var(--clr-text) !important;
       }
 
     }
@@ -647,6 +666,7 @@ body {
 
 footer {
   background-color: var(--clr-black);
+
   P {
     text-align: center;
     margin: 0 auto;
@@ -801,6 +821,13 @@ footer {
 
 
 @media (min-width: 1024px) {
+  #banner {
+    .desfoque {
+      font-size: calc(var(--txt-logo) * 1.5)!important;
+
+    }
+  }
+
 
   /* #region sobreDesktop */
   #sobre {
@@ -819,7 +846,8 @@ footer {
 
         h2 {
           text-align: left;
-          font-size: var(--txt-logo);
+          font-size: calc(var(--txt-logo) * 1);
+
         }
 
         ul {
@@ -830,9 +858,11 @@ footer {
           li {
             border-bottom: 1px solid var(--clr-text);
             margin-bottom: 2vh;
-            font-size: 2vw;
+            font-size: 1.8vw;
 
             span {
+              font-size: calc(var(--txt-logo) * .7);
+
               color: var(--clr-base-2);
               font-weight: bold;
               display: block;
@@ -855,15 +885,16 @@ footer {
 
 
         .sobreIcon {
-          height: 16.5vw;
-          width: 16.5vw;
+          height: 12.5vw;
+          width: 12.5vw;
+
           background-color: var(--clr-base-2);
           display: grid;
           place-items: center;
           border-radius: 50%;
 
           i {
-            font-size: 10vw;
+            font-size: clamp(5rem, 2.5vw, 8rem);
             color: var(--clr-text);
           }
 
