@@ -994,6 +994,7 @@ footer {
   /* #region footerDesktop */
 
   footer {
+    height: fit-content;
     margin: 0;
 
     P {
