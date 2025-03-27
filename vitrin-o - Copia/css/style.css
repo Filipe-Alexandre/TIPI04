@@ -6,6 +6,7 @@
   src: url(../font/BebasNeue-Regular.ttf);
 }
 
+
 /* #region variaveis */
 :root {
   --font-text: "Poppins";
@@ -32,7 +33,6 @@
 }
 
 /* #endregion variaveis */
-
 
 /* #region global */
 
@@ -128,8 +128,6 @@ body {
 /* #endregion global */
 
 
-/* #region Mobile */
-
 /* #region header */
 
 .navbar {
@@ -201,7 +199,7 @@ body {
   .bannerTxt {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     display: grid;
     place-items: center;
   }
@@ -215,9 +213,9 @@ body {
     /* Efeito de desfoque */
     border-radius: 15px;
     color: var(--clr-text);
-    font-size: var(--txt-logo);
+    font-size: 100%;
     text-align: center;
-    width: 70%;
+    width: 90%;
     height: 50%;
   }
 }
@@ -293,6 +291,10 @@ body {
         }
       }
     }
+  }
+
+  .sobreDiv {
+    display: flex;
   }
 
   .missaoDiv,
@@ -468,6 +470,12 @@ body {
     flex-direction: column;
     margin: auto;
 
+    h2 {
+      color: var(--clr-base) !important;
+    }
+
+
+
     .formImg {
       display: none;
     }
@@ -475,6 +483,8 @@ body {
     form {
       margin: auto;
       width: 100%;
+
+
 
       ul {
         width: 80%;
@@ -484,6 +494,9 @@ body {
         height: 80vh;
         padding: 0;
         margin: auto;
+        background-color: var(--clr-base-2);
+        padding: 3vw;
+        border-radius: 15px;
 
         input,
         textarea {
@@ -492,7 +505,7 @@ body {
           border: 1px solid var(--transparent);
           border-radius: 10px;
           padding: 5px;
-          text-indent: 1em;
+          text-indent: .5rem;
           width: 100%;
 
 
@@ -503,8 +516,8 @@ body {
 
           &::placeholder {
             color: var(--clr-text);
-            padding: 5px;
-            text-indent: 1em;
+            padding: 5px auto;
+            text-indent: .5rem;
 
           }
         }
@@ -515,19 +528,19 @@ body {
           height: 200px;
         }
 
-        .btnFit{
+        .btnFit {
           input {
-            background: var(--clr-base-2);
+            background: var(--clr-base);
             border-radius: 50px;
             border: 1px solid var(--transparent);
-        
+
             &:hover {
               border: 1px solid var(--clr-text);
-              scale: 1.1;
+              scale: 1.05;
               background: var(--clr-gradient);
-        
+
             }
-        
+
             &:active {
               box-shadow: inset 0 0 10px var(--clr-fake-bg-menu);
             }
@@ -694,10 +707,7 @@ footer {
 
 /* #endregion footer */
 
-/* #endregion Mobile */
 
-
-/* #region mediaTablet */
 
 @media (min-width: 768px) {
 
@@ -788,10 +798,7 @@ footer {
 
 }
 
-/* #endregion mediaTablet */
 
-
-/* #region mediaDesktop */
 
 @media (min-width: 1024px) {
 
@@ -1048,5 +1055,3 @@ footer {
 
   /* #endregion footerDesktop */
 }
-
-/* #endregion mediaDesktop */
