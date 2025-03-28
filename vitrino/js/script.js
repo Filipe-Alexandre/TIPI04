@@ -54,27 +54,3 @@ lightBtn.addEventListener("click", ()=> {
     body.classList.add("lightMode");
 
 })
-
-
-
-window.addEventListener("scroll", function () {
-    var navbar = document.querySelector("nav");
-    
-    if (window.scrollY > 100) { // Altere '200' para o valor desejado
-      navbar.classList.add("scrolled");
-    } else {
-      navbar.classList.remove("scrolled");
-    }
-  });
-  
-  document.querySelector('.nav-link').addEventListener('click', function(e) {
-    e.preventDefault(); // Impede o comportamento padrão do link
-  
-    const target = document.querySelector(this.getAttribute('href'));
-    
-    // Faz a rolagem com o deslocamento de 100px
-    window.scrollTo({
-      top: target.offsetTop + 0, // Desce 100px a mais
-      behavior: 'smooth' // Rolagem suave
-    });
-  });
