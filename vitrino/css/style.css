@@ -74,7 +74,7 @@ body {
 
   section {
     margin: 50px auto;
-    height: 98vh;
+    height: fit-content;
 
     h2 {
       color: var(--clr-base-2);
