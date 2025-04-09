@@ -31,7 +31,6 @@
   --clr-gradient: linear-gradient(to bottom, #0E2E34, #2A879A);
   --clr-gradient-invert: linear-gradient(to top, #0E2E34, transparent);
   --clr-background: linear-gradient(to bottom, #0E2E34, #2A879A);
-
 }
 
 .lightMode {
@@ -43,9 +42,23 @@
   --clr-black: #f2f2f2;
   --clr-transparent: transparent;
   --clr-gradient: linear-gradient(to bottom, #FD7E14, #f3aa6e);
-
   --clr-background: #eeeeee;
+}
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  cursor: pointer;
+}
+
+.lightMode .carousel-control-next-icon,
+.lightMode .carousel-control-prev-icon {
+  filter: invert(100%);
+  cursor: pointer;
+}
+
+
+.darkBtn {
+  display: none;
 }
 
 /* #endregion variaveis */
@@ -95,7 +108,6 @@ body {
     img {
       border-radius: 50%;
     }
-
   }
 
   .btn {
@@ -163,6 +175,7 @@ body {
 
   .navbar-brand {
     font-size: var(--txt-icon);
+    cursor: pointer;
   }
 
   .nav-link {
@@ -393,24 +406,28 @@ body {
       }
     }
 
-    .carousel-indicators {
+    .carousel-indicators [data-bs-target] {
 
-      /* transform: translateY(20px); */
-      .active {
-        filter: drop-shadow(0 0 5px var(--clr-base-2));
-        background-color: var(--clr-base-2);
+      background-color: var(--clr-text);
+    }
 
-      }
+    .carousel-indicators [data-bs-target].active {
+
+      background-color: var(--clr-base-2);
+      filter: drop-shadow(0 0 10px var(--clr-base-2));
+
     }
 
     .carousel-control-prev {
       left: 00%;
       transform: translateY(-15%);
+      cursor: default;
     }
 
     .carousel-control-next {
       right: 0%;
       transform: translateY(-15%);
+      cursor: default;
     }
 
     .carousel-caption {
@@ -449,11 +466,13 @@ body {
 
         h3 {
           text-align: center;
-          color: var(--clr-base-2);
+          color: var(--clr-base);
           font-weight: bold;
           text-transform: uppercase;
           font-size: var(--txt-title);
           font-family: var(--font-accent);
+          filter: brightness(4);
+
         }
 
         ul {
@@ -589,7 +608,7 @@ body {
   cursor: pointer;
 
   &:hover {
-    background: var(--clr-button);
+    background: var(--clr-gradient);
     scale: 1.1;
     box-shadow: 4px 4px 8px var(--clr-fake-bg-menu);
   }
@@ -651,11 +670,15 @@ body {
       cursor: pointer;
 
       &:hover {
-        background: var(--clr-button);
+        background: var(--clr-gradient);
       }
 
     }
 
+  }
+
+  .darkBtn {
+    display: none;
   }
 }
 
@@ -690,6 +713,7 @@ footer {
     a {
       text-decoration: none;
       color: var(--clr-base-2);
+      cursor: pointer;
     }
 
     div:nth-child(1) {
@@ -823,7 +847,7 @@ footer {
 @media (min-width: 1024px) {
   #banner {
     .desfoque {
-      font-size: calc(var(--txt-logo) * 1.5)!important;
+      font-size: calc(var(--txt-logo) * 1.5) !important;
 
     }
   }
@@ -858,7 +882,7 @@ footer {
           li {
             border-bottom: 1px solid var(--clr-text);
             margin-bottom: 2vh;
-            font-size: 1.8vw;
+            font-size: var(--txt-paragraph);
 
             span {
               font-size: calc(var(--txt-logo) * .7);
