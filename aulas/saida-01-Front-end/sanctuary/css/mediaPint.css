@@ -1,0 +1,73 @@
+/*Reset*/
+@media print {
+
+    * {
+        margin: 0 !important;
+        padding: 0 !important;
+        color: #000 !important;
+        background-color: #fff !important;
+        filter: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        font-family: 'santello' !important;
+    }
+
+    #profile {
+        .profileContainer {
+            width: 100%;
+            padding: 1em !important;
+
+            .changeMode {
+                display: none;
+            }
+
+            .sobre {
+                width: 40% !important;
+                padding: 1em !important;
+
+                img {
+                    filter: grayscale(1) !important;
+                    border: none;
+                }
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    line-height: .5em !important;
+
+                    i {
+                        &::before {
+                            content: attr(data-url) !important;
+                            font-size: var(--txt-anchor) !important;
+                            font-family: "santello";
+                        }
+                    }
+                }
+            }
+
+            .exp {
+                padding: 1em !important;
+
+
+                h1 {
+                    span {
+                        display: none;
+                    }
+                }
+
+                a {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @page {
+        margin: .1em !important;
+    }
+
+    /* Forçar quebra de página após cada seção */
+    section {
+        page-break-after: always !important;
+    }
+}

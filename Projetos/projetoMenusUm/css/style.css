@@ -1,0 +1,430 @@
+/* 
+* tudo que for externo: aspas simples
+* tudo que for externo: aspas duplas
+* h1>span: vai modificar todo h1 que tiver um filho DIRETO 
+* :nth-child(n) significa algum numero, pode ser 1, 2, 3.... ou 2n para números pares e 2n+1 para numeros impares
+* combiadores que usamos em css: 'espaço', ':', '::', '>', '+'. São coisas que vão conectar os elementos em css
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --cor-1: #DECBA4;
+    --cor-2: #D9B68E;
+    --cor-3: #A67B5B;
+    --cor-4: #855E42;
+    --cor-5: #5e391f;
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../font/Poppins-Light.otf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    background-color: var(--cor-1);
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    color: var(--cor-4);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--cor-5);
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h1>span {
+    color: var(--cor-5);
+    border-bottom: 3px solid currentColor;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    margin: 50px 0 20px 0;
+    font-weight: bold;
+    transition: .5s ease;
+
+}
+
+h1>span:hover {
+    cursor: pointer;
+    background-color: var(--cor-5);
+    color: var(--cor-1);
+    border-bottom: 3px solid var(--cor-3);
+}
+
+h1>span::after {
+    content: " - exemplos:";
+    font-size: .75em;
+    color: var(--cor-3);
+}
+
+h3>span {
+    color: var(--cor-5);
+    margin: 40px auto 10px auto;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+h3 {
+    margin: 40px auto 10px auto;
+}
+
+.h3-lista {
+    margin: 0;
+}
+
+p,
+li,
+dl,
+dt,
+dd {
+    cursor: default;
+
+}
+
+p.css-externo {
+    font-size: 1.5em;
+    color: var(--cor-4);
+}
+
+ol li::marker {
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:first-child {
+    color: var(--cor-5);
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+ul li:last-child {
+    color: var(--cor-5);
+    letter-spacing: 1em;
+}
+
+ul li:nth-child(3) {
+    text-decoration: underline;
+    color: var(--cor-5);
+}
+
+ul li:nth-child(2n+1) {
+    background-color: var(--cor-2);
+}
+
+
+table {
+    background-color: var(--cor-2);
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    cursor: default;
+}
+
+table thead tr th {
+    background-color: var(--cor-2);
+    border-bottom: 3px solid var(--cor-5);
+    color: var(--cor-5);
+    padding: 10px 10px 7px;
+    font-size: .95em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+td {
+    background-color: var(--cor-1);
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+}
+
+a {
+    color: var(--cor-4);
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    transition: .5s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+
+a.btn {
+    background-color: var(--cor-5);
+    color: var(--cor-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 100px;
+    margin-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 5px;
+    transition: .5s ease;
+}
+
+a.btn:hover {
+    background-color: var(--cor-2);
+    color: var(--cor-5);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+img {
+    border: 5px solid var(--cor-3);
+    width: 75%;
+    display: block;
+    transition: .5s ease;
+    margin: 30px auto;
+    filter: grayscale(1);
+}
+
+.container img:hover {
+    filter: grayscale(0);
+    scale: 1.05;
+    cursor: crosshair;
+}
+
+.paralax h3>span {
+    color: white;
+    font-size: 1.5em;
+    text-shadow: 10px 10px 8px rgba(0, 0, 0, 0.8);
+}
+
+.paralax p {
+    width: 300px;
+    height: 300px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.paralax {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/nasus.jpg) no-repeat center;
+    background-size: contain;
+    background-attachment: fixed;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+input,
+textarea {
+    height: 50px;
+    width: 50%;
+    border-radius: 999px;
+    border: 2px solid var(--cor-5);
+    outline: none;
+    display: block;
+    text-indent: 1em;
+    font-size: 1.5em;
+    color: var(--cor-5);
+    margin: 10px 0;
+}
+
+textarea {
+    width: 50%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--cor-3);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    padding: 5px;
+}
+
+button {
+    background-color: var(--cor-4);
+    transition: .5s;
+    height: 50px;
+    width: 25%;
+    border: 2px solid var(--cor-5);
+    color: var(--cor-1);
+    border-radius: 999px;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    scale: 1.05;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* tags semanticas */
+
+.tags-semanticas p>span {
+    background-color: var(--cor-5);
+    color: var(--cor-1);
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 10px 10px 0 0;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.tags-semanticas p>span::after {
+    content: " ⭢";
+    font-size: .9em;
+}
+
+.tags-semanticas p {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.tags-semanticas p::before {
+    content: "";
+    width: 100%;
+    text-decoration: underline;
+}
+
+/* combinadores descendentes */
+/* " " pega todos os filho */
+div.c-desc p {
+    background-color: blue;
+    color: var(--cor-1);
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+/* ">" pega o filho direto */
+div.c-desc>p {
+    background-color: green;
+    color: var(--cor-1);
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+/* "+" pega o filho imediato */
+div.c-desc h3+p {
+    background-color: red;
+    color: var(--cor-1);
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+/* "~" pega todos os filhos da div atual (excluindo filhos de uma div interna) */
+
+div.c-desc~p {
+    background-color: black;
+    color: var(--cor-1);
+    border-radius: 10px;
+    margin: 5px 0;
+    padding: 5px;
+}
+
+.elemento-hover {
+    width: 100%;
+    height: 150px;
+    background-color: var(--cor-2);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#myId {
+    background-color: var(--cor-5);
+    color: var(--cor-1);
+    height: 250px;
+    width: 250px;
+    display: grid;
+    margin: auto;
+    place-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+input[type=button] {
+    text-indent: 0em;
+    transition: .8s ease;
+    margin: 10px auto;
+}
+
+input[type=button]:hover {
+    cursor: pointer;
+    transform: translate(-4px, -4px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+input[type=button]:active {
+    cursor: pointer;
+    transform: translate(4px, 4px);
+    box-shadow: inset -4px -4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.clock {
+    background-color: var(--cor-3);
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-1);
+    font-size: 5em;
+    font-weight: bolder;
+    letter-spacing: .1em;
+    text-align: center;
+    gap: 20px;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hours,
+.minutes,
+.seconds {
+    background-color: var(--cor-4);
+    text-align: center;
+    border-radius: 20px;
+    text-shadow: 2px 2px 2px black;
+    height: 150px;
+    width: 150px;
+    display: grid;
+    place-items: center;
+    box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+}

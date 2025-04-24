@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Tipos de Medidsas</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Tipos de medidas no CSS</h1>
+        <h4>As unidades de medidas no css definem tamanhos relativos e absolutos para os elementos contidos na página
+        </h4>
+
+        <div class="box px">
+            <strong>px</strong> - Largura fixa: 300px. Pixels são uma unidade fixa, independente do pai
+        </div>
+
+        <div class="box em">
+            <strong>em</strong> - Baseado no tamanho da fonte do elemento pai.
+            <br>
+            <u>(30 x 16 = 480px)</u>
+            <br>
+            &bull; Se o tamanho não fo definido a base será 16px
+        </div>
+
+        <div class="box rem">
+            <strong>rem</strong> - Baseado no tamanho da fonte do root <u>(html)</u>
+            <br>
+            &bull; Se o tamanho da fonte não for definida a base será 1rem = 16px
+
+        </div>
+
+        <div class="box porcentagem">
+            <strong>%</strong> - Relativo ao elemento pai <u>(50%)</u>.
+            <br>
+            &bull; Se o pai tiver <em>200px</em> o elemento terá <em>100px</em>
+        </div>
+
+        <div class="box vw">
+            <strong>vw</strong> - Relativo a largura da tela <me>view width</me> <u>(50vw)</u>.
+            <br>
+            &bull; 50vw = 50% da largura da tela
+        </div>
+
+        <div class="box vh">
+            <strong>vh</strong> - Relativo a altura da tela <me>view height</me> <u>(50vh)</u>.
+            <br>
+            &bull; 50vh = 50% da altura da tela
+        </div>
+    </div>
+
+</body>
+
+</html>

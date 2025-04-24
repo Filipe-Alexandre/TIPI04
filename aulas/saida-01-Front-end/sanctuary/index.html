@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- myCss -->
+
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon" />
+    <!-- favIcon -->
+
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    <!-- boxIcon -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <!-- fontAwesome -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- AOS -->
+
+    <link rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css" />
+    <!-- lightBox -->
+
+    <title>Sanctuary</title>
+</head>
+
+<body>
+    <!-- nav>.navBar>(ul.logo#logo>li>a>img)+(ul.navLink>li*4>a>i+span)+(ul.underSide>li>a>img+span)|c -->
+
+    <nav>
+        <div class="navBar">
+            <ul class="logo" id="logo">
+                <li>
+                    <a href="#home">
+                        <img src="img/logo.webp" alt="logo" />
+                    </a>
+                </li>
+            </ul>
+            <!-- /#logo.logo -->
+            <ul class="navLink">
+                <li>
+                    <a href="#home">
+                        <i class='bx bxs-home'></i>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#team">
+                        <i class="bx bx-male-female"></i>
+                        <span>Team</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#products">
+                        <i class="bx bxs-briefcase-alt-2"></i>
+                        <span>Products</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <i class="bx bxs-contact"></i>
+                        <span>Contact</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- /.navLink -->
+            <ul class="underSide">
+                <li>
+                    <a href="profile.html" target="_blank">
+                        <img src="img/hex.jpg" alt="profile" />
+                        <span>profile</span>
+                    </a>
+                </li>
+            </ul>
+            <!-- /.underSide -->
+        </div>
+        <!-- /.navBar -->
+    </nav>
+
+    <!-- main>.container>(section#home>.homeContainer)+(section#team>.teamContainer)+(section#products>.productsContainer)+(section#contact>.contactContainer)|c -->
+    <main>
+        <div class="container">
+
+            <section id="home">
+                <div class="homeContainer">
+                    <!-- .changeMode>button#*2>i|c -->
+                    <div class="changeMode">
+                        <button id="lightMode">
+                            <i class="fa-solid fa-sun"></i>
+                        </button>
+                        <button id="darkMode">
+                            <i class="fa-solid fa-moon"></i>
+                        </button>
+                    </div>
+                    <!-- /.changeMode -->
+                    <!-- #+. cria um id e uma classe junto // container é o primeiro nivel e inner o segundo-->
+                    <!-- video#+.homeInner>(h1>span^h2>span^p+a.btnDefault)|c -->
+                    <video src="video/candy.mp4" id="video" muted></video>
+                    <!-- / -->
+                    <div class="homeInner">
+                        <h1>Strange <span>Sanctuary</span> Candies</h1>
+                        <h2>come and <span>fill yourself</span> with strange candies</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quod at aspernatur est minus
+                            eligendi velit iure perspiciatis perferendis odit.</p>
+                        <a href="#contact" class="btnDefault">Contact Us</a>
+                        <!-- /.btnDefault -->
+                    </div>
+                    <!-- /.homeInner -->
+                </div>
+                <!-- /.homeContainer -->
+            </section>
+            <!-- /#home -->
+
+            <section id="team">
+                <div class="teamContainer">
+                    <!-- ul.teamCard*4>li>img^li>p{nome}^li>i*5|c -->
+                    <ul class="teamCard">
+                        <li>
+                            <img src="img/card1.webp" alt="team">
+                        </li>
+                        <li>
+                            <p>Johnny</p>
+                        </li>
+                        <li>
+
+                            <!-- [.bx.bxl]=[class = "bx bxl"] . e . vai criar duas classes para um elemento -->
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-instagram"></i>
+                            <i class="bx bxl-tiktok"></i>
+                            <i class="bx bxl-linkedin-square"></i>
+                        </li>
+                    </ul>
+                    <ul class="teamCard">
+                        <li>
+                            <img src="img/card2.webp" alt="team">
+                        </li>
+                        <li>
+                            <p>Mary</p>
+                        </li>
+                        <li>
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-instagram"></i>
+                            <i class="bx bxl-tiktok"></i>
+                            <i class="bx bxl-linkedin-square"></i>
+                        </li>
+                    </ul>
+                    <ul class="teamCard">
+                        <li>
+                            <img src="img/card3.webp" alt="team">
+                        <li>
+                            <p>Dukey</p>
+                        </li>
+                        <li>
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-instagram"></i>
+                            <i class="bx bxl-tiktok"></i>
+                            <i class="bx bxl-linkedin-square"></i>
+                        </li>
+                    </ul>
+                    <ul class="teamCard">
+                        <li>
+                            <img src="img/card4.webp" alt="team">
+
+                        <li>
+                            <p>Susan</p>
+                        </li>
+                        <li>
+                            <i class="bx bxl-facebook-circle"></i>
+                            <i class="bx bxl-instagram"></i>
+                            <i class="bx bxl-tiktok"></i>
+                            <i class="bx bxl-linkedin-square"></i>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.teamContainer -->
+            </section>
+            <!-- /#team -->
+
+            <section id="products">
+                <div class="productsContainer grid">
+                    <!-- .productsInner.item.cake>a[href="#" data-lightbox="" data-title=""]>img -->
+
+                    <div class="productsInner item cake">
+                        <a href="./img/cake1.jpg" data-lightbox="cake" data-title="cake">
+                            <img src="img/cake1Thumb.png" alt="cake">
+                        </a>
+                    </div>
+                    <!-- cake 01 -->
+                    <div class="productsInner item cake">
+                        <a href="./img/cake2.jpg" data-lightbox="cake" data-title="cake">
+                            <img src="img/cake2Thumb.png" alt="cake">
+                        </a>
+                    </div>
+                    <!-- cake 02 -->
+                    <div class="productsInner item cake">
+                        <a href="./img/cake3.jpg" data-lightbox="cake" data-title="cake">
+                            <img src="img/cake3Thumb.png" alt="cake">
+                        </a>
+                    </div>
+                    <!-- cake 03 -->
+                    <div class="productsInner item cake">
+                        <a href="./img/cake4.jpg" data-lightbox="cake" data-title="cake">
+                            <img src="img/cake4Thumb.png" alt="cake">
+                        </a>
+                    </div>
+                    <!-- cake 04 -->
+                    <!------------------------- cake ------------------------->
+                    <div class="productsInner item cupcake">
+                        <a href="./img/cupcake1.jpg" data-lightbox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake1Thumb.png" alt="cupcake">
+                        </a>
+                    </div>
+                    <!-- cupcake 01 -->
+                    <div class="productsInner item cupcake">
+                        <a href="./img/cupcake2.jpg" data-lightbox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake2Thumb.png" alt="cupcake">
+                        </a>
+                    </div>
+                    <!-- cupcake 02 -->
+                    <div class="productsInner item cupcake">
+                        <a href="./img/cupcake3.jpg" data-lightbox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake3Thumb.png" alt="cupcake">
+                        </a>
+                    </div>
+                    <!-- cupcake 03 -->
+                    <div class="productsInner item cupcake">
+                        <a href="./img/cupcake4.jpg" data-lightbox="cupcake" data-title="cupcake">
+                            <img src="img/cupcake4Thumb.png" alt="cupcake">
+                        </a>
+                    </div>
+                    <!-- cupcake 04 -->
+                    <!------------------------- cupcake ------------------------->
+                    <div class="productsInner item candy">
+                        <a href="./img/candy1.jpg" data-lightbox="candy" data-title="candy">
+                            <img src="img/candy1Thumb.png" alt="candy">
+                        </a>
+                    </div>
+                    <!-- candy 01 -->
+                    <div class="productsInner item candy">
+                        <a href="./img/candy2.jpg" data-lightbox="candy" data-title="candy">
+                            <img src="img/candy2Thumb.png" alt="candy">
+                        </a>
+                    </div>
+                    <!-- candy 02 -->
+                    <div class="productsInner item candy">
+                        <a href="./img/candy3.jpg" data-lightbox="candy" data-title="candy">
+                            <img src="img/candy3Thumb.png" alt="candy">
+                        </a>
+                    </div>
+                    <!-- candy 03 -->
+                    <div class="productsInner item candy">
+                        <a href="./img/candy4.jpg" data-lightbox="candy" data-title="candy">
+                            <img src="img/candy4Thumb.png" alt="candy">
+                        </a>
+                    </div>
+                    <!-- candy 04 -->
+                    <!------------------------- candy ------------------------->
+
+                </div>
+                <!-- /.productsContainer -->
+
+                <!-- ul.filter.filterGroup>li.active[data-filter=""]>h4{all}^li[data-filter=".cake"]>h4{cake}^li[data-filter=".cupcake"]>h4{cupcake}^li[data-filter=".candy"]>h4{candy}|c -->
+                <!-- data-filter="*" não funciona no emmet pq o * faz com que pare de ler dali em diante -->
+                <ul class="filter filterGroup">
+                    <li class="active" data-filter="*">
+                        <h4>all</h4>
+                    </li>
+                    <!-- /.active -->
+                    <li data-filter=".cake">
+                        <h4>cake</h4>
+                    </li>
+                    <li data-filter=".cupcake">
+                        <h4>cupcake</h4>
+                    </li>
+                    <li data-filter=".candy">
+                        <h4>candy</h4>
+                    </li>
+                </ul>
+                <!-- /.filter filterGroup -->
+            </section>
+            <!-- /#products -->
+
+            <section id="contact">
+                <div class="contactContainer">
+                    <!-- .localization>h1>span^iframe[id="mapa"]^form>ul.contactForm>li*5>i+input[placeholder=""]^li>textarea[placeholder=""]^li.btnFit>input:submit.btnDefault[value="send"]+input:reset.btnDefault[value="clear"]^li>p>input:checkbox|c -->
+                    <div class="localization">
+                        <h1>Contact <span>Us</span></h1>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.9952157247008!2d-47.01026292396554!3d-23.09727097912149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf32a1fdae3fe3%3A0x3d6c9909abd347ea!2sHopi%20Hari!5e0!3m2!1spt-BR!2sbr!4v1740784071940!5m2!1spt-BR!2sbr"
+                            id="mapa" frameborder="0">
+                        </iframe>
+                    </div>
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <ul class="contactForm">
+                            <li>
+                                <i class="bx bxs-user-check"></i>
+                                <input required type="text" placeholder="Nome:" name="name">
+                            </li>
+                            <li>
+                                <i class="bx bxs-envelope"></i>
+                                <input type="email" placeholder="E-mail:" name="email">
+                            </li>
+                            <li>
+                                <i class="bx bxs-phone-call"></i>
+                                <input required type="tel" placeholder="Telefone:" name="phone"
+                                    onkeypress="$(this).mask('(00)00000-0000')">
+                            </li>
+                            <li>
+                                <i class="bx bxs-chat"></i>
+                                <input required type="text" placeholder="Assunto:" name="subject">
+                            </li>
+                            <li>
+                                <textarea name="" id="" placeholder=""></textarea>
+                            </li>
+                            <li class="btnFit">
+                                <input type="submit" value="Enviar" class="btnDefault">
+                                <input type="reset" value="Limpar" class="btnDefault">
+                            </li>
+                            <li>
+                                <p>
+                                    <input type="checkbox">
+                                    I declare taht the abpve data is real and I want to recieve notificatioons and crap
+                                    by email, sms, mail.
+                                </p>
+                            </li>
+                        </ul>
+                        <input type="hidden" name="accessKey" value="ccab1c88-c94a-40e7-b8b8-d809a731b098" />
+                        <input type="hidden" name="redirectTo" value="http://thanks.html" />
+                    </form>
+
+                </div>
+                <!-- /.contactContainer -->
+                <!-- footer>ul.footerContainer>li>h1{Sanctuary }>span{Strange}{ Candies}^^li*4>i^li>p{&copy; Copyright &bull; All Rights Reserved 2025 sanctuary}|c -->
+                <footer>
+                    <ul class="footerContainer">
+                        <li>
+                            <h1>Sanctuary <span>Strange</span> Candies</h1>
+                        </li>
+                        <li><i class="bx bxl-facebook-circle"></i></li>
+                        <li><i class="bx bxl-instagram"></i></li>
+                        <li><i class="bx bxl-tiktok"></i></li>
+                        <li><i class="bx bxl-linkedin-square"></i></li>
+                        <li>
+                            <p>&copy; Copyright &bull; All Rights Reserved 2025 sanctuary</p>
+                        </li>
+                    </ul>
+                    <!-- /.footerContainer -->
+                </footer>
+            </section>
+            <!-- /#contact -->
+
+        </div>
+        <!-- /.container -->
+    </main>
+
+
+
+    <!------------------------------------ CDNs ------------------------------------>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- jQuery -->
+
+    <script src="https:/cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <!-- jQueryMask -->
+
+    <script src="https:/cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+    <!-- isotope -->
+
+    <script src="https:/cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+    <!-- lightBox -->
+     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- AOS -->
+
+    <script src="js/script.js"></script>
+    <!-- myScript -->
+</body>
+
+</html>

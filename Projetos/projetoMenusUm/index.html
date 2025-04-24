@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .css-interno-h3 {
+            color: #5e391f;
+            margin: 40px auto 10px;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        .css-interno-p {
+            font-size: 40px;
+            text-transform: uppercase;
+            color: #855E42;
+        }
+    </style>
+    <title>MenusUm</title>
+</head>
+<!-- 
+        COMENTÁRIOS:
+        h1>span{titulo} = vai criar tudo montado
+        shift+alt = click de cursor em sequencia em todas as linhas
+        h1+h2+h3 = vai cirar todos juntos em sequencia
+
+        ./ pesquisar no diretorio raiz
+        ../ voltar um pasta
+        ../../ voltar duas pastas
+
+        para mudar a fonte do vscode precisamos baixar a fonte, ativar o font ligature mudar no .json e depois ATUALIZAR o vscode
+        -->
+
+<body>
+    <div class="container">
+        <!-- Títulos -->
+
+        <h1 id="home"><span>Títulos</span></h1>
+        <h1>Display</h1>
+        <h2>Display</h2>
+        <h3 class="h3-lista">Display</h3>
+        <h4>Display</h4>
+        <h5>Display</h5>
+        <h6>Display</h6>
+
+        <!-- Parágrafo -->
+        <h1><span>Parágrafo</span></h1>
+        <h3><span>Parágrafo estilizado via CSS externo</span></h3>
+        <p class="css-externo">
+            Paletas de cores desempenham um papel crucial no design, influenciando emoções, percepções e decisões.
+            Escolher tons adequados pode transmitir identidade, destacar informações e criar harmonia visual. Tons
+            terrosos, por exemplo, evocam naturalidade e aconchego, enquanto cores vibrantes transmitem energia. Uma boa
+            paleta equilibra estética, funcionalidade e impacto psicológico no público.
+        </p>
+
+        <h3 class="css-interno-h3">Parágrafo estilizado via CSS interno</h3>
+        <p class="css-interno-p">
+            Paletas de cores desempenham um papel crucial no design, influenciando emoções, percepções e decisões.
+            Escolher tons adequados pode transmitir identidade, destacar informações e criar harmonia visual. Tons
+            terrosos, por exemplo, evocam naturalidade e aconchego, enquanto cores vibrantes transmitem energia. Uma boa
+            paleta equilibra estética, funcionalidade e impacto psicológico no público.
+        </p>
+
+        <h3 style="background: #A67B5B; color: white; padding: 10px 50px 10px 50px; cursor: pointer; font-size: 1.5em;">
+            Parágrafo estilizado via CSS em
+            linha</h3>
+        <p style="background: #A67B5B; color: white; padding: 50px;">
+            Paletas de cores desempenham um papel crucial no design, influenciando emoções, percepções e decisões.
+            Escolher tons adequados pode transmitir identidade, destacar informações e criar harmonia visual. Tons
+            terrosos, por exemplo, evocam naturalidade e aconchego, enquanto cores vibrantes transmitem energia. Uma boa
+            paleta equilibra estética, funcionalidade e impacto psicológico no público.
+        </p>
+
+        <h1><span>Listas</span></h1>
+        <h3><span>Lista Ordenada</span></h3>
+        <ol>
+            <li>Item de Lista 1</li>
+            <li>Item de Lista 2</li>
+            <li>Item de Lista 3</li>
+            <li>Item de Lista 4</li>
+            <li>Item de Lista 5</li>
+        </ol>
+
+        <h3><span>Lista Desordenada</span></h3>
+        <ul>
+            <li>Item de Lista 1</li>
+            <li>Item de Lista 2</li>
+            <li>Item de Lista 3</li>
+            <li>Item de Lista 4</li>
+            <li>Item de Lista 5</li>
+        </ul>
+        <h3><span>Lista de Descrição</span></h3>
+        <dl>
+            <dt>Item de Lista</dt>
+            <dd>Descrição do item de lista</dd>
+        </dl>
+        <dl>
+            <dt>Item de Lista</dt>
+            <dd>Descrição do item de lista</dd>
+        </dl>
+        <dl>
+            <dt>Item de Lista</dt>
+            <dd>Descrição do item de lista</dd>
+        </dl>
+
+        <!-- tabelas -->
+        <h1><span>Tabelas</span></h1>
+        <!-- table>thead>tr>th*5{cabeçalho$}^^tbody>tr*10>td*5{coluna$} -->
+        <table>
+            <thead>
+                <tr>
+                    <th>cabeçalho1</th>
+                    <th>cabeçalho2</th>
+                    <th>cabeçalho3</th>
+                    <th>cabeçalho4</th>
+                    <th>cabeçalho5</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>coluna1</td>
+                    <td>coluna2</td>
+                    <td>coluna3</td>
+                    <td>coluna4</td>
+                    <td>coluna5</td>
+                </tr>
+                <tr>
+                    <td>coluna1</td>
+                    <td>coluna2</td>
+                    <td>coluna3</td>
+                    <td>coluna4</td>
+                    <td>coluna5</td>
+                </tr>
+                <tr>
+                    <td>coluna1</td>
+                    <td>coluna2</td>
+                    <td>coluna3</td>
+                    <td>coluna4</td>
+                    <td>coluna5</td>
+                </tr>
+                <tr>
+                    <td>coluna1</td>
+                    <td>coluna2</td>
+                    <td>coluna3</td>
+                    <td>coluna4</td>
+                    <td>coluna5</td>
+                </tr>
+                <tr>
+                    <td>coluna1</td>
+                    <td>coluna2</td>
+                    <td>coluna3</td>
+                    <td>coluna4</td>
+                    <td>coluna5</td>
+                </tr>
+                <tr>
+                    <td>coluna1</td>
+                    <td>coluna2</td>
+                    <td>coluna3</td>
+                    <td>coluna4</td>
+                    <td>coluna5</td>
+                </tr>
+                <tr>
+                    <td>coluna1</td>
+                    <td>coluna2</td>
+                    <td>coluna3</td>
+                    <td>coluna4</td>
+                    <td>coluna5</td>
+                </tr>
+                <tr>
+                    <td>coluna1</td>
+                    <td>coluna2</td>
+                    <td>coluna3</td>
+                    <td>coluna4</td>
+                    <td>coluna5</td>
+                </tr>
+                <tr>
+                    <td>coluna1</td>
+                    <td>coluna2</td>
+                    <td>coluna3</td>
+                    <td>coluna4</td>
+                    <td>coluna5</td>
+                </tr>
+                <tr>
+                    <td>coluna1</td>
+                    <td>coluna2</td>
+                    <td>coluna3</td>
+                    <td>coluna4</td>
+                    <td>coluna5</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- links -->
+        <h1><span>Links</span></h1>
+
+        <!-- Externo -->
+        <h3><span>Link Externo</span></h3>
+        <a href="https://www.google.com.br" target="_blank" title="Ir para o Google">Link 01 - Google</a>
+        <a href="pagina02.html" title="Vamos para uma página vazia" target="_blank">Link para Página 02</a>
+
+        <!-- Interno -->
+        <h3><span>Link Interno</span></h3>
+        <a href="#home" title="Vamos para uma página vazia" target="_self">Link para Voltar ao Topo</a>
+
+        <!-- Imagens -->
+        <h1><span>Imagem</span></h1>
+
+        <!-- Interno -->
+        <h3><span>Imagem Local</span></h3>
+        <img src="img/flopa.jpg" alt="Lince-persa">
+
+        <!-- Externo -->
+        <h3><span>Imagem Online</span></h3>
+        <img src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2022/01/onca-pintada.jpg" alt="Onça Pintada">
+
+        <img src="https://www.theenvironmentalblog.org/wp-content/uploads/2024/10/Maine-Coon-Cats-size.jpg"
+            alt="Maine Coon">
+
+        <h1><span>Paralax</span></h1>
+        <div class="paralax">
+            <h3><span>Nasus</span></h3>
+            <p>
+                Nasus, o Curador das Areias, é uma figura imponente de Shurima, guardião da sabedoria ancestral. Com seu
+                cajado divino, manipula o tempo e devasta inimigos com força crescente. Nasus simboliza paciência,
+                estratégia e poder inabalável, sendo uma lenda viva que preserva o equilíbrio entre o passado glorioso e
+                o futuro incerto.
+            </p>
+        </div>
+
+        <h1><span>Formulário</span></h1>
+        <form onsubmit="return ConfirmarEnvio()">
+            <h3><span>Inputs</span></h3>
+            <input type="text" name="Nome" id="Nome" placeholder="Nome">
+
+            <textarea name="texto" id="texto" placeholder="Escreva sua mensagem"></textarea>
+
+
+            <button type="submit"> Enviar</button>
+        </form>
+
+        <div class="tags-semanticas">
+            <h1><span>Tags Semânticas</span></h1>
+            <header>
+                <p><span>Header</span>Bloco de Cabeçalho</p>
+            </header>
+            <nav>
+                <p><span>Menu</span>Bloco de Menu de Navegação</p>
+            </nav>
+            <aside>
+                <p><span>Aside</span>Bloco de menu lateral/ citação</p>
+            </aside>
+            <main>
+                <p><span>Main</span>Conteúdo principal do site</p>
+            </main>
+            <section>
+                <p><span>Section</span>Bloco de seção</p>
+            </section>
+            <div>
+                <p><span>Div</span>Bloco de divisão</p>
+            </div>
+            <article>
+                <p><span>Article</span>Bloco de Artigos</p>
+            </article>
+            <footer>
+                <p><span>Footer</span>Rodapé do site/ sitemap</p>
+            </footer>
+        </div>
+
+        <!-- COMBINADORES -->
+        <h1><span>Combinadores</span></h1>
+        <div class="c-desc">
+            <h3>Harmonia natural, aconchego vibrante, tons terrosos transformam espaços com elegância sustentável única.
+            </h3>
+            <p>Harmonia natural, aconchego vibrante, tons terrosos transformam espaços com elegância sustentável única.
+            </p>
+            <p>Harmonia natural, aconchego vibrante, tons terrosos transformam espaços com elegância sustentável única.
+            <section>
+                <p>Harmonia natural, aconchego vibrante, tons terrosos transformam espaços com elegância sustentável
+                    única.</p>
+            </section>
+        </div>
+
+        <h1><span>Ações com Javascript</span></h1>
+        <div class="elemento-hover">
+            <h1 class="text-hover" id="text-hover">Texto</h1>
+
+            <p>Harmonia natural, aconchego vibrante, tons terrosos transformam espaços com elegância sustentável única.
+            </p>
+        </div>
+        <div id="myId">
+            <p>Harmonia natural, aconchego vibrante, tons terrosos transformam espaços com elegância sustentável única.
+            </p>
+        </div>
+
+        <input type="button" value="Expandir" id="my-btn">
+
+        <input type="button" value="Recolher" id="my-btn-rst">
+
+        <img src="img/nasus.jpg" alt="Nasus" id="my-img">
+
+        <input type="button" value="Torcar Imagem" id="my-btn-img">
+
+        <h1><span>Relogio</span></h1>
+        <div class="clock">
+            <span class="hours">00</span>
+            <span class="minutes">00</span>
+            <span class="seconds">00</span>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

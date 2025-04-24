@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Media Queries</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <!-- header>nav>a*3[href="#"]{link01}^^main>(sect#cards>.cardsContainer>.card*3>img[src="https://placehold.co/150x150" alt="card01"])+(sect#gallery>.galleryContainer>img*3[src="https://placehold.co/400x250" alt="image01"])^^footer>p{Desenvolvido por}>span{Filipe}|c -->
+    <header>
+        <div class="headerContainer">
+            <img src="https://placehold.co/100x100" alt="logo">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#cards">Cards</a>
+                <a href="#gallery">Galeria</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="cards">
+            <div class="cardsContainer">
+                <div class="card">
+                    <img src="https://placehold.co/150x150" alt="card01">
+                    <h2>Card 01</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, veritatis.</p>
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img src="https://placehold.co/150x150" alt="card02">
+                    <h2>Card 01</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, veritatis.</p>
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img src="https://placehold.co/150x150" alt="card03">
+                    <h2>Card 01</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam, veritatis.</p>
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.cardsContainer -->
+        </section>
+        <!-- /#cards -->
+        <section id="gallery">
+            <div class="galleryContainer">
+                <img src="https://placehold.co/400x250" alt="image01">
+                <img src="https://placehold.co/400x250" alt="image02">
+                <img src="https://placehold.co/400x250" alt="image03">
+            </div>
+            <!-- /.galleryContainer -->
+        </section>
+        <!-- /#gallery -->
+    </main>
+    <footer>
+        <p>Desenvolvido por <span>Filipe</span></p>
+    </footer>
+    
+</body>
+</html>

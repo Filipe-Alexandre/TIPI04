@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="shortcut icon" href="./IMG/logoFavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CINAC</title>
+</head>
+
+<body>
+
+    <header>
+        <a href="./index.html"><img src="./IMG/logoCinac.png" alt="Cinac"></a>
+    </header>
+
+    <div id="banner">
+        <div class="bannerFilmes">
+            <p>Filmes em Cartaz</p>
+        </div>
+        <div class="bannerInfo">
+            <h3 class="bannerTitle"></h3>
+            <p class="bannerTxt"></p>
+            <div class="bannerCLass"></div>
+        </div>
+        <div class="bannerCards">
+            <ul>
+                <li class="unidade">
+                    <a href="https://www.sp.senac.br/centro-universitario-senac-santo-amaro" target="_blank">
+                        <h3>Centro Universitário Senac Santo Amaro</h3>
+                        <p>Av. Engenheiro Eusébio Stevaux, 823 Santo Amaro, São Paulo - SP, 12475-020</p>
+                    </a>
+                </li>
+
+                <li class="unidade">
+                    <a href="https://www.sp.senac.br/senac-jabaquara" target="_blank">
+                        <h3>Senac Jabaquara</h3>
+                        <p>Av. do Café, 298 Jabaquara, São Paulo - SP, 04311-000</p>
+                    </a>
+                </li>
+
+                <li class="unidade">
+                    <a href="https://www.sp.senac.br/senac-aclimacao" target="_blank">
+                        <h3>Senac Aclimação</h3>
+                        <p>Rua Pires da Mota, 838 Aclimação, São Paulo - SP, 01529-000 </p>
+                    </a>
+                </li>
+
+                <li class="unidade">
+                    <a href="https://www.sp.senac.br/senac-sao-miguel-paulista" target="_blank">
+                        <h3>Senac São Miguel Paulista</h3>
+                        <p>Av. Marechal Tito, 1500 São Miguel Paulista, São Paulo - SP, 08010-090</p>
+                    </a>
+                </li>
+
+                <li class="unidade">
+                    <a href="https://www.sp.senac.br/senac-largo-treze" target="_blank">
+                        <h3>Senac Largo Treze</h3>
+                        <p>Rua Dr. Antônio Bento, 393 Santo Amaro, São Paulo - SP, 04750-000</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="catalogo">
+        <div class="catalogoContainer">
+            <ul class="catalogoMenu">
+                <li>
+                    <h2>EM CARTAZ</h2>
+                </li>
+            </ul>
+
+            <ul class="catalogoFilmes">
+
+                <li class="catalogoCards">
+                    <div class="cardFilme aindaEstouAqui openModal" data-modal="modalAinda">
+                        <p>Ainda Estou Aqui</p>
+                    </div>
+                    <div class="cardInfo">
+                        <h3>Ainda Estou Aqui</h3>
+                        <h4>Drama &bull; 135m</h4>
+                        <img src="IMG/classificacao/classificacao14.jpg" alt="Classificação indicativa 14"
+                            class="classificacao">
+                    </div>
+                </li>
+
+                <div id="modalAinda" class="modal">
+                    <div class="modalContent">
+                        <div class="modalImg">
+                            <p>Ainda Estou Aqui</p>
+                        </div>
+                        <div class="modalTxt">
+                            <h2>Ainda Estou Aqui</h2>
+                            <p>Uma mulher casada com um ex-político durante a ditadura militar no Brasil é obrigada a se
+                                reinventar e a traçar um novo destino para si e os filhos depois que a vida de sua
+                                família é impactada por um ato violento e arbitrário.</p>
+                        </div>
+                        <span class="closeModal">&times;</span>
+                    </div>
+                </div>
+
+
+                <li class="catalogoCards">
+                    <div class="cardFilme chicoBento openModal" data-modal="modalChico">
+                        <p>Chico Bento</p>
+
+                    </div>
+                    <div class="cardInfo">
+                        <h3>Chico Bento e a Goiabeira Maraviosa</h3>
+                        <h4>Aventura &bull; 100m</h4>
+                        <img src="IMG/classificacao/classificacaoAl.jpg" alt="Classificação indicativa Livre"
+                            class="classificacao">
+                    </div>
+                </li>
+
+                <div id="modalChico" class="modal">
+                    <div class="modalContent">
+                        <div class="modalImg">
+                            <p>Chico Bento e a Goiabeira Maraviosa</p>
+                        </div>
+                        <div class="modalTxt">
+                            <h2>Chico Bento e a Goiabeira Maraviosa</h2>
+                            <p>Chico Bento e sua turma precisam se unir para salvar a goiabeira de Nhô Lau quando ela é
+                                colocada em risco pelo arrogante coronel Dotô Agripino</p>
+                        </div>
+                        <span class="closeModal">&times;</span>
+                    </div>
+                </div>
+
+                <li class="catalogoCards">
+                    <div class="cardFilme moana openModal" data-modal="modalMoana">
+                        <p>Moana 2</p>
+
+                    </div>
+                    <div class="cardInfo">
+                        <h3>Moana 2</h3>
+                        <h4>Animação &bull; 100m</h4>
+                        <img src="IMG/classificacao/classificacaoAl.jpg" alt="Classificação indicativa Livre"
+                            class="classificacao">
+                    </div>
+                </li>
+
+                <div id="modalMoana" class="modal">
+                    <div class="modalContent">
+                        <div class="modalImg">
+                            <p>Moana 2</p>
+                        </div>
+                        <div class="modalTxt">
+                            <h2>Moana 2</h2>
+                            <p>Após receber um chamado de seus ancestrais, Moana parte em uma jornada nos mares
+                                distantes da Oceania, desbravando águas perigosas, rumo a uma aventura diferente de
+                                todas as que já viveu.</p>
+                        </div>
+                        <span class="closeModal">&times;</span>
+                    </div>
+                </div>
+
+                <li class="catalogoCards">
+                    <div class="cardFilme mufasa openModal" data-modal="modalMufasa">
+                        <p>Mufasa</p>
+
+                    </div>
+
+                    <div class="cardInfo">
+                        <h3>Mufasa</h3>
+                        <h4>Aventura &bull; 120m</h4>
+                        <img src="IMG/classificacao/classificacao10.jpg" alt="Classificação indicativa 10"
+                            class="classificacao">
+                    </div>
+                </li>
+
+                <div id="modalMufasa" class="modal">
+                    <div class="modalContent">
+                        <div class="modalImg">
+                            <p>Mufasa</p>
+                        </div>
+                        <div class="modalTxt">
+                            <h2>Mufasa</h2>
+                            <p>Mufasa, um filhote perdido e sozinho, conhece um simpático leãozinho chamado Taka, o
+                                herdeiro de uma linhagem real. O encontro casual dá início a uma jornada transformadora
+                                de um grupo de desajustados em busca de seus destinos.</p>
+                        </div>
+                        <span class="closeModal">&times;</span>
+                    </div>
+                </div>
+
+                <li class="catalogoCards">
+                    <div class="cardFilme oAltoDaCompadecida openModal" data-modal="modalAlto">
+                        <p>O Auto da Compadecida 2</p>
+
+                    </div>
+                    <div class="cardInfo">
+                        <h3>O Auto da Compadecida 2</h3>
+                        <h4>Comédia &bull; 115m</h4>
+                        <img src="IMG/classificacao/classificacao12.jpg" alt="Classificação indicativa 12"
+                            class="classificacao">
+                    </div>
+                </li>
+
+                <div id="modalAlto" class="modal">
+                    <div class="modalContent">
+                        <div class="modalImg">
+                            <p>O Auto da Compadecida 2</p>
+                        </div>
+                        <div class="modalTxt">
+                            <h2>O Auto da Compadecida 2</h2>
+                            <p>Depois de 20 anos desaparecido, João Grilo retorna à Taperoá para se juntar ao velho
+                                companheiro Chicó e, após sua história de ressurreição ter se espalhado, é disputado
+                                como cabo eleitoral pelos dois políticos mais poderosos da cidade.</p>
+                        </div>
+                        <span class="closeModal">&times;</span>
+                    </div>
+                </div>
+
+            </ul>
+        </div>
+    </div>
+
+    <div id="containerBBs">
+
+        <h2 class="title"><span>BOMBONIERE</span></h2>
+        <div class="grid">
+
+            <div class="box"><img src="./IMG/Bomboniere/1.png" alt="img1"></div>
+            <div class="box"><img src="./IMG/Bomboniere/12.jpg" alt="img2"></div>
+            <div class="box"><img src="./IMG/Bomboniere/13.jpg" alt="img3"></div>
+            <div class="box"><img src="./IMG/Bomboniere/15.jpg" alt="img4"></div>
+            <div class="box"><img src="./IMG/Bomboniere/16.jpg" alt="img5"></div>
+            <div class="box"><img src="./IMG/Bomboniere/2.png" alt="img6"></div>
+
+        </div>
+    </div>
+
+    <div id="EmBreve">
+        <div class="h1"><span>EM BREVE</span></div>
+        <div class="filmes">
+            <div class="filme">
+                <img src="./IMG/breve/breveDeuPreguica.webp" alt="deuPreguica" data-modal="modalPreguica"
+                    class="openModal">
+                <div class="info">
+                    <h2>Deu Preguiça</h2>
+                    <p class="genero">Animação &bull; 126m</p>
+                    <img src="IMG/classificacao/classificacaoAl.jpg" alt="Livre para todos os públicos">
+                </div>
+            </div>
+
+            <div id="modalPreguica" class="modal">
+                <div class="modalContent">
+                    <div class="modalImg">
+                        <p>Deu Preguiça</p>
+                    </div>
+                    <div class="modalTxt">
+                        <h2>Deu Preguiça</h2>
+                        <p>Após uma tempestade destruir seu lar, uma família de preguiças liderada por Gabriella é
+                            forçada a se mudar para a agitada cidade grande, levando consigo seu food truck e um antigo
+                            livro de receitas. Deixando para trás a vida tranquila e guiados pela energia da jovem
+                            Laura, eles embarcam nessa aventura com uma missão: mostrar que, nesta família, o prato
+                            principal é a diversão! Mas quando a ambiciosa empresária Dotti coloca os olhos nas
+                            preciosas receitas da família, eles terão que se unir para proteger suas tradições e tudo
+                            aquilo que acreditam. Classificação indicativa Livre. Contém violência fantasiosa.</p>
+                    </div>
+                    <span class="closeModal">&times;</span>
+                </div>
+            </div>
+
+            <div class="filme">
+                <img src="./IMG/breve/breveOBrutalista.webp" alt="oBrutalista" data-modal="modalBrutal"
+                    class="openModal">
+                <div class="info">
+                    <h2>O Brutalista</h2>
+                    <p class="genero">Drama &bull; 215m</p>
+                    <img src="IMG/classificacao/classificacao18.jpg" alt="Para maiores de 18 anos">
+                </div>
+            </div>
+
+            <div id="modalBrutal" class="modal">
+                <div class="modalContent">
+                    <div class="modalImg">
+                        <p>O Brutalista</p>
+                    </div>
+                    <div class="modalTxt">
+                        <h2>O Brutalista</h2>
+                        <p>O Brutalista é um drama intenso sobre um arquiteto visionário enfrentando desafios políticos
+                            e pessoais. Com estética brutalista marcante, a narrativa explora sacrifício, ambição e
+                            identidade. Estrelado por Joel Edgerton e Marion Cotillard, o filme mistura arte, história e
+                            emoções profundas, revelando os impactos do poder e da criação.</p>
+                    </div>
+                    <span class="closeModal">&times;</span>
+                </div>
+            </div>
+
+            <div class="filme">
+                <img src="./IMG/breve/breveOMacaco.webp" alt="oMacaco" data-modal="modalMacaco" class="openModal">
+                <div class="info">
+                    <h2>O Macaco</h2>
+                    <p class="genero">Terror &bull; 171m</p>
+                    <img src="IMG/classificacao/classificacao18.jpg" alt="Para maiores de 18 anos">
+                </div>
+            </div>
+
+            <div id="modalMacaco" class="modal">
+                <div class="modalContent">
+                    <div class="modalImg">
+                        <p>O Macaco</p>
+                    </div>
+                    <div class="modalTxt">
+                        <h2>O Macaco</h2>
+                        <p>Na trama, os gêmeos Bill e Hal (Theo James) encontram no sótão um velho macaco de brinquedo
+                            de seu pai e começa uma série de mortes terríveis. Os irmãos decidem jogar o brinquedo fora
+                            e seguir em frente com suas vidas, distanciando-se com o passar dos anos. Classificação
+                            indicativa Verificar.</p>
+                    </div>
+                    <span class="closeModal">&times;</span>
+                </div>
+            </div>
+
+            <div class="filme">
+                <img src="./IMG/breve/breveSingSing.webp" alt="singSing" data-modal="modalSing" class="openModal">
+                <div class="info">
+                    <h2>Sing Sing</h2>
+                    <p class="genero">Drama &bull; 228m</p>
+                    <img src="IMG/classificacao/classificacao14.jpg" alt="Para maiores de 14 anos">
+
+                </div>
+            </div>
+            <div id="modalSing" class="modal">
+                <div class="modalContent">
+                    <div class="modalImg">
+                        <p>Sing Sing</p>
+                    </div>
+                    <div class="modalTxt">
+                        <h2>Sing Sing</h2>
+                        <p>Baseado em uma história real, 'Sing Sing' apresenta um grupo de presidiários que superam
+                            limites e transformam suas vidas através do teatro, demonstrando o poder da arte na
+                            reabilitação. Classificação indicativa 14 Anos. Contém drogas, linguagem imprópria, temas
+                            sensíveis.</p>
+                    </div>
+                    <span class="closeModal">&times;</span>
+                </div>
+            </div>
+
+            <div class="filme">
+                <img src="./IMG/breve/breveTheMoon.webp" alt="theMoon" data-modal="modalMoon" class="openModal">
+                <div class="info">
+                    <h2>The Moon</h2>
+                    <p class="genero">Ficcção &bull; 130m</p>
+                    <img src="IMG/classificacao/classificacao14.jpg" alt="Para maiores de 14 anos">
+
+                </div>
+            </div>
+            <div id="modalMoon" class="modal">
+                <div class="modalContent">
+                    <div class="modalImg">
+                        <p>Moon</p>
+                    </div>
+                    <div class="modalTxt">
+                        <h2>Moon</h2>
+                        <p>Na trama, os gêmeos Bill e Hal (Theo James) encontram no sótão um velho macaco de brinquedo
+                            de seu pai e começa uma série de mortes terríveis. Os irmãos decidem jogar o brinquedo fora
+                            e seguir em frente com suas vidas, distanciando-se com o passar dos anos. Classificação
+                            indicativa Verificar.</p>
+                    </div>
+                    <span class="closeModal">&times;</span>
+                </div>
+            </div>
+
+            <!-- <div class="filme">
+                <img src="./IMG/breve/breveUltimoAlvo.webp" alt="ultimoAlvo">
+                <div class="info">
+                    <h2>ULTIMO ALVO </h2>
+                    <p class="genero">AÇÃO - 110m</p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+            <ul id="footerContainer">
+                <li>
+                    <a href="index.html"> <img class="logoFooter" src="./IMG/logoCinac.png" alt="logo"></a>
+                </li>
+                <li>
+                    <h3><span>TOP FILMES DA SEMANA</span></h3>
+                    <p><a href="#catalogo">Ainda Estou Aqui</a></p>
+                    <p><a href="#catalogo">Chico Bento e a Goiabeira Maraviosa</a></p>
+                    <p><a href="#catalogo">Moana 2</a></p>
+                    <p><a href="#catalogo">Mufasa</a></p>
+                    <p><a href="#catalogo">O Auto da Compadecida 2</a></p>
+                </li>
+                <li>
+                    <h3><span>PROGRAMAÇÃO</span></h3>
+                    <p><a href="#EmBreve">Deu Preguiça - Em Breve</a></p>
+                    <p><a href="#EmBreve">O Brutalista - Em Breve</a></p>
+                    <p><a href="#EmBreve">O Macaco - Em Breve</a></p>
+                    <p><a href="#EmBreve">Sing Sing - Em Breve</a></p>
+                    <p><a href="#EmBreve">The Moon - Em Breve</a></p>
+                </li>
+                <li>
+                    <h3><span>SNACK BAR</span></h3>
+                    <p><a href="#containerBBs">Conheça nossos combos</a></p>
+                </li>
+                <li class="mailFooter">
+                    <h3>CONTATO</h3>
+                    <a href="mailto:agencia@vitrino.com"><i class="fa-solid fa-envelope"></i></a>
+                    <p>cinema@cinac.com.br</p>
+                </li>
+
+                <div class="redesFooter">
+                    <h3>SIGA-NOS</h3>
+                    <ul class="listaRedesFooter">
+                        <li><i class="fa-brands fa-facebook"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                        <li><i class="fa-brands fa-whatsapp"></i></li>
+                    </ul>
+
+                    <div class="modalForm openModal cadastroBtn" data-modal="modalForm">
+                        <p>Cadastre-se</p>
+                        <!-- criar uma modal com o formulário em cima de um botão de cadastre-se em forma de div -->
+                    </div>
+                </div>
+
+
+            </ul>
+            <p class="rodape-direitos">&copy; <span id="ano"></span> Cinac &bull; Todos os Direitos Reservados.</p>
+            <p class="rodape-direitos">Desenvolvido por <span class="vitrino">Vitrin.O</span></p>
+            
+        </div>
+        <!-- /.container -->
+
+        <!-- FORMULÁRIO -->
+        <div class="modal" id="modalForm">
+
+            <div class="containerForm">
+                <h2>Cadastro</h2>
+                <form id="cadastroForm">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" required>
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" required>
+
+                    <div class="botoes">
+                        <button type="submit" onclick="formBg()">Cadastrar</button>
+                        <button type="button" id="cancelar">Cancelar</button>
+                        <button type="reset">Apagar</button>
+                    </div>
+                </form>
+                <p id="mensagem" class="mensagem"></p>
+            </div>
+
+        </div>
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

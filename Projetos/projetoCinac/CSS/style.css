@@ -1,0 +1,1002 @@
+/* #region Global */
+
+:root {
+    --preto: #141414;
+    --branco: #fefefe;
+    --azul-1: #004c94;
+    --laranja-1: #F7941D;
+    --laranja-2: #FDC180;
+    --cinza: #36363680;
+    --fundo: #00000080;
+    --transparente: transparent;
+
+    --fonte: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    --transition: .5s ease;
+}
+
+@keyframes blink {
+    25% {
+        color: var(--laranja-1);
+        transform: scale(1.02);
+    }
+
+    50% {
+        color: var(--branco);
+        transform: scale(1);
+    }
+
+    75% {
+        color: var(--laranja-1);
+        transform: scale(1.02);
+    }
+}
+
+@keyframes bannerSliderFilme {
+
+    0% {
+        background: url(../IMG/banner/bannerPromo.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    20% {
+        background: url(../IMG/banner/bannerAinda.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    40% {
+        background: url(../IMG/banner/bannerChico.jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    60% {
+        background: url(../IMG/banner/bannerMoana.jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    80% {
+        background: url(../IMG/banner/bannerMufasa.jpeg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+
+    100% {
+        background: url(../IMG/banner/bannerAlto.jpg) no-repeat;
+        background-size: cover;
+        background-position: top center;
+    }
+}
+
+@keyframes bannerSliderTitle {
+
+
+    0% {
+        content: "Aproveite a semana do cinema";
+    }
+
+    20% {
+        content: "Ainda Estou Aqui";
+    }
+
+    40% {
+        content: "Chico Bento e a Goiabeira Maraviosa";
+
+    }
+
+    60% {
+        content: "Moana 2";
+    }
+
+    80% {
+        content: "Mufasa: O Rei Leão";
+    }
+
+    100% {
+        content: "O Auto da Compadecida 2";
+    }
+}
+
+@keyframes bannerSliderSinopse {
+    0% {
+        content: "Semana do Cinema 2025! De 6 a 12 de fevereiro, ingressos por apenas R$ 10. Grandes estreias e filmes do Oscar. Aproveite!";
+    }
+
+    20% {
+        content: "Ainda Estou Aqui retrata a luta de uma mãe pela verdade após o desaparecimento do marido durante a ditadura militar.";
+    }
+
+    40% {
+        content: "Chico Bento e seus amigos enfrentam desafios para proteger a goiabeira e preservar a paz da comunidade rural.";
+
+    }
+
+    60% {
+        content: "Moana e Maui retornam para novas aventuras no oceano, enfrentando desafios e aprofundando temas de identidade e herança cultural.";
+    }
+
+    80% {
+        content: "Mufasa: O Rei Leão revela a origem de Mufasa, mostrando sua infância e ascensão ao trono na Pedra do Rei.";
+    }
+
+    100% {
+        content: "João Grilo e Chicó retornam a Taperoá após 20 anos, enfrentando novas aventuras com humor e críticas sociais.";
+    }
+}
+
+@keyframes bannerSliderClass {
+    0% {
+        background-color: var(--transparente);
+    }
+
+    20% {
+        background: url(../IMG/classificacao/classificacao14.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    40% {
+        background: url(../IMG/classificacao/classificacaoAl.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    60% {
+        background: url(../IMG/classificacao/classificacaoAl.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    80% {
+        background: url(../IMG/classificacao/classificacao10.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    100% {
+        background: url(../IMG/classificacao/classificacao12.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte);
+    color: var(--branco);
+    transition: var(--transition);
+}
+
+body {
+    background-color: var(--preto);
+}
+
+/* #endregion Global */
+
+/* #region Header */
+header {
+    width: 100%;
+    background-color: var(--fundo);
+    height: 100px;
+    display: grid;
+    place-items: center;
+    margin-bottom: 50px;
+
+    & img {
+        height: 100px;
+        display: block;
+        margin: auto;
+
+        &:hover {
+            filter: drop-shadow(0px 0px 8px var(--azul-1));
+        }
+    }
+}
+
+#banner {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+
+    width: 80%;
+    height: 900px;
+
+    & .bannerFilmes {
+        width: 100%;
+        height: 600px;
+        border-radius: 10px;
+        animation: bannerSliderFilme 60s infinite;
+
+        &:hover {
+            filter: drop-shadow(0px 0px 8px var(--branco));
+        }
+
+        & p {
+            color: var(--transparente);
+        }
+    }
+
+    & .bannerInfo {
+        background-color: var(--cinza);
+        display: grid;
+        grid-template-areas:
+            "a a a a a a a c"
+            "b b b b b b b c";
+
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+        padding: 20px;
+
+        &:hover {
+            filter: brightness(1.5);
+        }
+
+        & .bannerTitle {
+            grid-area: a;
+            font-size: 2em;
+            font-weight: bolder;
+
+            &::before {
+                content: "Filme";
+                display: inline-block;
+                animation: bannerSliderTitle 60s infinite;
+            }
+        }
+
+        & .bannerTxt {
+            grid-area: b;
+            font-size: 1.5em;
+
+
+            &::before {
+                content: "Sinopse";
+                display: inline-block;
+                animation: bannerSliderSinopse 60s infinite;
+            }
+        }
+
+        & .bannerCLass {
+            grid-area: c;
+
+            height: 50px;
+            width: 50px;
+            border-radius: 10px;
+            align-self: center;
+            margin: auto;
+            right: 10px;
+            position: relative;
+
+            animation: bannerSliderClass 60s infinite;
+
+        }
+    }
+
+    & .bannerCards {
+
+        & ul {
+            display: flex;
+            justify-content: space-between;
+
+            & .unidade {
+                width: 300px;
+                background-color: var(--cinza);
+                border-radius: 10px;
+                padding: 10px;
+                height: 150px;
+
+                &:hover {
+                    filter: brightness(1.5);
+                }
+
+                & a {
+                    text-decoration: none;
+
+                    & h3 {
+                        font-size: 1.3em;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* #endregion Header */
+
+/* #region Catalogo */
+li {
+    list-style: none;
+}
+
+#catalogo {
+    & .catalogoContainer {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+
+        /* #region Menu */
+        & .catalogoMenu {
+
+            padding: 5px;
+            margin-bottom: 5px;
+            border-radius: 0 0 10px 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 60px;
+
+            /* Título */
+            & h2 {
+                cursor: default;
+                color: var(--branco);
+                letter-spacing: 2px;
+
+                &:hover {
+                    animation: blink 2s infinite;
+                }
+            }
+
+            /* Botões */
+            & .catalogoArrows {
+                width: 110px;
+                display: flex;
+                justify-content: space-between;
+
+                & input {
+                    background-color: var(--laranja-1);
+
+                    height: 50px;
+                    width: 50px;
+
+                    border-radius: 10px;
+                    border: 1px solid var(--transparente);
+
+                    font-weight: 900;
+                    font-size: 20px;
+                    line-height: 50px;
+                    opacity: .8;
+
+                    &:hover {
+                        opacity: 1;
+                        cursor: pointer;
+                        transform: scale(1.01);
+                        border: 1px solid var(--preto);
+
+                    }
+
+
+                }
+            }
+        }
+
+        /* #endregion Menu */
+
+        /* #region Cartazes */
+        & .catalogoFilmes {
+            display: flex;
+
+            & .catalogoCards {
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+
+                & .cardFilme {
+                    /* vai modificar cada cartaz de filme */
+                    background-color: var(--cinza);
+
+                    display: grid;
+                    place-items: center;
+
+                    height: 450px;
+                    width: 300px;
+
+                    border: 1px solid var(--transparente);
+                    border-radius: 10px;
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                    &:hover {
+                        transform: scale(1.02);
+                        border: 1px solid var(--branco);
+                        box-shadow: 0 0 10px var(--cinza);
+                        cursor: pointer;
+                    }
+
+                    & p {
+                        color: var(--transparente);
+                        text-align: center;
+                    }
+                }
+
+                /* #region filmesIndividuais */
+
+                & .aindaEstouAqui {
+                    background: url(../IMG/catalogo/catalogoFilmeAindaEstouAqui.png);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+
+                }
+
+                & .chicoBento {
+                    background: url(../IMG/catalogo/catalogoFilmeChicoBento.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                & .moana {
+                    background: url(../IMG/catalogo/catalogoFilmeMoana.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                & .mufasa {
+                    background: url(../IMG/catalogo/catalogoFilmeMufasa.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                & .oAltoDaCompadecida {
+                    background: url(../IMG/catalogo/catalogoFilmeOAltoDaCompadecida2.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                & .sonic {
+                    background: url(../IMG/catalogo/catalogoFilmeSonic.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                }
+
+                /* #endregion filmesIndividuais */
+                & .cardInfo {
+                    /* vai modificar cada bloco com as informações */
+                    background-color: var(--cinza);
+
+                    height: 175px;
+                    width: 300px;
+
+                    border-radius: 10px;
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+
+                    & h3 {
+                        font-size: 1.6em;
+                        width: 90%;
+                    }
+
+                    & h4 {
+                        display: flex;
+                        width: 90%;
+                        opacity: .8;
+                        font-weight: 500;
+                    }
+
+                    & .classificacao {
+                        height: 30px;
+                        width: 30px;
+                        border-radius: 10px;
+                    }
+                }
+            }
+        }
+
+        /* #endregion Cartazes */
+
+    }
+}
+
+/* #region modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--fundo);
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    .modalContent {
+        background-color: var(--preto);
+
+        display: flex;
+        justify-content: space-around;
+        align-items: start;
+
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        height: 70vh;
+        width: 50vw;
+        border-radius: 20px;
+        padding: 10px;
+
+
+        & .modalImg {
+            display: grid;
+            place-items: center;
+            background: var(--laranja-1);
+            background-size: cover;
+            height: 100%;
+            width: 50%;
+            border-radius: 10px;
+
+            & p {
+                color: var(--transparente);
+            }
+        }
+
+        & .modalTxt {
+            /* background-color: red; */
+            width: 50%;
+            padding: 0 50px;
+
+            & h2 {
+                font-size: 2.2em;
+                margin-bottom: 10px;
+            }
+
+            & p {
+                font-size: 1.2em;
+            }
+        }
+
+        & span {
+            font-size: 50px;
+            position: absolute;
+            right: 10px;
+            top: -10px;
+            cursor: pointer;
+
+            &:hover {
+                color: var(--laranja-1);
+            }
+        }
+    }
+}
+
+#modalAinda {
+    & .modalImg {
+        background: url(../IMG/catalogo/catalogoFilmeAindaEstouAqui.png) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalChico {
+    & .modalImg {
+        background: url(../IMG/catalogo/catalogoFilmeChicoBento.jpg) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalMoana {
+    & .modalImg {
+        background: url(../IMG/catalogo/catalogoFilmeMoana.jpg) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalMufasa {
+    & .modalImg {
+        background: url(../IMG/catalogo/catalogoFilmeMufasa.jpg) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalAlto {
+    & .modalImg {
+        background: url(../IMG/catalogo/catalogoFilmeOAltoDaCompadecida2.jpg) no-repeat center;
+        background-size: cover;
+    }
+}
+
+/* #endregion modal */
+
+/* #endregion Catalogo */
+
+/* #region Bomboniere */
+#containerBBs {
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.title {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--laranja-1);
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    cursor: default;
+    letter-spacing: 2px;
+
+    & span:hover {
+        animation: blink 2s infinite;
+    }
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: 2px solid var(--laranja-1);
+    border-radius: 5px;
+    width: 500px;
+    height: 450px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--branco);
+    box-shadow: 0 0 10px var(--laranja-1);
+
+    margin-bottom: 20px;
+
+}
+
+.box img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* #endregion Bomboniere */
+
+/* #region emBreve */
+
+#EmBreve {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--laranja-1);
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    cursor: default;
+    letter-spacing: 2px;
+
+    & span:hover {
+        animation: blink 2s infinite;
+    }
+}
+
+.filmes {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.filme {
+
+    flex: 0 0 auto;
+    /* text-align: center; */
+}
+
+.filme img {
+    width: 300px;
+    height: 450px;
+    /* width: 100%; */
+    border-radius: 5px;
+
+}
+
+.info {
+    background: var(--cinza);
+    color: var(--branco);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+    width: 300px;
+    height: 175px;
+
+    & h2 {
+        color: var(--branco);
+    }
+
+    & p {
+        opacity: .8;
+    }
+
+    & img {
+        height: 30px;
+        width: 30px;
+        border-radius: 10px;
+    }
+}
+
+.genero {
+    font-size: 15px;
+
+}
+
+#modalPreguica {
+    & .modalImg {
+        background: url(../IMG/breve/breveDeuPreguica.webp) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalBrutal {
+    & .modalImg {
+        background: url(../IMG/breve/breveOBrutalista.webp) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalMacaco {
+    & .modalImg {
+        background: url(../IMG/breve/breveOMacaco.webp) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalSing {
+    & .modalImg {
+        background: url(../IMG/breve/breveSingSing.webp) no-repeat center;
+        background-size: cover;
+    }
+}
+
+#modalMoon {
+    & .modalImg {
+        background: url(../IMG/breve/breveTheMoon.webp) no-repeat center;
+        background-size: cover;
+    }
+}
+
+/* #endregion emBreve */
+
+/* #region Form */
+
+.containerForm {
+    background: var(--preto);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--laranja-1);
+    width: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    color: var(--laranja-1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: var(--preto);
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    background-color: var(--laranja-1);
+    color: white;
+}
+
+button[type="button"] {
+    background-color: var(--azul-1);
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: var(--laranja-2);
+    color: black;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.mensagem {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #28a745;
+    display: none;
+}
+
+/* #endregion Form */
+
+/* #region Footer */
+
+#footerContainer {
+    background: var(--azul-1);
+    color: var(--branco);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    padding: 20px;
+
+    & h3 {
+        font-weight: bolder;
+        margin: 15px;
+        font-size: 1.5em;
+    }
+
+    & a {
+        text-align: center;
+        font-size: smaller;
+        color: var(--branco);
+        text-decoration: none;
+        font-size: 1em;
+    }
+
+    & p {
+        margin: 3px;
+        font-size: 1em;
+    }
+
+    & li {
+        height: fit-content;
+    }
+}
+
+.logoFooter {
+    width: 300px;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.redes {
+    width: 50px;
+    margin: 2px;
+    margin-bottom: 20px;
+
+
+    &:hover {
+        border-bottom: 3px solid var(--laranja-1);
+        transform: scale(1.2);
+
+    }
+}
+
+.vitrino {
+    color: var(--preto);
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.redesFooter,
+.mailFooter {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    height: 200px;
+
+    & .listaRedesFooter {
+        display: flex;
+        justify-content: space-between;
+        height: 70px;
+
+
+    }
+}
+
+& i {
+    font-size: 3em;
+
+    &:hover {
+        color: var(--laranja-1);
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+.rodape-direitos {
+    width: 100%;
+    background-color: var(--laranja-1);
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+    font-weight: bolder;
+    color: var(--branco);
+    justify-content: center;
+}
+
+.cadastroBtn {
+    height: 50px;
+    width: 170px;
+    background-color: var(--laranja-1);
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .1s;
+
+    &:hover {
+        font-weight: bold;
+        transform: scale(1.01);
+        box-shadow: 2px 2px 4px var(--cinza);
+        color: var(--preto);
+    }
+
+    &:active {
+        box-shadow: inset 2px 2px 4px var(--cinza);
+        transform: scale(1);
+
+    }
+}
+
+/* #endregion Footer */

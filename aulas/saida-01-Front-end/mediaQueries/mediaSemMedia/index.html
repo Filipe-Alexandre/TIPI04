@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Responsivo sem Media</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- 'and' = E | ',' = ou  -->
+            <picture>
+                <source srcset="./img/senacLogoPreto.png" media="(max-width: 768px)">
+                <source srcset="./img/senacLogo.png" media="(min-width: 769px) and (max-width: 1024px)">
+                <img src="./img/senacLogoBranco.png" alt="Logo Senac"
+                    srcset="./img/senacLogoBranco.png 1920w,
+                    ./img/senacLogo.png 1024w,
+                    ./img/senacLogoPreto.png 640w">
+
+
+            </picture>
+
+            Página Responsiva sem Media Queries &#X1F4BB; &#X1F4F1; <!-- unicode do celular -->
+        </div>
+    </header>
+
+    <main>
+
+        <section class="contaent">
+            <h2>Bem vindo a Minha Página</h2>
+            <p>Essa página demonstra como criar um layout sem depender de media queries</p>
+        </section>
+
+
+        <section class="container">
+            <div class="card">card 1</div>
+            <div class="card">card 2</div>
+            <div class="card">card 3</div>
+            <div class="card">card 4</div>
+        </section>
+    </main>
+
+    <footer>
+        &copy;2025 Página Responsiva &bull; Todos os direitos reservados
+    </footer>
+
+    <script src=".js/script.js"></script>
+</body>
+
+</html>
