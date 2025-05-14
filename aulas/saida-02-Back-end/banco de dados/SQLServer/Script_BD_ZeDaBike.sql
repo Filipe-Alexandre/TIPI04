@@ -103,8 +103,17 @@ GO
 
 
 --ALTER TABLE (edita o nome)
+	--ADICIONANDO
+	ALTER TABLE Cliente
+	ADD Sexo VARCHAR(10) NOT NULL
+	--ALTERANDO TIPO DE DADOS DA COLUNA
+	ALTER TABLE Cliente
+	ALTER COLUMN Sexo VARCHAR(1) NULL
+	--REMOVER UMA COLUNA DA TABELA
+	ALTER TABLE Cliente DROP COLUMN Sexo
 
 --DROP TABLE (apaga) | Só é possivel apagarse na tabela não houver nenhum dependente
+	--DROP TABLE Mecanico
 
 --APAGAR BANCO DE DADOS
 
@@ -112,6 +121,10 @@ GO
 
 --USE Master
 --DROP DATABASE BD_ZeDaBike
+
+--ALTERAR NOME DA COLUNA
+
+EXEC sp_RENAME 'Cliente.Uf', 'Estado', 'COLUMN'
 
 
 
