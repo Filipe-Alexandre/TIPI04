@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CadastroAluno-Console/1.0.0": {
+        "runtime": {
+          "CadastroAluno-Console.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CadastroAluno-Console/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

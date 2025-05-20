@@ -1,0 +1,15 @@
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\bin\Debug\net8.0\Conceitos-CSharp.exe
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\bin\Debug\net8.0\Conceitos-CSharp.deps.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\bin\Debug\net8.0\Conceitos-CSharp.runtimeconfig.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\bin\Debug\net8.0\Conceitos-CSharp.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\bin\Debug\net8.0\Conceitos-CSharp.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\obj\Debug\net8.0\Conceitos-CSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\obj\Debug\net8.0\Conceitos-CSharp.AssemblyInfoInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\obj\Debug\net8.0\Conceitos-CSharp.AssemblyInfo.cs
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\obj\Debug\net8.0\Conceitos-CSharp.csproj.CoreCompileInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\obj\Debug\net8.0\Conceitos-CSharp.sourcelink.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\obj\Debug\net8.0\Conceitos-CSharp.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\obj\Debug\net8.0\refint\Conceitos-CSharp.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\obj\Debug\net8.0\Conceitos-CSharp.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\obj\Debug\net8.0\Conceitos-CSharp.genruntimeconfig.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\Conceitos-CSharp\Conceitos-CSharp\obj\Debug\net8.0\ref\Conceitos-CSharp.dll
