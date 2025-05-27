@@ -45,7 +45,7 @@ namespace CadastroAluno_Console.Views
             string cpf = Console.ReadLine();
             Console.WriteLine("Curso: ");
             string curso = Console.ReadLine();
-            Console.WriteLine("Data de Nascimento:(dd/mm/aaa): ");
+            Console.WriteLine("Data de Nascimento:(dd/mm/aaaa): ");
             DateTime data = DateTime.Parse(Console.ReadLine());
 
             controller.CadastrarAluno(nome, cpf, curso, data);
