@@ -1,0 +1,15 @@
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\bin\Debug\net8.0\10-tabuada.exe
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\bin\Debug\net8.0\10-tabuada.deps.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\bin\Debug\net8.0\10-tabuada.runtimeconfig.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\bin\Debug\net8.0\10-tabuada.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\bin\Debug\net8.0\10-tabuada.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\obj\Debug\net8.0\10-tabuada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\obj\Debug\net8.0\10-tabuada.AssemblyInfoInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\obj\Debug\net8.0\10-tabuada.AssemblyInfo.cs
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\obj\Debug\net8.0\10-tabuada.csproj.CoreCompileInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\obj\Debug\net8.0\10-tabuada.sourcelink.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\obj\Debug\net8.0\10-tabuada.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\obj\Debug\net8.0\refint\10-tabuada.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\obj\Debug\net8.0\10-tabuada.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\obj\Debug\net8.0\10-tabuada.genruntimeconfig.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\10-tabuada\obj\Debug\net8.0\ref\10-tabuada.dll

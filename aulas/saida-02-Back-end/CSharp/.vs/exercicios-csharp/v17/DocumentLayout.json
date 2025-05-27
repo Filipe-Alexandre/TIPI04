@@ -1,0 +1,177 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D2192A0C-9354-424A-8061-CEB8ECDFAB7F}|10-tabuada\\10-tabuada.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\exercicios-csharp\\10-tabuada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2192A0C-9354-424A-8061-CEB8ECDFAB7F}|10-tabuada\\10-tabuada.csproj|solutionrelative:10-tabuada\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDA6FB36-2B3E-4B77-965D-622726B39565}|9-donaMonica\\9-donaMonica.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\exercicios-csharp\\9-donamonica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDA6FB36-2B3E-4B77-965D-622726B39565}|9-donaMonica\\9-donaMonica.csproj|solutionrelative:9-donamonica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FEEA6BC-A654-4135-9020-375B438C9520}|8-cartas\\8-cartas.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\exercicios-csharp\\8-cartas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FEEA6BC-A654-4135-9020-375B438C9520}|8-cartas\\8-cartas.csproj|solutionrelative:8-cartas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{18C2FB88-D6FF-4ACE-B150-4664D05DF2F5}|6-calculos\\6-operacoes.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\exercicios-csharp\\6-calculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{18C2FB88-D6FF-4ACE-B150-4664D05DF2F5}|6-calculos\\6-operacoes.csproj|solutionrelative:6-calculos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8450FFB3-DB06-451C-AAD9-0C259DE270BA}|7-basqueteDeRobos\\7-basqueteDeRobos.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\exercicios-csharp\\7-basquetederobos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8450FFB3-DB06-451C-AAD9-0C259DE270BA}|7-basqueteDeRobos\\7-basqueteDeRobos.csproj|solutionrelative:7-basquetederobos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{750ED795-16AC-4EE4-96BE-3296C855FE54}|4-aprovadoReprovadoFinal\\4-aprovadoReprovadoFinal.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\exercicios-csharp\\4-aprovadoreprovadofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{750ED795-16AC-4EE4-96BE-3296C855FE54}|4-aprovadoReprovadoFinal\\4-aprovadoReprovadoFinal.csproj|solutionrelative:4-aprovadoreprovadofinal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DA866AA-9327-4A11-A1A1-3EB48B98D5BA}|3-aprovadoReprovado\\3-aprovadoReprovado.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\exercicios-csharp\\3-aprovadoreprovado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DA866AA-9327-4A11-A1A1-3EB48B98D5BA}|3-aprovadoReprovado\\3-aprovadoReprovado.csproj|solutionrelative:3-aprovadoreprovado\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBDCC474-F4A6-44DB-A542-70199F77A359}|1-positivoOuNegativo\\1-positivoOuNegativo.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\exercicios-csharp\\1-positivoounegativo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBDCC474-F4A6-44DB-A542-70199F77A359}|1-positivoOuNegativo\\1-positivoOuNegativo.csproj|solutionrelative:1-positivoounegativo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA3AD413-5965-4FAD-85DE-C188F5A0EBAE}|2-parOuImpar\\2-parOuImpar.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\exercicios-csharp\\2-parouimpar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA3AD413-5965-4FAD-85DE-C188F5A0EBAE}|2-parOuImpar\\2-parOuImpar.csproj|solutionrelative:2-parouimpar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\10-tabuada\\Program.cs",
+              "RelativeDocumentMoniker": "10-tabuada\\Program.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\10-tabuada\\Program.cs",
+              "RelativeToolTip": "10-tabuada\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:43:06.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\9-donaMonica\\Program.cs",
+              "RelativeDocumentMoniker": "9-donaMonica\\Program.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\9-donaMonica\\Program.cs",
+              "RelativeToolTip": "9-donaMonica\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:38:46.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\8-cartas\\Program.cs",
+              "RelativeDocumentMoniker": "8-cartas\\Program.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\8-cartas\\Program.cs",
+              "RelativeToolTip": "8-cartas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:26:09.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\7-basqueteDeRobos\\Program.cs",
+              "RelativeDocumentMoniker": "7-basqueteDeRobos\\Program.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\7-basqueteDeRobos\\Program.cs",
+              "RelativeToolTip": "7-basqueteDeRobos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:16:42.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\4-aprovadoReprovadoFinal\\Program.cs",
+              "RelativeDocumentMoniker": "4-aprovadoReprovadoFinal\\Program.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\4-aprovadoReprovadoFinal\\Program.cs",
+              "RelativeToolTip": "4-aprovadoReprovadoFinal\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:13:35.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\3-aprovadoReprovado\\Program.cs",
+              "RelativeDocumentMoniker": "3-aprovadoReprovado\\Program.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\3-aprovadoReprovado\\Program.cs",
+              "RelativeToolTip": "3-aprovadoReprovado\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:07:26.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\1-positivoOuNegativo\\Program.cs",
+              "RelativeDocumentMoniker": "1-positivoOuNegativo\\Program.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\1-positivoOuNegativo\\Program.cs",
+              "RelativeToolTip": "1-positivoOuNegativo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:05:17.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\2-parOuImpar\\Program.cs",
+              "RelativeDocumentMoniker": "2-parOuImpar\\Program.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\2-parOuImpar\\Program.cs",
+              "RelativeToolTip": "2-parOuImpar\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T23:05:12.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\6-calculos\\Program.cs",
+              "RelativeDocumentMoniker": "6-calculos\\Program.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\exercicios-csharp\\6-calculos\\Program.cs",
+              "RelativeToolTip": "6-calculos\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T22:59:27.927Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

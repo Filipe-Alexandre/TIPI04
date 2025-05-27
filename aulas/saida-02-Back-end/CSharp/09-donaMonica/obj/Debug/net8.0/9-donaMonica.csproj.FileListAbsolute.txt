@@ -1,0 +1,15 @@
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\bin\Debug\net8.0\9-donaMonica.exe
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\bin\Debug\net8.0\9-donaMonica.deps.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\bin\Debug\net8.0\9-donaMonica.runtimeconfig.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\bin\Debug\net8.0\9-donaMonica.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\bin\Debug\net8.0\9-donaMonica.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\obj\Debug\net8.0\9-donaMonica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\obj\Debug\net8.0\9-donaMonica.AssemblyInfoInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\obj\Debug\net8.0\9-donaMonica.AssemblyInfo.cs
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\obj\Debug\net8.0\9-donaMonica.csproj.CoreCompileInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\obj\Debug\net8.0\9-donaMonica.sourcelink.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\obj\Debug\net8.0\9-donaMonica.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\obj\Debug\net8.0\refint\9-donaMonica.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\obj\Debug\net8.0\9-donaMonica.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\obj\Debug\net8.0\9-donaMonica.genruntimeconfig.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\9-donaMonica\obj\Debug\net8.0\ref\9-donaMonica.dll

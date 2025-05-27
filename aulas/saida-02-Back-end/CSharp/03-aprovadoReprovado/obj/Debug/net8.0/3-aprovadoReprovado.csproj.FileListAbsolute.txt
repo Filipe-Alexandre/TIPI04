@@ -1,0 +1,15 @@
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\bin\Debug\net8.0\3-aprovadoReprovado.exe
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\bin\Debug\net8.0\3-aprovadoReprovado.deps.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\bin\Debug\net8.0\3-aprovadoReprovado.runtimeconfig.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\bin\Debug\net8.0\3-aprovadoReprovado.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\bin\Debug\net8.0\3-aprovadoReprovado.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\obj\Debug\net8.0\3-aprovadoReprovado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\obj\Debug\net8.0\3-aprovadoReprovado.AssemblyInfoInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\obj\Debug\net8.0\3-aprovadoReprovado.AssemblyInfo.cs
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\obj\Debug\net8.0\3-aprovadoReprovado.csproj.CoreCompileInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\obj\Debug\net8.0\3-aprovadoReprovado.sourcelink.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\obj\Debug\net8.0\3-aprovadoReprovado.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\obj\Debug\net8.0\refint\3-aprovadoReprovado.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\obj\Debug\net8.0\3-aprovadoReprovado.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\obj\Debug\net8.0\3-aprovadoReprovado.genruntimeconfig.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\3-aprovadoReprovado\obj\Debug\net8.0\ref\3-aprovadoReprovado.dll

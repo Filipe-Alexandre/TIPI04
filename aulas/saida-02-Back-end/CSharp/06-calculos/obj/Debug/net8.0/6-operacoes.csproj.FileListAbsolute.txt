@@ -1,0 +1,15 @@
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\bin\Debug\net8.0\6-operacoes.exe
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\bin\Debug\net8.0\6-operacoes.deps.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\bin\Debug\net8.0\6-operacoes.runtimeconfig.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\bin\Debug\net8.0\6-operacoes.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\bin\Debug\net8.0\6-operacoes.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\obj\Debug\net8.0\6-operacoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\obj\Debug\net8.0\6-operacoes.AssemblyInfoInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\obj\Debug\net8.0\6-operacoes.AssemblyInfo.cs
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\obj\Debug\net8.0\6-operacoes.csproj.CoreCompileInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\obj\Debug\net8.0\6-operacoes.sourcelink.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\obj\Debug\net8.0\6-operacoes.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\obj\Debug\net8.0\refint\6-operacoes.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\obj\Debug\net8.0\6-operacoes.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\obj\Debug\net8.0\6-operacoes.genruntimeconfig.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\6-calculos\obj\Debug\net8.0\ref\6-operacoes.dll

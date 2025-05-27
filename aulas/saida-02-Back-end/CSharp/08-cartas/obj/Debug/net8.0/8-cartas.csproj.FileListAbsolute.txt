@@ -1,0 +1,15 @@
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\bin\Debug\net8.0\8-cartas.exe
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\bin\Debug\net8.0\8-cartas.deps.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\bin\Debug\net8.0\8-cartas.runtimeconfig.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\bin\Debug\net8.0\8-cartas.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\bin\Debug\net8.0\8-cartas.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\obj\Debug\net8.0\8-cartas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\obj\Debug\net8.0\8-cartas.AssemblyInfoInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\obj\Debug\net8.0\8-cartas.AssemblyInfo.cs
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\obj\Debug\net8.0\8-cartas.csproj.CoreCompileInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\obj\Debug\net8.0\8-cartas.sourcelink.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\obj\Debug\net8.0\8-cartas.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\obj\Debug\net8.0\refint\8-cartas.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\obj\Debug\net8.0\8-cartas.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\obj\Debug\net8.0\8-cartas.genruntimeconfig.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\8-cartas\obj\Debug\net8.0\ref\8-cartas.dll

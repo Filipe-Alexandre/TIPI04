@@ -1,0 +1,15 @@
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\bin\Debug\net8.0\4-aprovadoReprovadoFinal.exe
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\bin\Debug\net8.0\4-aprovadoReprovadoFinal.deps.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\bin\Debug\net8.0\4-aprovadoReprovadoFinal.runtimeconfig.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\bin\Debug\net8.0\4-aprovadoReprovadoFinal.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\bin\Debug\net8.0\4-aprovadoReprovadoFinal.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\obj\Debug\net8.0\4-aprovadoReprovadoFinal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\obj\Debug\net8.0\4-aprovadoReprovadoFinal.AssemblyInfoInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\obj\Debug\net8.0\4-aprovadoReprovadoFinal.AssemblyInfo.cs
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\obj\Debug\net8.0\4-aprovadoReprovadoFinal.csproj.CoreCompileInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\obj\Debug\net8.0\4-aprovadoReprovadoFinal.sourcelink.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\obj\Debug\net8.0\4-aprovadoReprovadoFinal.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\obj\Debug\net8.0\refint\4-aprovadoReprovadoFinal.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\obj\Debug\net8.0\4-aprovadoReprovadoFinal.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\obj\Debug\net8.0\4-aprovadoReprovadoFinal.genruntimeconfig.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\4-aprovadoReprovadoFinal\obj\Debug\net8.0\ref\4-aprovadoReprovadoFinal.dll

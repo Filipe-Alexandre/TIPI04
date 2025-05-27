@@ -1,0 +1,15 @@
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\bin\Debug\net8.0\1-positivoOuNegativo.exe
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\bin\Debug\net8.0\1-positivoOuNegativo.deps.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\bin\Debug\net8.0\1-positivoOuNegativo.runtimeconfig.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\bin\Debug\net8.0\1-positivoOuNegativo.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\bin\Debug\net8.0\1-positivoOuNegativo.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\obj\Debug\net8.0\1-positivoOuNegativo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\obj\Debug\net8.0\1-positivoOuNegativo.AssemblyInfoInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\obj\Debug\net8.0\1-positivoOuNegativo.AssemblyInfo.cs
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\obj\Debug\net8.0\1-positivoOuNegativo.csproj.CoreCompileInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\obj\Debug\net8.0\1-positivoOuNegativo.sourcelink.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\obj\Debug\net8.0\1-positivoOuNegativo.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\obj\Debug\net8.0\refint\1-positivoOuNegativo.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\obj\Debug\net8.0\1-positivoOuNegativo.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\obj\Debug\net8.0\1-positivoOuNegativo.genruntimeconfig.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\CSharp\exercicios-csharp\1-positivoOuNegativo\obj\Debug\net8.0\ref\1-positivoOuNegativo.dll
