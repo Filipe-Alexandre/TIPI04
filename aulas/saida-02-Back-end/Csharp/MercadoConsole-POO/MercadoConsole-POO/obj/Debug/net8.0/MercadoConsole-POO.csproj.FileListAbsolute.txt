@@ -1,0 +1,14 @@
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\bin\Debug\net8.0\MercadoConsole-POO.exe
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\bin\Debug\net8.0\MercadoConsole-POO.deps.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\bin\Debug\net8.0\MercadoConsole-POO.runtimeconfig.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\bin\Debug\net8.0\MercadoConsole-POO.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\bin\Debug\net8.0\MercadoConsole-POO.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\obj\Debug\net8.0\MercadoConsole-POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\obj\Debug\net8.0\MercadoConsole-POO.AssemblyInfoInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\obj\Debug\net8.0\MercadoConsole-POO.AssemblyInfo.cs
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\obj\Debug\net8.0\MercadoConsole-POO.csproj.CoreCompileInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\obj\Debug\net8.0\MercadoConsole-POO.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\obj\Debug\net8.0\refint\MercadoConsole-POO.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\obj\Debug\net8.0\MercadoConsole-POO.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\obj\Debug\net8.0\MercadoConsole-POO.genruntimeconfig.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\MercadoConsole-POO\MercadoConsole-POO\obj\Debug\net8.0\ref\MercadoConsole-POO.dll

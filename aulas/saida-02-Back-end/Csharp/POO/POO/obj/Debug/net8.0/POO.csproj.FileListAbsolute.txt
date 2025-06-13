@@ -1,0 +1,14 @@
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\bin\Debug\net8.0\POO.exe
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\bin\Debug\net8.0\POO.deps.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\bin\Debug\net8.0\POO.runtimeconfig.json
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\bin\Debug\net8.0\POO.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\bin\Debug\net8.0\POO.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\obj\Debug\net8.0\POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\obj\Debug\net8.0\POO.AssemblyInfoInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\obj\Debug\net8.0\POO.AssemblyInfo.cs
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\obj\Debug\net8.0\POO.csproj.CoreCompileInputs.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\obj\Debug\net8.0\POO.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\obj\Debug\net8.0\refint\POO.dll
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\obj\Debug\net8.0\POO.pdb
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\obj\Debug\net8.0\POO.genruntimeconfig.cache
+C:\Users\filipe.asilva7\Desktop\TIPI04\aulas\saida-02-Back-end\Csharp\POO\POO\obj\Debug\net8.0\ref\POO.dll

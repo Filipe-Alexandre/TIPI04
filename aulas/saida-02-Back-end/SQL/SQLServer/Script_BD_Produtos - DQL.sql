@@ -146,3 +146,131 @@ puxamos outro inner (Categoria AS CAT)
 onde o Id da tabela relacional é igual a tabela de categorias
 WHERE Serve para filtrar os itens que vão aparecer, no caso 'roupas esportivas'
 */
+
+
+SELECT * FROM Categoria
+SELECT * FROM Departamento
+INSERT INTO Departamento (Nome) VALUES('Acessórios para Pet')
+INSERT INTO Departamento (Nome) VALUES('Games')
+
+INSERT INTO Categoria (Nome) VALUES('Doces')
+INSERT INTO Categoria (Nome) VALUES('Salgados')
+
+
+SELECT	CAT.IdCategoria,
+		CAT.Nome AS CATEGORIA,
+		CAT.IdDepartamento,
+		DEP.Nome AS Dpto
+FROM Categoria AS CAT
+INNER JOIN Departamento AS DEP
+ON DEP.IdDepartamento = CAT.IdDepartamento
+
+-- PARA ARRUMAR O IDENTITY QUE PULOU NUMEROS
+DBCC CHECKIDENT ('Categoria', RESEED, 10);
+SELECT * FROM Categoria
+
+DBCC CHECKIDENT ('Departamento', RESEED, 5);
+SELECT * FROM Departamento
+
+-- IS NULL
+-- Categorias SEM Departamento
+SELECT * FROM Categoria WHERE IdDepartamento IS NULL
+-- Categorias COM Departamento
+SELECT * FROM Categoria WHERE IdDepartamento IS NOT NULL
+-- Departamento sem categoria
+SELECT DEP.IdDepartamento,
+		DEP.Nome AS Dpto
+FROM Categoria AS CAT
+RIGHT JOIN Departamento AS DEP
+ON DEP.IdDepartamento = CAT.IdDepartamento
+WHERE CAT.IdCategoria IS NULL
+
+--FUNÇÕES DE AGREÇÃO
+/*
+	COUNT = Contagem
+	SUM = Soma
+	MAX = Máximo
+	MIN = Mínimo
+	AVG = Média
+*/
+
+
+SELECT	COUNT(IdProduto) AS Qtde,
+		SUM(Estoque) AS TotalEstoque,
+		MIN(Preco) AS MenorPreço,
+		MAX(Preco) AS MaiorPreço,
+		AVG(Preco) AS PreçoMédio
+	FROM Produto
+
+
+SELECT * FROM Produto
+-- Adicionando a coluna situação do produto
+ALTER TABLE Produto ADD Situacao VARCHAR(10)
+-- Atualizando os produtos novos
+UPDATE Produto SET Situacao = 'Novo'
+WHERE IdProduto IN (1,3,5,7)
+UPDATE Produto SET Situacao = 'Usado'
+WHERE IdProduto IN (2,4,6,8)
+SELECT * FROM Produto
+
+--USANDO FUNÇÕES DE AGREGAÇÃO COM AGRUPAMENTO
+SELECT Situacao,
+	COUNT(IdProduto) AS Qtde
+FROM Produto
+GROUP BY Situacao
+/*Toda vez que tiver uma coluna sem função de agregação, é obrigatorio o uso de GROUP BY*/
+
+--EX. 01
+SELECT TOP 3 Nome, Preco AS Preço FROM Produto ORDER BY Preco ASC
+
+--EX. 02
+SELECT TOP 2 Nome, Estoque AS 'Qtde Estoque' FROM Produto ORDER BY Estoque ASC
+
+--EX. 03
+SELECT Nome, Preco AS Preço FROM Produto
+WHERE EhLancamento = 1
+
+--EX. 04
+SELECT Nome, Preco AS Preço FROM Produto
+WHERE Preco > 5000
+
+--EX. 05
+SELECT Nome, Estoque FROM Produto 
+WHERE Estoque BETWEEN 50 AND 150
+ORDER BY Estoque
+
+--EX. 06
+SELECT Nome, Preco AS Preço FROM Produto ORDER BY Preco --ASC
+
+--EX. 07
+
+SELECT	DISTINCT PROD.Nome AS [Nome Produto],
+		CATE.Nome AS [Nome Categoria],
+		DPTO.NOME AS [Nome Departamento]
+FROM Produto AS PROD
+INNER JOIN ProdutoCategoria AS PRCT
+	ON PROD.IdProduto = PRCT.IdProduto
+INNER JOIN Categoria AS CATE
+	ON PRCT.IdCategoria = CATE.IdCategoria
+INNER JOIN Departamento AS DPTO
+	ON CATE.IdDepartamento = DPTO.IdDepartamento
+
+--INSERT INTO Produto (Nome, Descricao, Estoque, EhLancamento, Preco, Situacao)
+--	VALUES ('Pastel de Carne', 'Carne e Azeitona', 50, 0, 8.70, 'Novo')	
+
+--EX. 08
+SELECT CAT.Nome,
+	COUNT(PCT.IdProduto) AS QTD
+FROM Categoria AS CAT
+INNER JOIN ProdutoCategoria AS PCT
+ON CAT.IdCategoria = PCT.IdCategoria
+GROUP BY CAT.Nome
+
+SELECT * from ProdutoCategoria
+
+
+
+
+
+
+

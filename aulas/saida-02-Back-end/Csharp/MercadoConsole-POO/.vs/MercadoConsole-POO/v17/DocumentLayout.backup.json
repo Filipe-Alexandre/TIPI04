@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\MercadoConsole-POO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CED02991-4337-48DF-8D1F-DFB7DD6CCAD9}|MercadoConsole-POO\\MercadoConsole-POO.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\mercadoconsole-poo\\mercadoconsole-poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED02991-4337-48DF-8D1F-DFB7DD6CCAD9}|MercadoConsole-POO\\MercadoConsole-POO.csproj|solutionrelative:mercadoconsole-poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CED02991-4337-48DF-8D1F-DFB7DD6CCAD9}|MercadoConsole-POO\\MercadoConsole-POO.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\mercadoconsole-poo\\mercadoconsole-poo\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CED02991-4337-48DF-8D1F-DFB7DD6CCAD9}|MercadoConsole-POO\\MercadoConsole-POO.csproj|solutionrelative:mercadoconsole-poo\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\MercadoConsole-POO\\MercadoConsole-POO\\Program.cs",
+              "RelativeDocumentMoniker": "MercadoConsole-POO\\Program.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\MercadoConsole-POO\\MercadoConsole-POO\\Program.cs",
+              "RelativeToolTip": "MercadoConsole-POO\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T01:16:52.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\MercadoConsole-POO\\MercadoConsole-POO\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "MercadoConsole-POO\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\MercadoConsole-POO\\MercadoConsole-POO\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "MercadoConsole-POO\\Services\\ProdutoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAywIIAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-30T23:25:40.801Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -42,8 +42,7 @@
               "RelativeToolTip": "CadastroAluno-Console\\Controller\\AlunoController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA1wCMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:41:38.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T23:41:38.075Z"
             },
             {
               "$type": "Document",
@@ -51,9 +50,9 @@
               "Title": "AlunoView.cs",
               "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\CadastroAluno-Console\\CadastroAluno-Console\\Views\\AlunoView.cs",
               "RelativeDocumentMoniker": "CadastroAluno-Console\\Views\\AlunoView.cs",
-              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\CadastroAluno-Console\\CadastroAluno-Console\\Views\\AlunoView.cs",
-              "RelativeToolTip": "CadastroAluno-Console\\Views\\AlunoView.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADAAAAA/AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\CSharp\\CadastroAluno-Console\\CadastroAluno-Console\\Views\\AlunoView.cs*",
+              "RelativeToolTip": "CadastroAluno-Console\\Views\\AlunoView.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T23:39:22.784Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "CadastroAluno-Console\\Models\\Aluno.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:21:38.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T23:21:38.889Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "CadastroAluno-Console\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T23:18:48.736Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T23:18:48.736Z"
             }
           ]
         }

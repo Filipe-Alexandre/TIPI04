@@ -1,0 +1,38 @@
+--CREATE DATABASE BD_Agenda
+--GO
+
+--USE BD_Agenda
+--GO
+
+--CRIAÇÃO DAS TABELAS
+
+CREATE TABLE Contato
+(
+	IdContato INT PRIMARY KEY IDENTITY NOT NULL,
+	Nome VARCHAR(100) NOT NULL,
+	Apelido VARCHAR(20),
+	Email VARCHAR(100) NOT NULL,
+	Instagram VARCHAR(30),
+	Linkedin VARCHAR(30),
+	Tiktok VARCHAR(24),
+	Nascimento DATE NOT NULL,
+	Logradouro VARCHAR(100) NOT NULL,
+	Complemento VARCHAR(50),
+	Nro VARCHAR(10) NOT NULL,
+	Cep	VARCHAR(9) NOT NULL,
+	Bairro VARCHAR(50),
+	Cidade VARCHAR(50),
+	Estado CHAR(2)
+)
+GO
+
+CREATE TABLE Telefone
+(
+	IdTelefone INT PRIMARY KEY IDENTITY,
+	Ddd VARCHAR(2),
+	Numero VARCHAR(10),
+	Classificacao VARCHAR(9),
+	EhWhatsapp BIT,
+	IdContato INT FOREIGN KEY REFERENCES Contato(IdContato)
+)
+GO

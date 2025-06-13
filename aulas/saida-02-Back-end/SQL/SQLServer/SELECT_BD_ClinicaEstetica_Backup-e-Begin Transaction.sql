@@ -1,0 +1,15 @@
+USE ClinicaEstetica
+GO
+
+SELECT * FROM AgendamentoServico
+SELECT * FROM Agendamento
+
+--ABRINDO TRANSAÇÃO
+BEGIN TRANSACTION
+DELETE FROM AgendamentoServico  
+DELETE FROM Agendamento 
+--DESFAZENDO A TRANSAÇÃO
+ROLLBACK
+
+--CONFIRMANDO TRANSAÇÃO
+COMMIT
