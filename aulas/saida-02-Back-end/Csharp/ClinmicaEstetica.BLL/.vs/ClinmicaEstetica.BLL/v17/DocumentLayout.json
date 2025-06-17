@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\ClinmicaEstetica.BLL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E4B35EBA-2F7F-4DD9-AEA2-87AA3A0B3BF1}|ClinmicaEstetica.BLL\\ClinmicaEstetica.BLL.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\clinmicaestetica.bll\\clinmicaestetica.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4B35EBA-2F7F-4DD9-AEA2-87AA3A0B3BF1}|ClinmicaEstetica.BLL\\ClinmicaEstetica.BLL.csproj|solutionrelative:clinmicaestetica.bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\ClinmicaEstetica.BLL\\ClinmicaEstetica.BLL\\Class1.cs",
+              "RelativeDocumentMoniker": "ClinmicaEstetica.BLL\\Class1.cs",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\ClinmicaEstetica.BLL\\ClinmicaEstetica.BLL\\Class1.cs",
+              "RelativeToolTip": "ClinmicaEstetica.BLL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T22:50:23.439Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
