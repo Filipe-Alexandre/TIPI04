@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CadastroAluno-Console")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76dc155dcf264a5693e0c8dc2533daabeaa57377")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("CadastroAluno-Console")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CadastroAluno-Console")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
