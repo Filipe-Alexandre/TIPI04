@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "Smartphones",
+        "departamento": "Tecnologia"
+    },
+    {
+        "nome": "Notebook",
+        "departamento": "Tecnologia"
+    },
+    {
+        "nome": "Televisores",
+        "departamento": "Tecnologia"
+    },
+    {
+        "nome": "Roupas Esportivas",
+        "departamento": "Vestuário"
+    },
+    {
+        "nome": "Calçados",
+        "departamento": "Vestuário"
+    },
+    {
+        "nome": "Alimentos Saudáveis",
+        "departamento": "Alimentação"
+    },
+    {
+        "nome": "Laticínios",
+        "departamento": "Alimentação"
+    },
+    {
+        "nome": "Futebol",
+        "departamento": "Esportes"
+    },
+    {
+        "nome": "Bicicletas",
+        "departamento": "Esportes"
+    },
+    {
+        "nome": "Cadeiras",
+        "departamento": "Móveis"
+    }
+]

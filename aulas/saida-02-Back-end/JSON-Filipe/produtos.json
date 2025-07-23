@@ -1,0 +1,66 @@
+[
+    {
+        "nome":"Iphone 14 Pro",
+        "descricao":"Smartphone de última geração com câmera 48MP",
+        "preco":9999,
+        "estoque":50,
+        "lancamento":1,
+        "categorias": ["Smartphones","Notebooks","Televisores","Roupas Esportivas","Calçados" ]
+    },
+    {
+        "nome":"MacBook Pro",
+        "descricao":"Notebook potente com chip M1",
+        "preco":14999,
+        "estoque":30,
+        "lancamento":1,
+        "categorias": ["Smartphones","Notebooks","Televisores"]
+    },
+    {
+        "nome":"Smart TV 55' 4K",
+        "descricao":"Televisor smart com resolução 4K",
+        "preco":4499,
+        "estoque":20,
+        "lancamento":0,
+        "categorias": ["Notebooks","Televisores","Roupas Esportivas"]
+    },
+    {
+        "nome":"Camiseta de Futebol",
+        "descricao":"Camiseta oficial para prática de esportes",
+        "preco":199,
+        "estoque":150,
+        "lancamento":0,
+        "categorias": ["Roupas Esportivas","Futebol"]
+    },
+    {
+        "nome":"Tênis de corrida",
+        "descricao":"Tênis leve e resistente para corrida",
+        "preco":499,
+        "estoque":80,
+        "lancamento":1,
+        "categorias": ["Roupas Esportivas","Calçados"]
+    },
+    {
+        "nome":"Leite integral",
+        "descricao":"Leite fresco integral de alta qualidade",
+        "preco":5.99,
+        "estoque":200,
+        "lancamento":0,
+        "categorias": ["Laticínios"]
+    },
+    {
+        "nome":"Bicicleta Montain",
+        "descricao":"Bicicleta resistente para trilhas",
+        "preco":2999,
+        "estoque":15,
+        "lancamento":0,
+        "categorias": ["Bicibletas"]
+    },
+    {
+        "nome":"Cadeira de escritório",
+        "descricao":"Cadeira ergonomica com ajuste de altura",
+        "preco":899,
+        "estoque":100,
+        "lancamento":1,
+        "categorias": ["Cadeiras"]
+    }
+]
