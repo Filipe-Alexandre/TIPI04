@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{5D307F0B-2046-401E-99EF-53CE83BA1EFF}|SaphiraTerror\\SaphiraTerror.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\saphiraterrorsoluction\\saphiraterror\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D307F0B-2046-401E-99EF-53CE83BA1EFF}|SaphiraTerror\\SaphiraTerror.csproj|solutionrelative:saphiraterror\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D307F0B-2046-401E-99EF-53CE83BA1EFF}|SaphiraTerror\\SaphiraTerror.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\saphiraterrorsoluction\\saphiraterror\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D307F0B-2046-401E-99EF-53CE83BA1EFF}|SaphiraTerror\\SaphiraTerror.csproj|solutionrelative:saphiraterror\\models\\filme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D307F0B-2046-401E-99EF-53CE83BA1EFF}|SaphiraTerror\\SaphiraTerror.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\saphiraterrorsoluction\\saphiraterror\\models\\classificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D307F0B-2046-401E-99EF-53CE83BA1EFF}|SaphiraTerror\\SaphiraTerror.csproj|solutionrelative:saphiraterror\\models\\classificacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D307F0B-2046-401E-99EF-53CE83BA1EFF}|SaphiraTerror\\SaphiraTerror.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\saphiraterrorsoluction\\saphiraterror\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D307F0B-2046-401E-99EF-53CE83BA1EFF}|SaphiraTerror\\SaphiraTerror.csproj|solutionrelative:saphiraterror\\models\\genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D307F0B-2046-401E-99EF-53CE83BA1EFF}|SaphiraTerror\\SaphiraTerror.csproj|c:\\users\\filipe.asilva7\\desktop\\tipi04\\aulas\\saida-02-back-end\\csharp\\saphiraterrorsoluction\\saphiraterror\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D307F0B-2046-401E-99EF-53CE83BA1EFF}|SaphiraTerror\\SaphiraTerror.csproj|solutionrelative:saphiraterror\\models\\tipousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,72 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "SaphiraTerror\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\Models\\Usuario.cs",
-              "RelativeToolTip": "SaphiraTerror\\Models\\Usuario.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCQAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T00:54:20.784Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Filme.cs",
-              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\Models\\Filme.cs",
-              "RelativeDocumentMoniker": "SaphiraTerror\\Models\\Filme.cs",
-              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\Models\\Filme.cs",
-              "RelativeToolTip": "SaphiraTerror\\Models\\Filme.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T00:36:06.507Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Genero.cs",
-              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\Models\\Genero.cs",
-              "RelativeDocumentMoniker": "SaphiraTerror\\Models\\Genero.cs",
-              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\Models\\Genero.cs",
-              "RelativeToolTip": "SaphiraTerror\\Models\\Genero.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T00:36:06.751Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Classificacao.cs",
-              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\Models\\Classificacao.cs",
-              "RelativeDocumentMoniker": "SaphiraTerror\\Models\\Classificacao.cs",
-              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\Models\\Classificacao.cs",
-              "RelativeToolTip": "SaphiraTerror\\Models\\Classificacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T00:32:41.306Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TipoUsuario.cs",
-              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\Models\\TipoUsuario.cs",
-              "RelativeDocumentMoniker": "SaphiraTerror\\Models\\TipoUsuario.cs",
-              "ToolTip": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\Models\\TipoUsuario.cs",
-              "RelativeToolTip": "SaphiraTerror\\Models\\TipoUsuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-21T23:46:58.885Z"
             }
           ]
         }

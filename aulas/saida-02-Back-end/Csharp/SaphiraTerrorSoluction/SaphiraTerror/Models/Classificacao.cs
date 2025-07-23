@@ -7,6 +7,7 @@ namespace SaphiraTerror.Models;
 
 public class Classificacao
 {
+    [Key]
     public int IdClassificacao { get; set; }
 
     [Required(ErrorMessage = "Campo Obrigatório!")]

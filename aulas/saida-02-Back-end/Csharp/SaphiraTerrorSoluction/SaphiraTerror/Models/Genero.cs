@@ -6,6 +6,7 @@ namespace SaphiraTerror.Models;
 [Table("Genero")]
 public class Genero
 {
+    [Key]
     public int IdGenero { get; set; }
 
     [Required(ErrorMessage = "Campo Obrigatório!")]
