@@ -1,0 +1,35 @@
+﻿@model IEnumerable<SaphiraTerror.Models.Genero>
+
+@{
+    ViewData["Title"] = "Generos";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Novo Gênero</a>
+</p>
+
+<table class="table table-light">
+    <thead>
+        <tr>
+            <th>Descrição</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var genero in Model)
+        {
+            <tr>
+                <td>@genero.DescricaoGenero</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@genero.IdGenero" class="btn btn-sm btn-primary">Editar</a>
+                    @if (User.IsInRole("Administrador"))
+                    {
+                        <a asp-action="Delete" asp-route-id="@genero.IdGenero" class="btn btn-sm btn-danger">Excluir</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

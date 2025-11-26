@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "t2Z8iOBp1insUzfnm5PDOL+1aJayB9kTKgzkr6PoQAE=",
+  "Hash": "qg8N3ZpUyl7EIvbnT2sNryScU/iZl3thh9Wsu1CmecI=",
   "Source": "SaphiraTerror",
   "BasePath": "_content/SaphiraTerror",
   "Mode": "Default",
@@ -80,6 +80,27 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\css\\style.css",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6pqpp11eui",
+      "Integrity": "akDaDDMPjTA1aaadAnR7qN+Gexjv0dXTp3ERrO6LSKI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\favicon.ico",
       "SourceId": "SaphiraTerror",
       "SourceType": "Discovered",
@@ -99,6 +120,237 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-admin.png",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "img/avatar-admin#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "adbf1ll9jj",
+      "Integrity": "Toxf4nhwz/UpdUpBwdH+Rmv+HCnMbL7vt6t4hDMPRfs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\avatar-admin.png"
+    },
+    {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-gerente.png",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "img/avatar-gerente#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "49bann7bsr",
+      "Integrity": "eLpXkwN8/CUINCAikMFvlOYYJK0SCxrrYOpXyaCExDc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\avatar-gerente.png"
+    },
+    {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-outros.png",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "img/avatar-outros#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ufwttvcqbm",
+      "Integrity": "eqIwfNIjq3gl9FQRA8xAC2rb5fdLzx+qymlVUFOZicQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\avatar-outros.png"
+    },
+    {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\bg-hero.jpg",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "img/bg-hero#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bz32survk6",
+      "Integrity": "WTtFKGi2Pmr4TG+kdxCgjcFY/NGTK8S00UJimaaM0fQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\bg-hero.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\default-filme.png",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "img/default-filme#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6upmsm3xwj",
+      "Integrity": "sq/IBPmK6v3NFNDaYZ6QJmkDhKTzA1tfNgnWBzQBZ/o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\default-filme.png"
+    },
+    {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror1.jpg",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "img/Terror1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mgk3top8zt",
+      "Integrity": "qkhVoYTpozKAxmo3x4/jIz0nLhOs12SD4mOJYdl2mZA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Terror1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror2.jpg",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "img/Terror2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nzh7x0lxdq",
+      "Integrity": "LVglUvMUkKGp0q3LHf/7hiTaZXei2DA+l7/2wZR0wn4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Terror2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror3.jpg",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "img/Terror3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "88wwy61r6h",
+      "Integrity": "2Iq3dkES89TtUqGk6H+1PHOqUV+7Mvi/j1J53DD84ss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Terror3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\index.html",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rki4d0msb1",
+      "Integrity": "9TtGhuxQb42quMSoZhuCPwtcImDS0DEbcV3ftJsy1dk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\js\\main.js",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4bhxgc1hti",
+      "Integrity": "4OVXJfWvVKwatZJC2u5xm9/EcJySKseACi2FyevXtSI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\js\\movies.js",
+      "SourceId": "SaphiraTerror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\",
+      "BasePath": "_content/SaphiraTerror",
+      "RelativePath": "js/movies#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7rvvg5eg8d",
+      "Integrity": "fSk339jsRYz7xR/oGnGtY+43RS+aXFf2Bpv/q6LNZa0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\movies.js"
     },
     {
       "Identity": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\js\\site.js",
@@ -1403,6 +1655,88 @@
       ]
     },
     {
+      "Route": "css/style.6pqpp11eui.css",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"akDaDDMPjTA1aaadAnR7qN+Gexjv0dXTp3ERrO6LSKI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6pqpp11eui"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-akDaDDMPjTA1aaadAnR7qN+Gexjv0dXTp3ERrO6LSKI="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"akDaDDMPjTA1aaadAnR7qN+Gexjv0dXTp3ERrO6LSKI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-akDaDDMPjTA1aaadAnR7qN+Gexjv0dXTp3ERrO6LSKI="
+        }
+      ]
+    },
+    {
       "Route": "favicon.61n19gt1b8.ico",
       "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\favicon.ico",
       "Selectors": [],
@@ -1481,6 +1815,908 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "img/avatar-admin.adbf1ll9jj.png",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-admin.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "318811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Toxf4nhwz/UpdUpBwdH+Rmv+HCnMbL7vt6t4hDMPRfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Aug 2025 23:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "adbf1ll9jj"
+        },
+        {
+          "Name": "label",
+          "Value": "img/avatar-admin.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Toxf4nhwz/UpdUpBwdH+Rmv+HCnMbL7vt6t4hDMPRfs="
+        }
+      ]
+    },
+    {
+      "Route": "img/avatar-admin.png",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-admin.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "318811"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Toxf4nhwz/UpdUpBwdH+Rmv+HCnMbL7vt6t4hDMPRfs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Aug 2025 23:17:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Toxf4nhwz/UpdUpBwdH+Rmv+HCnMbL7vt6t4hDMPRfs="
+        }
+      ]
+    },
+    {
+      "Route": "img/avatar-gerente.49bann7bsr.png",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-gerente.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "322230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eLpXkwN8/CUINCAikMFvlOYYJK0SCxrrYOpXyaCExDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Aug 2025 23:17:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "49bann7bsr"
+        },
+        {
+          "Name": "label",
+          "Value": "img/avatar-gerente.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eLpXkwN8/CUINCAikMFvlOYYJK0SCxrrYOpXyaCExDc="
+        }
+      ]
+    },
+    {
+      "Route": "img/avatar-gerente.png",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-gerente.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "322230"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eLpXkwN8/CUINCAikMFvlOYYJK0SCxrrYOpXyaCExDc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Aug 2025 23:17:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eLpXkwN8/CUINCAikMFvlOYYJK0SCxrrYOpXyaCExDc="
+        }
+      ]
+    },
+    {
+      "Route": "img/avatar-outros.png",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-outros.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "293540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eqIwfNIjq3gl9FQRA8xAC2rb5fdLzx+qymlVUFOZicQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Aug 2025 23:17:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eqIwfNIjq3gl9FQRA8xAC2rb5fdLzx+qymlVUFOZicQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/avatar-outros.ufwttvcqbm.png",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-outros.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "293540"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eqIwfNIjq3gl9FQRA8xAC2rb5fdLzx+qymlVUFOZicQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Aug 2025 23:17:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ufwttvcqbm"
+        },
+        {
+          "Name": "label",
+          "Value": "img/avatar-outros.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eqIwfNIjq3gl9FQRA8xAC2rb5fdLzx+qymlVUFOZicQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/bg-hero.bz32survk6.jpg",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\bg-hero.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208620"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WTtFKGi2Pmr4TG+kdxCgjcFY/NGTK8S00UJimaaM0fQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bz32survk6"
+        },
+        {
+          "Name": "label",
+          "Value": "img/bg-hero.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WTtFKGi2Pmr4TG+kdxCgjcFY/NGTK8S00UJimaaM0fQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/bg-hero.jpg",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\bg-hero.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208620"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WTtFKGi2Pmr4TG+kdxCgjcFY/NGTK8S00UJimaaM0fQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WTtFKGi2Pmr4TG+kdxCgjcFY/NGTK8S00UJimaaM0fQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/default-filme.6upmsm3xwj.png",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\default-filme.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sq/IBPmK6v3NFNDaYZ6QJmkDhKTzA1tfNgnWBzQBZ/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 01:14:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6upmsm3xwj"
+        },
+        {
+          "Name": "label",
+          "Value": "img/default-filme.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sq/IBPmK6v3NFNDaYZ6QJmkDhKTzA1tfNgnWBzQBZ/o="
+        }
+      ]
+    },
+    {
+      "Route": "img/default-filme.png",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\default-filme.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7221"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sq/IBPmK6v3NFNDaYZ6QJmkDhKTzA1tfNgnWBzQBZ/o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 28 Aug 2025 01:14:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sq/IBPmK6v3NFNDaYZ6QJmkDhKTzA1tfNgnWBzQBZ/o="
+        }
+      ]
+    },
+    {
+      "Route": "img/Terror1.jpg",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qkhVoYTpozKAxmo3x4/jIz0nLhOs12SD4mOJYdl2mZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qkhVoYTpozKAxmo3x4/jIz0nLhOs12SD4mOJYdl2mZA="
+        }
+      ]
+    },
+    {
+      "Route": "img/Terror1.mgk3top8zt.jpg",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5189"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qkhVoYTpozKAxmo3x4/jIz0nLhOs12SD4mOJYdl2mZA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mgk3top8zt"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Terror1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qkhVoYTpozKAxmo3x4/jIz0nLhOs12SD4mOJYdl2mZA="
+        }
+      ]
+    },
+    {
+      "Route": "img/Terror2.jpg",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LVglUvMUkKGp0q3LHf/7hiTaZXei2DA+l7/2wZR0wn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LVglUvMUkKGp0q3LHf/7hiTaZXei2DA+l7/2wZR0wn4="
+        }
+      ]
+    },
+    {
+      "Route": "img/Terror2.nzh7x0lxdq.jpg",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34396"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LVglUvMUkKGp0q3LHf/7hiTaZXei2DA+l7/2wZR0wn4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nzh7x0lxdq"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Terror2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LVglUvMUkKGp0q3LHf/7hiTaZXei2DA+l7/2wZR0wn4="
+        }
+      ]
+    },
+    {
+      "Route": "img/Terror3.88wwy61r6h.jpg",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Iq3dkES89TtUqGk6H+1PHOqUV+7Mvi/j1J53DD84ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "88wwy61r6h"
+        },
+        {
+          "Name": "label",
+          "Value": "img/Terror3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Iq3dkES89TtUqGk6H+1PHOqUV+7Mvi/j1J53DD84ss="
+        }
+      ]
+    },
+    {
+      "Route": "img/Terror3.jpg",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40143"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2Iq3dkES89TtUqGk6H+1PHOqUV+7Mvi/j1J53DD84ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2Iq3dkES89TtUqGk6H+1PHOqUV+7Mvi/j1J53DD84ss="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TtGhuxQb42quMSoZhuCPwtcImDS0DEbcV3ftJsy1dk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Sep 2025 01:00:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9TtGhuxQb42quMSoZhuCPwtcImDS0DEbcV3ftJsy1dk="
+        }
+      ]
+    },
+    {
+      "Route": "index.rki4d0msb1.html",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5717"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TtGhuxQb42quMSoZhuCPwtcImDS0DEbcV3ftJsy1dk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 06 Sep 2025 01:00:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rki4d0msb1"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9TtGhuxQb42quMSoZhuCPwtcImDS0DEbcV3ftJsy1dk="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.4bhxgc1hti.js",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4OVXJfWvVKwatZJC2u5xm9/EcJySKseACi2FyevXtSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4bhxgc1hti"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4OVXJfWvVKwatZJC2u5xm9/EcJySKseACi2FyevXtSI="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4942"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4OVXJfWvVKwatZJC2u5xm9/EcJySKseACi2FyevXtSI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4OVXJfWvVKwatZJC2u5xm9/EcJySKseACi2FyevXtSI="
+        }
+      ]
+    },
+    {
+      "Route": "js/movies.7rvvg5eg8d.js",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\js\\movies.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fSk339jsRYz7xR/oGnGtY+43RS+aXFf2Bpv/q6LNZa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7rvvg5eg8d"
+        },
+        {
+          "Name": "label",
+          "Value": "js/movies.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fSk339jsRYz7xR/oGnGtY+43RS+aXFf2Bpv/q6LNZa0="
+        }
+      ]
+    },
+    {
+      "Route": "js/movies.js",
+      "AssetFile": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\js\\movies.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4326"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fSk339jsRYz7xR/oGnGtY+43RS+aXFf2Bpv/q6LNZa0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Sep 2025 23:56:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fSk339jsRYz7xR/oGnGtY+43RS+aXFf2Bpv/q6LNZa0="
         }
       ]
     },

@@ -1,0 +1,150 @@
+﻿@page "/OnClickEvent"
+@using ServerMP1.DTOs
+@rendermode InteractiveServer
+
+
+<h3>OnClickEvent</h3>
+
+@* Playground *@
+<div class="col-12 p-4 bg-light">
+	<h3>Products Playground</h3>
+	<div class="row">
+		<div class="col-6 p-4">
+		</div>
+
+		<div class="col-6 p-4">
+		</div>
+	</div>
+</div>
+
+@* Summary *@
+<div class="col-12 p-4 bg-light">
+	<h3>Products Summary</h3>
+	<table class="table table-striped table-hover">
+		<thead>
+			<tr>
+				<th>Id:</th>
+				<th>Name:</th>
+				<th>Price:</th>
+				<th>Stock:</th>
+				<th>Category:</th>
+				<th>Active:</th>
+				<th></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var p in listProductsDTOs)
+			{
+				<tr>
+					<td>@p.Id</td>
+					<td>@p.Name</td>
+					<td>@p.Price.ToString("c")</td>
+					<td>@p.Stock</td>
+					<td>@p.CategoryName</td>
+					<td>@(p.IsActive ? "✅" : "❌")</td>
+					<td></td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>
+
+
+@code {
+
+	private List<ProductDTO> listProductsDTOs = new();
+
+	//LISTA DE CATEGORIAS
+	private List<string> Categories = new() {
+		"Lanche",
+		"Bebida",
+		"Sobremesa",
+	};
+
+	//LISTA DE PRODUTOS
+	private void ProductsList()
+	{
+		//lanche
+		listProductsDTOs.Add(new()
+			{
+				Id = 1,
+				Name = "Xsalada",
+				Description = "Carne e salada",
+				UrlImg = "https://images.pexels.com/photos/327158/pexels-photo-327158.jpeg",
+				Price = 22.5m,
+				Stock = 12,
+				IsActive = true,
+				CategoryName = "Lanche"
+			});
+
+		listProductsDTOs.Add(new()
+			{
+				Id = 2,
+				Name = "xBacon",
+				Description = "Carne e bacon",
+				UrlImg = "https://images.pexels.com/photos/139746/pexels-photo-139746.jpeg",
+				Price = 25.5m,
+				Stock = 9,
+				IsActive = true,
+				CategoryName = "Lanche"
+			});
+
+		//bebida
+		listProductsDTOs.Add(new()
+			{
+				Id = 3,
+				Name = "Limonada",
+				Description = "agua e limão",
+				UrlImg = "https://images.pexels.com/photos/12433992/pexels-photo-12433992.jpeg",
+				Price = 12m,
+				Stock = 20,
+				IsActive = true,
+				CategoryName = "Bebida"
+			});
+
+		listProductsDTOs.Add(new()
+			{
+				Id = 4,
+				Name = "Laranjada",
+				Description = "agua e laranja",
+				UrlImg = "https://images.pexels.com/photos/1393302/pexels-photo-1393302.jpeg",
+				Price = 12m,
+				Stock = 15,
+				IsActive = true,
+				CategoryName = "Bebida"
+			});
+
+		//sobremesa
+		listProductsDTOs.Add(new()
+			{
+				Id = 5,
+				Name = "bolo de chocolate",
+				Description = "bolo de chocolate 50%",
+				UrlImg = "https://images.pexels.com/photos/4109998/pexels-photo-4109998.jpeg",
+				Price = 18.9m,
+				Stock = 7,
+				IsActive = true,
+				CategoryName = "Sobremesa"
+			});
+
+		listProductsDTOs.Add(new()
+			{
+				Id = 6,
+				Name = "bolo de cenoura",
+				Description = "bolo de chocolate com calda de cenoura",
+				UrlImg = "https://images.pexels.com/photos/2612373/pexels-photo-2612373.jpeg",
+				Price = 200.02m,
+				Stock = 500,
+				IsActive = true,
+				CategoryName = "Sobremesa"
+			});
+	}
+
+	//INICIALIZAR
+	protected override async Task OnInitializedAsync()
+	{
+		ProductsList();
+	}
+
+
+}

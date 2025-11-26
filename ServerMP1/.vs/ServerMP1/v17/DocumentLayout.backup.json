@@ -1,0 +1,62 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\filipe.asilva7\\source\\repos\\ServerMP1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC685838-A59D-4961-A0D3-EA96FBA33706}|ServerMP1.csproj|c:\\users\\filipe.asilva7\\source\\repos\\servermp1\\components\\pages\\onclickevent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC685838-A59D-4961-A0D3-EA96FBA33706}|ServerMP1.csproj|solutionrelative:components\\pages\\onclickevent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC685838-A59D-4961-A0D3-EA96FBA33706}|ServerMP1.csproj|c:\\users\\filipe.asilva7\\source\\repos\\servermp1\\components\\pages\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{EC685838-A59D-4961-A0D3-EA96FBA33706}|ServerMP1.csproj|solutionrelative:components\\pages\\detail.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Detail.razor",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\source\\repos\\ServerMP1\\Components\\Pages\\Detail.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Detail.razor",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\source\\repos\\ServerMP1\\Components\\Pages\\Detail.razor",
+              "RelativeToolTip": "Components\\Pages\\Detail.razor",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAgwGcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T00:36:03.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OnClickEvent.razor",
+              "DocumentMoniker": "C:\\Users\\filipe.asilva7\\source\\repos\\ServerMP1\\Components\\Pages\\OnClickEvent.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\OnClickEvent.razor",
+              "ToolTip": "C:\\Users\\filipe.asilva7\\source\\repos\\ServerMP1\\Components\\Pages\\OnClickEvent.razor*",
+              "RelativeToolTip": "Components\\Pages\\OnClickEvent.razor*",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-26T00:33:02.225Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

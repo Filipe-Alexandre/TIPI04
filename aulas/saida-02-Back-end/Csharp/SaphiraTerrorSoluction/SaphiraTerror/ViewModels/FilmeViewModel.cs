@@ -7,7 +7,7 @@ namespace SaphiraTerror.ViewModels
         public int IdFilmeViewModel { get; set; }
         public string TituloFilmeViewModel { get; set; }
         public string ProdutoraFilmeViewModel { get; set; }
-        public string UrlImagemFilmeViewModel { get; set; }
+        public string? UrlImagemFilmeViewModel { get; set; }
 
         public IFormFile? ImagemUpload { get; set; }
         

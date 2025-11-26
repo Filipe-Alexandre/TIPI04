@@ -5,25 +5,23 @@ using SaphiraTerror.Models;
 
 namespace SaphiraTerror.Repositories
 {
-    //campo de apoio
     public class FilmeRepository : IFilmeRepository
     {
         private readonly SaphiraTerrorDbContext _context;
-
         public FilmeRepository(SaphiraTerrorDbContext context)
         {
             _context = context;
         }
 
-        //Adicionar filmes
-        public async Task AddAsync(Filme filme)
+        //UPDATE
+        public async Task UpdateAsync(Filme filme)
         {
-            await _context.Filmes.AddAsync(filme);
+            _context.Filmes.Update(filme);
             await _context.SaveChangesAsync();
         }
 
-        //Deletar Filme
-        public async Task DeleteAddAsync(int id)
+        //DELETE (Delete)
+        public async Task DeleteAsync(int id)
         {
             var filme = await _context.Filmes.FirstOrDefaultAsync(f => f.IdFilme == id);
             if (filme != null)
@@ -33,37 +31,24 @@ namespace SaphiraTerror.Repositories
             }
         }
 
-        public Task DeleteAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<List<Filme>> GetAllAsync()
-        {
-            throw new NotImplementedException();
-        }
-
-        //Listar todos os filmes
-        public async Task<List<Filme>> GetAllsSync()
+        //GET ALL (trazer tudo)
+        public async Task<List<Filme>> GetAllAsync()
         {
             return await _context.Filmes.Include(f => f.Genero).Include(f => f.Classificacao).ToListAsync();
         }
 
-        //Busca por id
-        public async Task<Filme> GetAllsSync(int id)
+        //GET BY ID
+
+        public async Task<Filme> GetByIdAsync(int id)
         {
             return await _context.Filmes.Include(f => f.Genero).Include(f => f.Classificacao).FirstOrDefaultAsync(f => f.IdFilme == id);
         }
 
-        public Task<Filme> GetByIdAsync(int id)
-        {
-            throw new NotImplementedException();
-        }
+        //CREATE (Add)
 
-        //Editar filme
-        public async Task UpdateAsync(Filme filme)
+        public async Task AddAsync(Filme filme)
         {
-            _context.Filmes.Update(filme);
+            await _context.Filmes.AddAsync(filme);
             await _context.SaveChangesAsync();
         }
     }

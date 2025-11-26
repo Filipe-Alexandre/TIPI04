@@ -1,0 +1,22 @@
+﻿@model SaphiraTerror.Models.Classificacao
+
+@{
+    ViewData["Title"] = "Nova Classificação";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Create">
+    <div class="mb-3">
+        <label asp-for="DescricaoClassificacao" class="form-label"></label>
+        <input asp-for="DescricaoClassificacao" class="form-control" autofocus/>
+        <span asp-validation-for="DescricaoClassificacao" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

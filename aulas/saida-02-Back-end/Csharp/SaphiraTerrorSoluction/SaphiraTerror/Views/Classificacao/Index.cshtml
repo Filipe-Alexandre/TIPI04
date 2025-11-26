@@ -1,0 +1,35 @@
+﻿@model IEnumerable<SaphiraTerror.Models.Classificacao>
+
+@{
+    ViewData["Title"] = "Classificações";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Nova Classificação</a>
+</p>
+
+<table class="table table-light">
+    <thead>
+        <tr>
+            <th>Descrição</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var classificacao in Model)
+        {
+            <tr>
+                <td>@classificacao.DescricaoClassificacao</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@classificacao.IdClassificacao" class="btn btn-sm btn-primary">Editar</a>
+                    @if (User.IsInRole("Administrador"))
+                    {
+                        <a asp-action="Delete" asp-route-id="@classificacao.IdClassificacao" class="btn btn-sm btn-danger">Excluir</a>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

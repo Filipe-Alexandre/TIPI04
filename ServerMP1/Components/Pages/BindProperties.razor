@@ -1,0 +1,124 @@
+﻿@page "/BindProperties"
+@using ServerMP1.DTOs
+
+@* para renderizar *@
+@rendermode InteractiveServer
+
+<h3>Bind Properties</h3>
+
+<div class="row p-3">
+
+	<div class="col-6 border p-3 bg-light">
+		<h3>Product - Data Bind Playground</h3>
+		<hr />
+		<div class="col-6 border p-3 rounded">
+			<h3>Product - Data Bind Summary</h3>
+			<hr />
+			<ul class="list-unstyled">
+				<li>Id: @product.Id</li>
+				<li>
+					Name:
+					<input type="text" @bind-value="@product.Name" @bind-value:event="oninput" />
+				</li>
+				<li>
+					Description:
+					<input type="text" @bind-value="@product.Description" @bind-value:event="oninput" />
+				</li>
+				<li>
+					Image:
+					<img src="@product.UrlImg" style="width: 150px; border-radius: 8px; border:1px solid gray" />
+				</li>
+				<li>
+					<br />
+					@* inputFile para selecionar uma nova imagem *@
+					<InputFile OnChange="onImageSelected"></InputFile>
+				</li>
+				<li>
+					Price:
+					<input type="number" @bind-value="product.Price" @bind-value:event="oninput" />
+				</li>
+				<li>
+					Stock:
+					<input type="number" @bind-value="product.Stock" @bind-value:event="oninput" />
+				</li>
+				<li>
+					IsActive:
+					<input type="checkbox" @bind="product.IsActive" />
+				</li>
+				<li>
+					<select @bind=@selectedCategory>
+						@foreach (var cat in product.Categories)
+						{
+							<option value="@cat.Name">@cat.Name</option>
+						}
+					</select>
+
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="col-6 border p-3 rounded">
+		<h3>Product - Data Bind Summary</h3>
+		<hr />
+		<ul class="list-unstyled">
+			<li>Id: @product.Id</li>
+			<li>Name: @product.Name</li>
+			<li>Description: @product.Description</li>
+			<li>
+				Image:
+				<img src="@product.UrlImg" style="width: 150px; border-radius: 8px; border:1px solid gray" />
+			</li>
+			<li>Price: @product.Price.ToString("c")</li>
+			<li>Stock: @product.Stock</li>
+			<li>IsActive: @(product.IsActive ? "Active" : "Inactive")</li>
+			<li>Categories: @selectedCategory</li>
+		</ul>
+	</div>
+</div>
+
+
+@code {
+	private string selectedCategory = "";
+
+	DTOs.ProductDTO product = new()
+		{
+			Id = 1,
+			Name = "ChessBurger",
+			Description = "Hamburger com queijo",
+			UrlImg = "https://d3sn2rlrwxy0ce.cloudfront.net/site_Mega_Stacker_Rodeio_2.0-1.png?mtime=20250120125654&focal=none",
+			Price = 20.9m,
+			Stock = 12,
+			IsActive = true,
+			Categories = new List<CategoryDTO>
+			{
+				new() { Name = "Lanche"},
+				new() { Name = "Bebida"},
+				new() { Name = "Sobremesa"},
+			}
+		};
+
+	protected override void OnInitialized()
+	{
+		selectedCategory = product.Categories.First().Name;
+	}
+
+	// carregamento da imagem
+	private async Task onImageSelected(InputFileChangeEventArgs e)
+	{
+		var file = e.File;
+		if (file is null)
+			return;
+
+		//limita o tamanho da image
+		using var stream = file.OpenReadStream(maxAllowedSize: 2 * 1024 * 1024);
+		using var ms = new MemoryStream();
+		await stream.CopyToAsync(ms);
+
+		// ler o arquivo como um array de bytes
+		var bytes = ms.ToArray();
+		var base64 = Convert.ToBase64String(bytes);
+
+		//monta data URL e joga direto no UrlImage
+		product.UrlImg = $"data:{file.ContentType};base64,{base64}";
+	}
+}

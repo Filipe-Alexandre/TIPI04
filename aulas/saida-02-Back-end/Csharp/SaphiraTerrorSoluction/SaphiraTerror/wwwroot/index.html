@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SaphiraTerror</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body data-bs-theme="dark">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">🦇 SaphiraTerror</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#category">Categorias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#movies">Filmes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#restrict">Área Restrita</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HOME -->
+    <section id="home" class="vh-100 d-flex align-items-center justify-content-center text-center bg-dark text-light">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Bem-vindo ao SaphiraTerror</h1>
+            <p class="lead">A escuridão tem um novo lar.</p>
+            <a href="#movies" class="btn btn-danger btn-lg mt-3">Explorar Filmes</a>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-5 bg-black text-light text-center">
+        <div class="container">
+            <h2 class="mb-4">Sobre o Projeto</h2>
+            <p class="lead">
+                Uma homenagem ao cinema de horror. Desenvolvido com HTML, CSS, JavaScript e muita alma.
+            </p>
+        </div>
+    </section>
+
+    <!-- CATEGORY -->
+    <section id="category" class="py-5 bg-dark text-center">
+        <div class="container">
+            <h2 class="mb-4 text-light">Categorias</h2>
+            <p class="text-muted">
+                Escolha um gênero abaixo para filtrar os filmes disponíveis:
+            </p>
+            <!-- Botões de filtro -->
+            <div class="text-center mb-4">
+                <button class="btn btn-outline-light me-2 filter-btn" data-genero="todos">Todos</button>
+                <button class="btn btn-outline-light me-2 filter-btn" data-genero="Gore">Gore</button>
+                <button class="btn btn-outline-light me-2 filter-btn" data-genero="Zumbi">Zumbi</button>
+                <button class="btn btn-outline-light me-2 filter-btn" data-genero="Terror Psicológico">Terror Psicológico</button>
+                <button class="btn btn-outline-light me-2 filter-btn" data-genero="Found Footage">Found Footage</button>
+                <button class="btn btn-outline-light me-2 filter-btn" data-genero="Body Horror">Body Horror</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- MOVIES -->
+    <section id="movies" class="py-5 bg-black text-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Filmes em Destaque</h2>
+
+            <!-- Busca -->
+            <div class="text-center mb-4">
+                <input type="text" id="busca-filme" class="form-control w-50 mx-auto"
+                       placeholder="🔍 Buscar por título..." />
+            </div>
+
+            <!-- Cards renderizados dinamicamente -->
+            <div id="filmes-container" class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                <!-- O JS irá preencher aqui -->
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- RESTRICT -->
+    <section id="restrict" class="py-5 bg-dark text-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Área Restrita</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="index.html">
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="usuario@saphiraterror.com">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Senha</label>
+                            <input type="password" class="form-control" placeholder="********">
+                        </div>
+                        <button type="submit" class="btn btn-danger w-100">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-black text-center text-muted py-3">
+        <div class="container">
+            <small>&copy; 2025 - SaphiraTerror. Todos os direitos reservados.</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+     <script src="js/movies.js"></script> 
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+﻿@model SaphiraTerror.Models.Genero
+
+@{
+    ViewData["Title"] = "Editar Gênero";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="IdGenero" />
+
+    <div class="mb-3">
+        <label asp-for="DescricaoGenero" class="form-label"></label>
+        <input asp-for="DescricaoGenero" class="form-control" autofocus />
+        <span asp-validation-for="DescricaoGenero" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
+
+@section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,18 @@
+﻿@model SaphiraTerror.Models.Classificacao
+
+@{
+    ViewData["Title"] = "Excluir Classificação";
+}
+
+<h2>Deseja realmente excluir esta classificação?</h2>
+
+<dl class="row">
+    <dt class="col-sm-2">Descrição</dt>
+    <dd class="col-sm-10">@Model.DescricaoClassificacao</dd>
+</dl>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="IdClassificacao" />
+    <button type="submit" class="btn btn-danger">Excluir</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

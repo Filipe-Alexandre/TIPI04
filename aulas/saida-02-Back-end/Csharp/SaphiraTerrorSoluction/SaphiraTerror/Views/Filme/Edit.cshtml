@@ -1,0 +1,74 @@
+﻿@model SaphiraTerror.ViewModels.FilmeViewModel
+@*
+    Define que a View recebe um objeto do tipo FilmeViewModel.
+    Esse objeto já vem preenchido com os dados do filme selecionado.
+*@
+
+@{
+    ViewData["Title"] = "Editar Filme";
+    // Define o título exibido no topo e no layout.
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" enctype="multipart/form-data">
+    @* Formulário que envia os dados para a Action "Edit". *@
+    @* enctype="multipart/form-data" permite upload de imagem. *@
+
+    <input type="hidden" asp-for="IdFilmeViewModel" />
+    @* Campo oculto que envia o Id do filme para o Controller. *@
+    @* Isso garante que o registro correto será atualizado no banco. *@
+
+    <div class="mb-3">
+        <label asp-for="TituloFilmeViewModel" class="form-label"></label>
+        <input asp-for="TituloFilmeViewModel" class="form-control" autofocus/>
+        <span asp-validation-for="TituloFilmeViewModel" class="text-danger"></span>
+        @* Campo para editar o título do filme com validação. *@
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ProdutoraFilmeViewModel" class="form-label"></label>
+        <input asp-for="ProdutoraFilmeViewModel" class="form-control" />
+        <span asp-validation-for="ProdutoraFilmeViewModel" class="text-danger"></span>
+        @* Campo para editar a produtora do filme. *@
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ImagemUpload" class="form-label">Nova Imagem</label>
+        <input asp-for="ImagemUpload" type="file" class="form-control" />
+        @if (!string.IsNullOrEmpty(Model.UrlImagemFilmeViewModel))
+        {
+            <p class="mt-2">Imagem atual:</p>
+            <img src="@Model.UrlImagemFilmeViewModel" width="80" />
+        }
+        @* Campo de upload para trocar a imagem. *@
+        @* Se já houver uma imagem, ela é exibida como referência. *@
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ClassificacaoIdFilmeViewModel" class="form-label"></label>
+        <select asp-for="ClassificacaoIdFilmeViewModel" asp-items="Model.Classificacoes" class="form-select">
+            <option value="">Selecione</option>
+        </select>
+        @* Dropdown de classificações (pré-seleciona a atual). *@
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="GeneroIdFilmeViewModel" class="form-label"></label>
+        <select asp-for="GeneroIdFilmeViewModel" asp-items="Model.Generos" class="form-select">
+            <option value="">Selecione</option>
+        </select>
+        @* Dropdown de gêneros (pré-seleciona o atual). *@
+    </div>
+
+    <button type="submit" class="btn btn-primary">Salvar</button>
+    @* Submete o formulário, chamando a Action Edit no Controller. *@
+
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    @* Link para voltar à lista de filmes sem salvar alterações. *@
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    @* Inclui os scripts de validação do ASP.NET. *@
+}

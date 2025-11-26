@@ -9,8 +9,56 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
       "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror1.jpg",
+      "PackagePath": "staticwebassets\\img\\Terror1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror2.jpg",
+      "PackagePath": "staticwebassets\\img\\Terror2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\Terror3.jpg",
+      "PackagePath": "staticwebassets\\img\\Terror3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-admin.png",
+      "PackagePath": "staticwebassets\\img\\avatar-admin.png"
+    },
+    {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-gerente.png",
+      "PackagePath": "staticwebassets\\img\\avatar-gerente.png"
+    },
+    {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\avatar-outros.png",
+      "PackagePath": "staticwebassets\\img\\avatar-outros.png"
+    },
+    {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\bg-hero.jpg",
+      "PackagePath": "staticwebassets\\img\\bg-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\img\\default-filme.png",
+      "PackagePath": "staticwebassets\\img\\default-filme.png"
+    },
+    {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\js\\movies.js",
+      "PackagePath": "staticwebassets\\js\\movies.js"
     },
     {
       "Id": "C:\\Users\\filipe.asilva7\\Desktop\\TIPI04\\aulas\\saida-02-Back-end\\Csharp\\SaphiraTerrorSoluction\\SaphiraTerror\\wwwroot\\js\\site.js",

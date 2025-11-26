@@ -28,6 +28,54 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Classificacao/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NpZmljYWNhb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Classificacao/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NpZmljYWNhb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Classificacao/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NpZmljYWNhb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Classificacao/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xhc3NpZmljYWNhb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Filme/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Filme/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Filme/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Filme/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmlsbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Genero/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Genero/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Genero/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Genero/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VuZXJvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -40,8 +88,40 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Shared/_UsuarioLogado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Vc3VhcmlvTG9nYWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Usuario/AcessoNegado.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xBY2Vzc29OZWdhZG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Usuario/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Usuario/Inativos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmF0aXZvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/Usuario/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/filipe.asilva7/Desktop/TIPI04/aulas/saida-02-Back-end/Csharp/SaphiraTerrorSoluction/SaphiraTerror/Views/_ViewImports.cshtml]

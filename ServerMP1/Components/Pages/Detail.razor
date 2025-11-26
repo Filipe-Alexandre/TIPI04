@@ -1,0 +1,273 @@
+﻿@page "/Detail"
+@using ServerMP1.DTOs
+@rendermode InteractiveServer
+
+<h3>Detail</h3>
+
+@* playground *@
+
+<div class="row">
+	<div class="col-12 p-4 bg-light">
+		<h3>Products Playground</h3>
+		@* Tabela  *@
+		<table class="table table-striped table-hover">
+			<thead>
+				<tr>
+					<th>Id</th>
+					<th>Name</th>
+					<th>Price</th>
+					<th>Stock</th>
+					<th>Category</th>
+					<th>IsActive</th>
+				</tr>
+
+			</thead>
+			<tbody>
+				@foreach (var p in listProductsDTOs)
+				{
+					<tr>
+						<td>@p.Id</td>
+						<td>
+							Name:
+							<input type="text" @bind-value="@p.Name" @bind-value:event="oninput"></input>
+						</td>
+						<td>
+							Price:
+							<input type="number" @bind-value="@p.Price" @bind-value:event="oninput"></input>
+						</td>
+						<td>
+							Stock:
+							<input type="number" @bind-value="@p.Stock" @bind-value:event="oninput"></input>
+						</td>
+						<td>
+							Category:
+							<select tabindex="p.CategoryName" @bind-value="@p.CategoryName" @bind-value:event="oninput">
+								@foreach (var cat in Categories)
+								{
+									<option value="@cat">@cat</option>
+								}
+							</select>
+						</td>
+						<td>
+							<label name="active" class="btn border">
+								@(p.IsActive ? "✅" : "❌")
+								<input name="active" type="checkbox" @bind="p.IsActive" class="d-none"></input>
+							</label>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+</div>
+
+@* summary *@
+<div class="row">
+	<div class="col-12 p-4 bg-light">
+		<h3>Products Summary</h3>
+
+		@* filtro *@
+		<div class="col-12 mb-3">
+			<label class="form-label">Filtrar por categoria</label>
+			<select class="form-select"
+					@bind="selectedCategoryFilter">
+				<option value="">Todas</option>
+				@foreach (var cat in Categories)
+				{
+					<option value="@cat">@cat</option>
+				})
+			</select>
+		</div>
+
+		@* tabela *@
+		<table class="table table-striped text-bg-primary table-hover">
+			<thead>
+				<tr class="border">
+					<th>Id:</th>
+					<th>Name:</th>
+					<th>Price:</th>
+					<th>Stock:</th>
+					<th>Category:</th>
+					<th>IsActive:</th>
+					<th>Ações:</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var p in FilterProducts)
+				{
+					<tr>
+						<td>@p.Id</td>
+						<td>@p.Name</td>
+						<td>@p.Price.ToString("c")</td>
+						<td>@p.Stock</td>
+						<td>@p.CategoryName</td>
+						<td>@(p.IsActive ? "✅" : "❌")</td>
+						<td>
+							<button class="btn btn-sm btn-primary" @onclick="@(()=>ShowDetails(p))">
+								Details
+							</button>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+
+		@* área de detalhes *@
+		@if (selectedProduct != null)
+		{
+			<div class="card mt-3 bg-light" style="min-width: 400px; position:fixed; top:50vh; left:50%; transform:translate(-50%, -50%)">
+				<div class="card-header d-flex justify-content-between">
+					<strong>Detalhes do @selectedProduct.Name</strong>
+					<button class="btn" @onclick="CloseCard">❌</button>
+				</div>
+
+				<div class="card-body">
+					<p>
+						<strong>Id:</strong>@selectedProduct.Id
+					</p>
+
+					<p>
+						<strong>Descrição:</strong>@selectedProduct.Description
+					</p>
+
+					<p>
+						<strong>Imagem:</strong>
+						<br />
+						<img src="@selectedProduct.UrlImg" alt="@selectedProduct.Name" class="rounded border" style="width:50%; max-height: 200px;" />
+					</p>
+
+					<p>
+						<strong>Preço:</strong>@selectedProduct.Price.ToString("c")
+					</p>
+
+					<p>
+						<strong>Estoque:</strong>@selectedProduct.Stock
+					</p>
+					<p>
+						<strong>Ativo:</strong>@(selectedProduct.IsActive ? "✅" : "❌")
+					</p>
+					<p>
+						<strong>Categoria:</strong>@selectedProduct.CategoryName
+					</p>
+				</div>
+			</div>
+		}
+	</div>
+</div>
+
+
+
+@code {
+	private List<ProductDTO> listProductsDTOs = new();
+	private ProductDTO? selectedProduct;
+
+
+
+	//LISTA PARA ALIMENTAR O SELECT
+	private List<string> Categories = new() {
+		"Lanche",
+		"Bebida",
+		"Sobremesa",
+	};
+
+	//EXIBIR DETALHES DO PRODUTO SELECIONADO
+	private void ShowDetails(ProductDTO product) => selectedProduct = product;
+
+	//LISTA DE PRODUTOS
+	private void ProductsList()
+	{
+		//lanche
+		listProductsDTOs.Add(new()
+			{
+				Id = 1,
+				Name = "Xsalada",
+				Description = "Carne e salada",
+				UrlImg = "https://images.pexels.com/photos/327158/pexels-photo-327158.jpeg",
+				Price = 22.5m,
+				Stock = 12,
+				IsActive = true,
+				CategoryName = "Lanche"
+			});
+
+		listProductsDTOs.Add(new()
+			{
+				Id = 2,
+				Name = "xBacon",
+				Description = "Carne e bacon",
+				UrlImg = "https://images.pexels.com/photos/139746/pexels-photo-139746.jpeg",
+				Price = 25.5m,
+				Stock = 9,
+				IsActive = true,
+				CategoryName = "Lanche"
+			});
+
+		//bebida
+		listProductsDTOs.Add(new()
+			{
+				Id = 3,
+				Name = "Limonada",
+				Description = "agua e limão",
+				UrlImg = "https://images.pexels.com/photos/12433992/pexels-photo-12433992.jpeg",
+				Price = 12m,
+				Stock = 20,
+				IsActive = true,
+				CategoryName = "Bebida"
+			});
+
+		listProductsDTOs.Add(new()
+			{
+				Id = 4,
+				Name = "Laranjada",
+				Description = "agua e laranja",
+				UrlImg = "https://images.pexels.com/photos/1393302/pexels-photo-1393302.jpeg",
+				Price = 12m,
+				Stock = 15,
+				IsActive = true,
+				CategoryName = "Bebida"
+			});
+
+		//sobremesa
+		listProductsDTOs.Add(new()
+			{
+				Id = 5,
+				Name = "bolo de chocolate",
+				Description = "bolo de chocolate 50%",
+				UrlImg = "https://images.pexels.com/photos/4109998/pexels-photo-4109998.jpeg",
+				Price = 18.9m,
+				Stock = 7,
+				IsActive = true,
+				CategoryName = "Sobremesa"
+			});
+
+		listProductsDTOs.Add(new()
+			{
+				Id = 6,
+				Name = "bolo de cenoura",
+				Description = "bolo de chocolate com calda de cenoura",
+				UrlImg = "https://images.pexels.com/photos/2612373/pexels-photo-2612373.jpeg",
+				Price = 200.02m,
+				Stock = 500,
+				IsActive = true,
+				CategoryName = "Sobremesa"
+			});
+	}
+
+	//FILTRO
+	private string selectedCategoryFilter = "";
+
+	//coleção para filtro
+	private IEnumerable<ProductDTO> FilterProducts =>
+		string.IsNullOrWhiteSpace(selectedCategoryFilter)
+		? listProductsDTOs
+		: listProductsDTOs.Where(p => p.CategoryName == selectedCategoryFilter);
+
+
+	//fechar card
+	private void CloseCard() => selectedProduct = null;
+
+	//INICIALIZAR
+	protected override async Task OnInitializedAsync()
+	{
+		ProductsList();
+	}
+}

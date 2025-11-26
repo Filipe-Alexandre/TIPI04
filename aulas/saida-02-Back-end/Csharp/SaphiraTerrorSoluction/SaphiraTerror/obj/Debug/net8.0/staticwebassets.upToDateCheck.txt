@@ -1,5 +1,17 @@
 wwwroot\css\site.css
+wwwroot\css\style.css
 wwwroot\favicon.ico
+wwwroot\img\avatar-admin.png
+wwwroot\img\avatar-gerente.png
+wwwroot\img\avatar-outros.png
+wwwroot\img\bg-hero.jpg
+wwwroot\img\default-filme.png
+wwwroot\img\Terror1.jpg
+wwwroot\img\Terror2.jpg
+wwwroot\img\Terror3.jpg
+wwwroot\index.html
+wwwroot\js\main.js
+wwwroot\js\movies.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

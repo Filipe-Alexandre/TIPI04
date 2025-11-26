@@ -1,0 +1,129 @@
+/* #region global - variáveis, reset, corpo */
+:root {
+    --color-bg-dark: #121212;
+    --color-bg-black: #000000;
+    --color-text-light: #f8f8f8;
+    --color-primary: #dc3545; /* vermelho sangue */
+    --color-muted: #aaa;
+    --color-border: #333;
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-bg-dark);
+    color: var(--color-text-light);
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+/* #endregion */
+
+/* #region nav */
+.navbar {
+    border-bottom: 1px solid var(--color-border);
+}
+.navbar .nav-link {
+    color: var(--color-text-light);
+    transition: color 0.3s;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: var(--color-primary);
+}
+/* #endregion */
+
+/* #region home */
+#home {
+    background: linear-gradient(to bottom, #000000 20%, #121212 80%);
+    text-align: center;
+}
+#home h1 {
+    font-size: 3rem;
+}
+#home p {
+    font-size: 1.2rem;
+    color: var(--color-muted);
+}
+/* #endregion */
+
+/* #region about */
+#about {
+    background-color: var(--color-bg-black);
+}
+/* #endregion */
+
+/* #region category */
+#category .badge {
+    font-size: 1.1rem;
+}
+
+.filter-btn.active {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+}
+
+
+/* #endregion */
+
+/* #region movies */
+#movies h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+#movies .card {
+    transition: transform 0.3s;
+    border: 1px solid var(--color-border);
+}
+#movies .card:hover {
+    transform: scale(1.03);
+}
+#movies .card-title {
+    color: var(--color-text-light);
+}
+#movies .card-text {
+    font-size: 0.95rem;
+}
+/* #endregion */
+
+/* #region restrict */
+#restrict input {
+    background-color: var(--color-bg-black);
+    color: var(--color-text-light);
+    border: 1px solid var(--color-border);
+}
+#restrict input::placeholder {
+    color: var(--color-muted);
+}
+/* #endregion */
+
+/* #region footer */
+footer {
+    border-top: 1px solid var(--color-border);
+    background-color: var(--color-bg-black);
+    color: var(--color-muted);
+}
+/* #endregion */
+
+/* #region responsivo */
+@media (max-width: 768px) {
+    #home h1 {
+        font-size: 2rem;
+    }
+    #movies .card-img-top {
+        height: 200px;
+    }
+    .navbar .nav-link {
+        text-align: center;
+        padding: 0.5rem;
+    }
+}
+/* #endregion */
